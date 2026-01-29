@@ -1,0 +1,1 @@
+/home/agx/cthree/slam/cam_ws/build/realsense2_camera/ament_cmake_environment_hooks/local_setup.sh

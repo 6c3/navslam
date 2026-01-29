@@ -1,0 +1,28 @@
+[0.026s] Invoking command in '/home/agx/cthree/slam/nav/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agx/cthree/slam/nav2fishbot/install/fishbot_description:/home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/agx/cthree/slam/nav/src/agx_navigation2 -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/nav/install/fishbot_navigation2
+[0.140s] -- The C compiler identification is GNU 9.5.0
+[0.249s] -- The CXX compiler identification is GNU 9.5.0
+[0.275s] -- Detecting C compiler ABI info
+[0.454s] -- Detecting C compiler ABI info - done
+[0.464s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.464s] -- Detecting C compile features
+[0.465s] -- Detecting C compile features - done
+[0.471s] -- Detecting CXX compiler ABI info
+[0.664s] -- Detecting CXX compiler ABI info - done
+[0.688s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.689s] -- Detecting CXX compile features
+[0.691s] -- Detecting CXX compile features - done
+[0.716s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.044s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.335s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.477s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[1.477s]   ament_package_xml() package name 'fishbot_navigation2' in '/package.xml'
+[1.477s]   does not match current PROJECT_NAME 'agx_navigation2'.  You must call
+[1.477s]   project() with the same package name before.
+[1.478s] Call Stack (most recent call first):
+[1.478s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.478s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[1.478s] 
+[1.478s] [0m
+[1.479s] -- Configuring incomplete, errors occurred!
+[1.479s] See also "/home/agx/cthree/slam/nav/build/fishbot_navigation2/CMakeFiles/CMakeOutput.log".
+[1.486s] Invoked command in '/home/agx/cthree/slam/nav/build/fishbot_navigation2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agx/cthree/slam/nav2fishbot/install/fishbot_description:/home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/agx/cthree/slam/nav/src/agx_navigation2 -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/nav/install/fishbot_navigation2

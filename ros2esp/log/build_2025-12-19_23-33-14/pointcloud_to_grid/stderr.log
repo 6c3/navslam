@@ -1,0 +1,12 @@
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:[m[K In member function ‘[01m[Kvoid PointCloudToGrid::lidar_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:224:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kheight[m[K’ was not declared in this scope
+  224 | for (int row = 0; row < [01;31m[Kheight[m[K; ++row) {
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:225:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kwidth[m[K’ was not declared in this scope; did you mean ‘[01m[Kwcwidth[m[K’?
+  225 |     for (int col = 0; col < [01;31m[Kwidth[m[K; ++col) {
+      |                             [01;31m[K^~~~~[m[K
+      |                             [32m[Kwcwidth[m[K
+gmake[2]: *** [CMakeFiles/pointcloud_to_grid_node.dir/build.make:76: CMakeFiles/pointcloud_to_grid_node.dir/src/pointcloud_to_grid_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/pointcloud_to_grid_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

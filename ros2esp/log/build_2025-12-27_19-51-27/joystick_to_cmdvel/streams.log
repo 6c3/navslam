@@ -1,0 +1,65 @@
+[0.032s] Invoking command in '/home/agx/cthree/slam/ros2esp/build/joystick_to_cmdvel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/agx/cthree/slam/ros2esp/src/joystick_to_cmdvel -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel
+[0.103s] -- The C compiler identification is GNU 9.5.0
+[0.203s] -- The CXX compiler identification is GNU 9.5.0
+[0.203s] -- Detecting C compiler ABI info
+[0.313s] -- Detecting C compiler ABI info - done
+[0.332s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.333s] -- Detecting C compile features
+[0.334s] -- Detecting C compile features - done
+[0.344s] -- Detecting CXX compiler ABI info
+[0.472s] -- Detecting CXX compiler ABI info - done
+[0.496s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.497s] -- Detecting CXX compile features
+[0.499s] -- Detecting CXX compile features - done
+[0.511s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.790s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.003s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.094s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.103s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.116s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.228s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.232s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.383s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.435s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.504s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.519s] -- Looking for pthread.h
+[1.640s] -- Looking for pthread.h - found
+[1.640s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.763s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.766s] -- Found Threads: TRUE  
+[1.890s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.909s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.062s] -- Configuring done
+[2.075s] -- Generating done
+[2.080s] -- Build files have been written to: /home/agx/cthree/slam/ros2esp/build/joystick_to_cmdvel
+[2.100s] Invoked command in '/home/agx/cthree/slam/ros2esp/build/joystick_to_cmdvel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/agx/cthree/slam/ros2esp/src/joystick_to_cmdvel -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel
+[2.103s] Invoking command in '/home/agx/cthree/slam/ros2esp/build/joystick_to_cmdvel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/joystick_to_cmdvel -- -j12 -l12
+[2.194s] [ 50%] [32mBuilding CXX object CMakeFiles/joystick_to_cmdvel_node.dir/src/joystick_to_cmdvel_node.cpp.o[0m
+[14.712s] [100%] [32m[1mLinking CXX executable joystick_to_cmdvel_node[0m
+[15.363s] [100%] Built target joystick_to_cmdvel_node
+[15.386s] Invoked command in '/home/agx/cthree/slam/ros2esp/build/joystick_to_cmdvel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/joystick_to_cmdvel -- -j12 -l12
+[15.390s] Invoking command in '/home/agx/cthree/slam/ros2esp/build/joystick_to_cmdvel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/agx/cthree/slam/ros2esp/build/joystick_to_cmdvel
+[15.405s] -- Install configuration: ""
+[15.405s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/lib/joystick_to_cmdvel/joystick_to_cmdvel_node
+[15.412s] -- Set runtime path of "/home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/lib/joystick_to_cmdvel/joystick_to_cmdvel_node" to ""
+[15.412s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/joystick_to_cmdvel//launch
+[15.413s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/joystick_to_cmdvel//launch/joystick_to_cmdvel.launch.py
+[15.413s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/joystick_to_cmdvel//launch/joystick_to_cmdvel.launch
+[15.413s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/ament_index/resource_index/package_run_dependencies/joystick_to_cmdvel
+[15.414s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/ament_index/resource_index/parent_prefix_path/joystick_to_cmdvel
+[15.414s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/joystick_to_cmdvel/environment/ament_prefix_path.sh
+[15.414s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/joystick_to_cmdvel/environment/ament_prefix_path.dsv
+[15.414s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/joystick_to_cmdvel/environment/path.sh
+[15.415s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/joystick_to_cmdvel/environment/path.dsv
+[15.415s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/joystick_to_cmdvel/local_setup.bash
+[15.415s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/joystick_to_cmdvel/local_setup.sh
+[15.416s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/joystick_to_cmdvel/local_setup.zsh
+[15.416s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/joystick_to_cmdvel/local_setup.dsv
+[15.416s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/joystick_to_cmdvel/package.dsv
+[15.416s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/ament_index/resource_index/packages/joystick_to_cmdvel
+[15.417s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/joystick_to_cmdvel/cmake/joystick_to_cmdvelConfig.cmake
+[15.417s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/joystick_to_cmdvel/cmake/joystick_to_cmdvelConfig-version.cmake
+[15.417s] -- Installing: /home/agx/cthree/slam/ros2esp/install/joystick_to_cmdvel/share/joystick_to_cmdvel/package.xml
+[15.421s] Invoked command in '/home/agx/cthree/slam/ros2esp/build/joystick_to_cmdvel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/agx/cthree/slam/ros2esp/build/joystick_to_cmdvel

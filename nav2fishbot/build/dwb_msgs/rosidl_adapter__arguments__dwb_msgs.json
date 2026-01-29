@@ -1,0 +1,14 @@
+{
+  "package_name": "dwb_msgs",
+  "non_idl_tuples": [
+    "/home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_dwb_controller/dwb_msgs:msg/CriticScore.msg",
+    "/home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_dwb_controller/dwb_msgs:msg/LocalPlanEvaluation.msg",
+    "/home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_dwb_controller/dwb_msgs:msg/Trajectory2D.msg",
+    "/home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_dwb_controller/dwb_msgs:msg/TrajectoryScore.msg",
+    "/home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_dwb_controller/dwb_msgs:srv/DebugLocalPlan.srv",
+    "/home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_dwb_controller/dwb_msgs:srv/GenerateTrajectory.srv",
+    "/home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_dwb_controller/dwb_msgs:srv/GenerateTwists.srv",
+    "/home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_dwb_controller/dwb_msgs:srv/GetCriticScore.srv",
+    "/home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_dwb_controller/dwb_msgs:srv/ScoreTrajectory.srv"
+  ]
+}

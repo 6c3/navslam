@@ -1,0 +1,54 @@
+In file included from [01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:14[m[K:
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/include/pointcloud_to_grid/pointcloud_to_grid_core.hpp:45:68:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K)[m[K’ token
+   45 |   void initGrid(std::shared_ptr<nav_msgs::msg::OccupancyGrid> grid,[01;31m[K)[m[K
+      |                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/grid_trajectory.cpp:15[m[K:
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/include/pointcloud_to_grid/pointcloud_to_grid_core.hpp:45:68:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K)[m[K’ token
+   45 |   void initGrid(std::shared_ptr<nav_msgs::msg::OccupancyGrid> grid,[01;31m[K)[m[K
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:[m[K In member function ‘[01m[Kvoid PointCloudToGrid::lidar_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:175:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGridMap::initGrid(std::shared_ptr<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > >&)[m[K’
+  175 |     grid_map.initGrid(intensity_grid[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:14[m[K:
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/include/pointcloud_to_grid/pointcloud_to_grid_core.hpp:45:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid GridMap::initGrid(std::shared_ptr<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > >, int)[m[K’
+   45 |   void [01;36m[KinitGrid[m[K(std::shared_ptr<nav_msgs::msg::OccupancyGrid> grid,)
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/include/pointcloud_to_grid/pointcloud_to_grid_core.hpp:45:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:176:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGridMap::initGrid(std::shared_ptr<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > >&)[m[K’
+  176 |     grid_map.initGrid(height_grid[01;31m[K)[m[K;
+      |                                  [01;31m[K^[m[K
+In file included from [01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:14[m[K:
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/include/pointcloud_to_grid/pointcloud_to_grid_core.hpp:45:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid GridMap::initGrid(std::shared_ptr<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > >, int)[m[K’
+   45 |   void [01;36m[KinitGrid[m[K(std::shared_ptr<nav_msgs::msg::OccupancyGrid> grid,)
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/include/pointcloud_to_grid/pointcloud_to_grid_core.hpp:45:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:224:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  224 | for (int row = 0; [01;35m[Krow < intensity_grid->info.height[m[K; ++row) {
+      |                   [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:225:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  225 |     for (int col = 0; [01;35m[Kcol <intensity_grid->info.width[m[K; ++col) {
+      |                       [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/grid_trajectory.cpp:[m[K In member function ‘[01m[Kvoid PointCloudToGrid::lidar_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/grid_trajectory.cpp:210:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGridMapTrajectory::initGrid(std::shared_ptr<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > >&)[m[K’
+  210 |     grid_map.initGrid(intensity_grid[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/grid_trajectory.cpp:15[m[K:
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/include/pointcloud_to_grid/pointcloud_to_grid_core.hpp:45:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid GridMap::initGrid(std::shared_ptr<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > >, int)[m[K’
+   45 |   void [01;36m[KinitGrid[m[K(std::shared_ptr<nav_msgs::msg::OccupancyGrid> grid,)
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/include/pointcloud_to_grid/pointcloud_to_grid_core.hpp:45:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/grid_trajectory.cpp:211:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGridMapTrajectory::initGrid(std::shared_ptr<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > >&)[m[K’
+  211 |     grid_map.initGrid(height_grid[01;31m[K)[m[K;
+      |                                  [01;31m[K^[m[K
+In file included from [01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/grid_trajectory.cpp:15[m[K:
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/include/pointcloud_to_grid/pointcloud_to_grid_core.hpp:45:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid GridMap::initGrid(std::shared_ptr<nav_msgs::msg::OccupancyGrid_<std::allocator<void> > >, int)[m[K’
+   45 |   void [01;36m[KinitGrid[m[K(std::shared_ptr<nav_msgs::msg::OccupancyGrid> grid,)
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/include/pointcloud_to_grid/pointcloud_to_grid_core.hpp:45:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/pointcloud_to_grid_node.dir/build.make:76: CMakeFiles/pointcloud_to_grid_node.dir/src/pointcloud_to_grid_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/pointcloud_to_grid_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/grid_trajectory.dir/build.make:76: CMakeFiles/grid_trajectory.dir/src/grid_trajectory.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/grid_trajectory.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

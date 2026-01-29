@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-25bf87a16c58a88cd7a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pointcloud_to_grid",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "grid_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grid_trajectory-d0525a1e711314f92e5d.json",
+					"name" : "grid_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_to_grid_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_to_grid_node-8b7ad1a611385c938706.json",
+					"name" : "pointcloud_to_grid_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_to_grid_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_to_grid_uninstall-77fbdfff9cdb31cdbf2d.json",
+					"name" : "pointcloud_to_grid_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d8d67156d3f45f1474a0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid",
+		"source" : "/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

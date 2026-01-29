@@ -1,0 +1,509 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c3e298e8bfba0e42c571.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						25,
+						44
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-test-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						23,
+						24
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "gazebo_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23,
+						24
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_plugins_uninstall-292c27b6993c84ad71dd.json",
+					"name" : "gazebo_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_ackermann_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_ackermann_drive-84df560bfe99f630f458.json",
+					"name" : "gazebo_ros_ackermann_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_bumper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_bumper-c2c8859a77ca1eb408f0.json",
+					"name" : "gazebo_ros_bumper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_camera-ec18dfc1ade38e3e08f9.json",
+					"name" : "gazebo_ros_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_diff_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_diff_drive-18758f0c16aa48a519c3.json",
+					"name" : "gazebo_ros_diff_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_elevator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_elevator-02fdf8d3e52ed1580ec0.json",
+					"name" : "gazebo_ros_elevator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_force::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_force-c03dc3c392df7a14b4c3.json",
+					"name" : "gazebo_ros_force",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_ft_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_ft_sensor-4a1a661f9b3391528818.json",
+					"name" : "gazebo_ros_ft_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_gps_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_gps_sensor-b3fed13e22896e2efb97.json",
+					"name" : "gazebo_ros_gps_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_hand_of_god::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_hand_of_god-1538ea85b6649bc21052.json",
+					"name" : "gazebo_ros_hand_of_god",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_harness::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_harness-fa6ccb6cedcf915aeaa0.json",
+					"name" : "gazebo_ros_harness",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_imu_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_imu_sensor-4b9c692ba6383e9111b5.json",
+					"name" : "gazebo_ros_imu_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_joint_pose_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_joint_pose_trajectory-646815ca5ea2b058b8d7.json",
+					"name" : "gazebo_ros_joint_pose_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_joint_state_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_joint_state_publisher-b0a2730b72864714d464.json",
+					"name" : "gazebo_ros_joint_state_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_p3d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_p3d-8ece34bab55ef62ac4fc.json",
+					"name" : "gazebo_ros_p3d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_planar_move::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_planar_move-4a6e175f67c57e39c91a.json",
+					"name" : "gazebo_ros_planar_move",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_projector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_projector-d4753a7246cf94159d9e.json",
+					"name" : "gazebo_ros_projector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_ray_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_ray_sensor-5232d0bb11eb44990180.json",
+					"name" : "gazebo_ros_ray_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_template::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_template-9754ccdc7536ff58436a.json",
+					"name" : "gazebo_ros_template",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_tricycle_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_tricycle_drive-d82c1ca35fd4960ea4e7.json",
+					"name" : "gazebo_ros_tricycle_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_vacuum_gripper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_vacuum_gripper-2a90fd3af07e3ef15486.json",
+					"name" : "gazebo_ros_vacuum_gripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_video::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_video-f2e0b04fceb47bb0c6ed.json",
+					"name" : "gazebo_ros_video",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_wheel_slip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_wheel_slip-c1bea48d34f8b53a7d73.json",
+					"name" : "gazebo_ros_wheel_slip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-06591f79bcc4db1cdb31.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-d8e19c58dbfa86ae39c4.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_camera_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_camera_plugin-86ad81f68b1210826b87.json",
+					"name" : "multi_camera_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_ackermann_drive::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_ackermann_drive-33ec1980d535864b7b63.json",
+					"name" : "test_gazebo_ros_ackermann_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_bumper::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_bumper-0a5e01e18305ea6daee0.json",
+					"name" : "test_gazebo_ros_bumper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_diff_drive::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_diff_drive-b2ab79bf88e4225189df.json",
+					"name" : "test_gazebo_ros_diff_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_elevator::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_elevator-fd2c4d3574aa3560c883.json",
+					"name" : "test_gazebo_ros_elevator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_force::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_force-dc51e66f080c83d4a25a.json",
+					"name" : "test_gazebo_ros_force",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_ft_sensor::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_ft_sensor-8f93d20b9bd9ef1bb6a2.json",
+					"name" : "test_gazebo_ros_ft_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_gps_sensor::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_gps_sensor-f079b2e7a93082e21439.json",
+					"name" : "test_gazebo_ros_gps_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_hand_of_god::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_hand_of_god-6acde129b039fe508f0e.json",
+					"name" : "test_gazebo_ros_hand_of_god",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_harness::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_harness-32d35c51bbc593b350be.json",
+					"name" : "test_gazebo_ros_harness",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_imu_sensor::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_imu_sensor-a2bb64559efdf9575b76.json",
+					"name" : "test_gazebo_ros_imu_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_joint_pose_trajectory::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_joint_pose_trajectory-bd77df549439b399dd2e.json",
+					"name" : "test_gazebo_ros_joint_pose_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_joint_state_publisher::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_joint_state_publisher-b8dbe781da6933748b67.json",
+					"name" : "test_gazebo_ros_joint_state_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_p3d::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_p3d-88607c8b8433239b295a.json",
+					"name" : "test_gazebo_ros_p3d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_planar_move::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_planar_move-c093ee7e74be0052930c.json",
+					"name" : "test_gazebo_ros_planar_move",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_ray_sensor::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_ray_sensor-65837ecfaeb93b4cff41.json",
+					"name" : "test_gazebo_ros_ray_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_tricycle_drive::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_tricycle_drive-4c3d704264f8b45e299b.json",
+					"name" : "test_gazebo_ros_tricycle_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_vacuum_gripper::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_vacuum_gripper-70fd7a9a48b7a78ea3a9.json",
+					"name" : "test_gazebo_ros_vacuum_gripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_wheelslip::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_wheelslip-0823a87330aa5a83236b.json",
+					"name" : "test_gazebo_ros_wheelslip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-33fc9ae8fb8486038def.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/agx/cthree/slam/test/gazebo_ws/build/gazebo_plugins",
+		"source" : "/home/agx/cthree/slam/test/gazebo_ws/src/gazebo_ros_pkgs/gazebo_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

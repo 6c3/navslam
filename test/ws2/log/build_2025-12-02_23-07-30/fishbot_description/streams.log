@@ -1,0 +1,46 @@
+[1.310s] Invoking command in '/home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_description': PYTHONPATH=/home/agx/cthree/slam/test/ws2/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agx/cthree/slam/test/ws2/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/fishbot_description build --build-base /home/agx/cthree/slam/test/ws2/build/fishbot_description/build install --record /home/agx/cthree/slam/test/ws2/build/fishbot_description/install.log --single-version-externally-managed install_data
+[1.730s] running egg_info
+[1.730s] creating ../../../../build/fishbot_description/fishbot_description.egg-info
+[1.730s] writing ../../../../build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[1.731s] writing dependency_links to ../../../../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[1.731s] writing entry points to ../../../../build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[1.731s] writing requirements to ../../../../build/fishbot_description/fishbot_description.egg-info/requires.txt
+[1.731s] writing top-level names to ../../../../build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[1.732s] writing manifest file '../../../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[1.734s] reading manifest file '../../../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[1.736s] writing manifest file '../../../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[1.736s] running build
+[1.736s] running build_py
+[1.736s] creating /home/agx/cthree/slam/test/ws2/build/fishbot_description/build
+[1.736s] creating /home/agx/cthree/slam/test/ws2/build/fishbot_description/build/lib
+[1.737s] creating /home/agx/cthree/slam/test/ws2/build/fishbot_description/build/lib/fishbot_description
+[1.737s] copying fishbot_description/__init__.py -> /home/agx/cthree/slam/test/ws2/build/fishbot_description/build/lib/fishbot_description
+[1.737s] copying fishbot_description/rotate_wheel.py -> /home/agx/cthree/slam/test/ws2/build/fishbot_description/build/lib/fishbot_description
+[1.737s] running install
+[1.737s] running install_lib
+[1.739s] creating /home/agx/cthree/slam/test/ws2/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[1.739s] copying /home/agx/cthree/slam/test/ws2/build/fishbot_description/build/lib/fishbot_description/__init__.py -> /home/agx/cthree/slam/test/ws2/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[1.739s] copying /home/agx/cthree/slam/test/ws2/build/fishbot_description/build/lib/fishbot_description/rotate_wheel.py -> /home/agx/cthree/slam/test/ws2/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[1.740s] byte-compiling /home/agx/cthree/slam/test/ws2/install/fishbot_description/lib/python3.10/site-packages/fishbot_description/__init__.py to __init__.cpython-310.pyc
+[1.740s] byte-compiling /home/agx/cthree/slam/test/ws2/install/fishbot_description/lib/python3.10/site-packages/fishbot_description/rotate_wheel.py to rotate_wheel.cpython-310.pyc
+[1.741s] running install_data
+[1.741s] creating /home/agx/cthree/slam/test/ws2/install/fishbot_description/share/ament_index
+[1.741s] creating /home/agx/cthree/slam/test/ws2/install/fishbot_description/share/ament_index/resource_index
+[1.741s] creating /home/agx/cthree/slam/test/ws2/install/fishbot_description/share/ament_index/resource_index/packages
+[1.741s] copying resource/fishbot_description -> /home/agx/cthree/slam/test/ws2/install/fishbot_description/share/ament_index/resource_index/packages
+[1.742s] copying package.xml -> /home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description
+[1.742s] creating /home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/launch
+[1.742s] copying launch/display_rviz2.launch.py -> /home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/launch
+[1.742s] copying launch/gazebo.launch.py -> /home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/launch
+[1.742s] creating /home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/urdf
+[1.742s] copying urdf/fishbot_base.urdf -> /home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/urdf
+[1.742s] copying urdf/fishbot_gazebo.urdf -> /home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/urdf
+[1.742s] creating /home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/world
+[1.743s] copying world/fishbot.world -> /home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/world
+[1.743s] copying world/fish.world -> /home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/world
+[1.743s] running install_egg_info
+[1.747s] Copying ../../../../build/fishbot_description/fishbot_description.egg-info to /home/agx/cthree/slam/test/ws2/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[1.748s] running install_scripts
+[1.779s] Installing rotate_wheel script to /home/agx/cthree/slam/test/ws2/install/fishbot_description/lib/fishbot_description
+[1.780s] writing list of installed files to '/home/agx/cthree/slam/test/ws2/build/fishbot_description/install.log'
+[1.832s] Invoked command in '/home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_description' returned '0': PYTHONPATH=/home/agx/cthree/slam/test/ws2/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agx/cthree/slam/test/ws2/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/fishbot_description build --build-base /home/agx/cthree/slam/test/ws2/build/fishbot_description/build install --record /home/agx/cthree/slam/test/ws2/build/fishbot_description/install.log --single-version-externally-managed install_data

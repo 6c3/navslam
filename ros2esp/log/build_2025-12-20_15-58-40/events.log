@@ -1,0 +1,422 @@
+[0.000000] (-) TimerEvent: {}
+[0.000503] (pointcloud_to_grid) JobQueued: {'identifier': 'pointcloud_to_grid', 'dependencies': OrderedDict()}
+[0.000571] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.000609] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.001012] (serial2esp) JobQueued: {'identifier': 'serial2esp', 'dependencies': OrderedDict([('serial', '/home/agx/cthree/slam/ros2esp/install/serial')])}
+[0.001206] (serial) JobStarted: {'identifier': 'serial'}
+[0.011816] (pointcloud_to_grid) JobStarted: {'identifier': 'pointcloud_to_grid'}
+[0.018894] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.028034] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.029170] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.030136] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agx/cthree/slam/ros2esp/build/serial', '--', '-j12', '-l12'], 'cwd': '/home/agx/cthree/slam/ros2esp/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agx'), ('SSH_CLIENT', '100.95.111.26 60124 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agx/cthree/slam/ros2esp/install/serial/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/agx'), ('OLDPWD', '/home/agx'), ('SSH_TTY', '/dev/pts/2'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install:/home/agx/cthree/slam/cam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agx'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421425079429'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '107'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/agx/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/src/tensorrt/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/agx/cthree/slam/ros2esp/build/serial'), ('SSH_CONNECTION', '100.95.111.26 60124 100.125.141.36 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.034108] (pointcloud_to_grid) JobProgress: {'identifier': 'pointcloud_to_grid', 'progress': 'cmake'}
+[0.035362] (pointcloud_to_grid) JobProgress: {'identifier': 'pointcloud_to_grid', 'progress': 'build'}
+[0.035910] (pointcloud_to_grid) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid', '--', '-j12', '-l12'], 'cwd': '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agx'), ('SSH_CLIENT', '100.95.111.26 60124 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agx/cthree/slam/ros2esp/install/serial/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/agx'), ('OLDPWD', '/home/agx'), ('SSH_TTY', '/dev/pts/2'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install:/home/agx/cthree/slam/cam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agx'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421425079429'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '107'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/agx/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/src/tensorrt/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid'), ('SSH_CONNECTION', '100.95.111.26 60124 100.125.141.36 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.040373] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.041122] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.041434] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agx/cthree/slam/ros2esp/build/sllidar_ros2', '--', '-j12', '-l12'], 'cwd': '/home/agx/cthree/slam/ros2esp/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agx'), ('SSH_CLIENT', '100.95.111.26 60124 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agx/cthree/slam/ros2esp/install/serial/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/agx'), ('OLDPWD', '/home/agx'), ('SSH_TTY', '/dev/pts/2'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install:/home/agx/cthree/slam/cam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agx'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421425079429'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '107'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/agx/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/src/tensorrt/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/agx/cthree/slam/ros2esp/build/sllidar_ros2'), ('SSH_CONNECTION', '100.95.111.26 60124 100.125.141.36 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.099494] (-) TimerEvent: {}
+[0.109710] (pointcloud_to_grid) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target grid_trajectory\x1b[0m\n'}
+[0.110083] (pointcloud_to_grid) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_to_grid_node\x1b[0m\n'}
+[0.112588] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[0.121702] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[0.130342] (serial) CommandEnded: {'returncode': 0}
+[0.131511] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[0.134416] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[0.150736] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agx/cthree/slam/ros2esp/build/serial'], 'cwd': '/home/agx/cthree/slam/ros2esp/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agx'), ('SSH_CLIENT', '100.95.111.26 60124 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agx/cthree/slam/ros2esp/install/serial/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/agx'), ('OLDPWD', '/home/agx'), ('SSH_TTY', '/dev/pts/2'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install:/home/agx/cthree/slam/cam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agx'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421425079429'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '107'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/agx/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/src/tensorrt/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/agx/cthree/slam/ros2esp/build/serial'), ('SSH_CONNECTION', '100.95.111.26 60124 100.125.141.36 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.154484] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.155684] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[0.156064] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agx/cthree/slam/ros2esp/build/sllidar_ros2'], 'cwd': '/home/agx/cthree/slam/ros2esp/build/sllidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agx'), ('SSH_CLIENT', '100.95.111.26 60124 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agx/cthree/slam/ros2esp/install/serial/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/agx'), ('OLDPWD', '/home/agx'), ('SSH_TTY', '/dev/pts/2'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install:/home/agx/cthree/slam/cam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agx'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421425079429'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '107'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/agx/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/src/tensorrt/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/agx/cthree/slam/ros2esp/build/sllidar_ros2'), ('SSH_CONNECTION', '100.95.111.26 60124 100.125.141.36 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.158303] (pointcloud_to_grid) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/pointcloud_to_grid_node.dir/src/pointcloud_to_grid_node.cpp.o\x1b[0m\n'}
+[0.158713] (pointcloud_to_grid) StdoutLine: {'line': b'[ 75%] Built target grid_trajectory\n'}
+[0.164995] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.165353] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/environment/library_path.sh\n'}
+[0.165559] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/environment/library_path.dsv\n'}
+[0.165735] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/lib/libserial.so\n'}
+[0.165900] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/include/serial/serial.h\n'}
+[0.166076] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/include/serial/v8stdint.h\n'}
+[0.166231] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[0.166385] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[0.166494] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[0.166601] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[0.166727] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/environment/path.sh\n'}
+[0.166875] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/environment/path.dsv\n'}
+[0.167303] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/local_setup.bash\n'}
+[0.167417] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/local_setup.sh\n'}
+[0.167553] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/local_setup.zsh\n'}
+[0.167654] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/local_setup.dsv\n'}
+[0.167771] (serial) StdoutLine: {'line': b'-- Installing: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/package.dsv\n'}
+[0.167868] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[0.167964] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.168072] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.168322] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[0.168553] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[0.168775] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial/share/serial/package.xml\n'}
+[0.168974] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.169529] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch\n'}
+[0.169985] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[0.171010] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[0.171322] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[0.171888] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[0.172300] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[0.172850] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[0.173630] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[0.174011] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[0.174311] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[0.174501] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[0.174683] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[0.174866] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[0.174979] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[0.175163] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[0.175267] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[0.175404] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[0.175576] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[0.175722] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[0.175862] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[0.176125] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[0.176503] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[0.177049] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[0.177468] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[0.177911] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[0.178320] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/rviz\n'}
+[0.178682] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[0.179069] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[0.179559] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[0.179821] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[0.180274] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[0.180549] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[0.180929] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[0.181484] (serial) CommandEnded: {'returncode': 0}
+[0.182415] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[0.182616] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[0.182875] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[0.183089] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[0.183691] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[0.184026] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[0.184184] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[0.184293] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[0.184407] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.184758] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.185120] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[0.185480] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[0.185909] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[0.200945] (-) TimerEvent: {}
+[0.223473] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[0.225876] (serial2esp) JobStarted: {'identifier': 'serial2esp'}
+[0.233544] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.252091] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[0.253641] (serial2esp) JobProgress: {'identifier': 'serial2esp', 'progress': 'cmake'}
+[0.254495] (serial2esp) JobProgress: {'identifier': 'serial2esp', 'progress': 'build'}
+[0.254889] (serial2esp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agx/cthree/slam/ros2esp/build/serial2esp', '--', '-j12', '-l12'], 'cwd': '/home/agx/cthree/slam/ros2esp/build/serial2esp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agx'), ('SSH_CLIENT', '100.95.111.26 60124 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agx/cthree/slam/ros2esp/install/serial/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/agx'), ('OLDPWD', '/home/agx'), ('SSH_TTY', '/dev/pts/2'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install:/home/agx/cthree/slam/cam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agx'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421425079429'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '107'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/agx/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/src/tensorrt/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/agx/cthree/slam/ros2esp/build/serial2esp'), ('SSH_CONNECTION', '100.95.111.26 60124 100.125.141.36 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.301128] (-) TimerEvent: {}
+[0.348277] (serial2esp) StdoutLine: {'line': b'[ 50%] Built target pubcmd_node\n'}
+[0.350401] (serial2esp) StdoutLine: {'line': b'[100%] Built target serial_odom_node\n'}
+[0.372847] (serial2esp) CommandEnded: {'returncode': 0}
+[0.374291] (serial2esp) JobProgress: {'identifier': 'serial2esp', 'progress': 'install'}
+[0.374922] (serial2esp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agx/cthree/slam/ros2esp/build/serial2esp'], 'cwd': '/home/agx/cthree/slam/ros2esp/build/serial2esp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agx'), ('SSH_CLIENT', '100.95.111.26 60124 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agx/cthree/slam/ros2esp/install/serial/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/agx'), ('OLDPWD', '/home/agx'), ('SSH_TTY', '/dev/pts/2'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install:/home/agx/cthree/slam/cam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agx'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421425079429'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '107'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/agx/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/src/tensorrt/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/agx/cthree/slam/ros2esp/build/serial2esp'), ('SSH_CONNECTION', '100.95.111.26 60124 100.125.141.36 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.389092] (serial2esp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.389457] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/lib/serial2esp/serial_odom_node\n'}
+[0.389815] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/lib/serial2esp/pubcmd_node\n'}
+[0.390051] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp//launch\n'}
+[0.390210] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp//launch/ex.launch.py\n'}
+[0.390368] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp//launch/use.launch.py\n'}
+[0.390521] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/ament_index/resource_index/package_run_dependencies/serial2esp\n'}
+[0.390671] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/ament_index/resource_index/parent_prefix_path/serial2esp\n'}
+[0.390816] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/environment/ament_prefix_path.sh\n'}
+[0.391023] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/environment/ament_prefix_path.dsv\n'}
+[0.391138] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/environment/path.sh\n'}
+[0.391255] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/environment/path.dsv\n'}
+[0.391358] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/local_setup.bash\n'}
+[0.391520] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/local_setup.sh\n'}
+[0.391642] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/local_setup.zsh\n'}
+[0.391742] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/local_setup.dsv\n'}
+[0.391839] (serial2esp) StdoutLine: {'line': b'-- Installing: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/package.dsv\n'}
+[0.391936] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/ament_index/resource_index/packages/serial2esp\n'}
+[0.392034] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/cmake/serial2espConfig.cmake\n'}
+[0.392130] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/cmake/serial2espConfig-version.cmake\n'}
+[0.392227] (serial2esp) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/package.xml\n'}
+[0.394540] (serial2esp) CommandEnded: {'returncode': 0}
+[0.401201] (-) TimerEvent: {}
+[0.438433] (serial2esp) JobEnded: {'identifier': 'serial2esp', 'rc': 0}
+[0.501348] (-) TimerEvent: {}
+[0.601921] (-) TimerEvent: {}
+[0.702480] (-) TimerEvent: {}
+[0.803113] (-) TimerEvent: {}
+[0.903674] (-) TimerEvent: {}
+[1.004329] (-) TimerEvent: {}
+[1.104997] (-) TimerEvent: {}
+[1.205730] (-) TimerEvent: {}
+[1.306457] (-) TimerEvent: {}
+[1.407122] (-) TimerEvent: {}
+[1.507802] (-) TimerEvent: {}
+[1.608431] (-) TimerEvent: {}
+[1.709046] (-) TimerEvent: {}
+[1.809738] (-) TimerEvent: {}
+[1.910382] (-) TimerEvent: {}
+[2.011033] (-) TimerEvent: {}
+[2.111651] (-) TimerEvent: {}
+[2.212146] (-) TimerEvent: {}
+[2.312647] (-) TimerEvent: {}
+[2.413204] (-) TimerEvent: {}
+[2.513883] (-) TimerEvent: {}
+[2.614541] (-) TimerEvent: {}
+[2.715307] (-) TimerEvent: {}
+[2.815908] (-) TimerEvent: {}
+[2.916555] (-) TimerEvent: {}
+[3.017238] (-) TimerEvent: {}
+[3.117869] (-) TimerEvent: {}
+[3.218506] (-) TimerEvent: {}
+[3.319248] (-) TimerEvent: {}
+[3.419894] (-) TimerEvent: {}
+[3.520542] (-) TimerEvent: {}
+[3.621271] (-) TimerEvent: {}
+[3.722000] (-) TimerEvent: {}
+[3.822572] (-) TimerEvent: {}
+[3.923296] (-) TimerEvent: {}
+[4.023993] (-) TimerEvent: {}
+[4.124660] (-) TimerEvent: {}
+[4.225341] (-) TimerEvent: {}
+[4.326054] (-) TimerEvent: {}
+[4.426763] (-) TimerEvent: {}
+[4.527438] (-) TimerEvent: {}
+[4.628129] (-) TimerEvent: {}
+[4.728877] (-) TimerEvent: {}
+[4.829836] (-) TimerEvent: {}
+[4.930484] (-) TimerEvent: {}
+[5.031142] (-) TimerEvent: {}
+[5.133043] (-) TimerEvent: {}
+[5.233748] (-) TimerEvent: {}
+[5.334462] (-) TimerEvent: {}
+[5.435226] (-) TimerEvent: {}
+[5.535912] (-) TimerEvent: {}
+[5.636614] (-) TimerEvent: {}
+[5.737297] (-) TimerEvent: {}
+[5.837971] (-) TimerEvent: {}
+[5.938664] (-) TimerEvent: {}
+[6.039366] (-) TimerEvent: {}
+[6.140063] (-) TimerEvent: {}
+[6.240771] (-) TimerEvent: {}
+[6.341482] (-) TimerEvent: {}
+[6.442230] (-) TimerEvent: {}
+[6.542945] (-) TimerEvent: {}
+[6.643612] (-) TimerEvent: {}
+[6.744311] (-) TimerEvent: {}
+[6.845014] (-) TimerEvent: {}
+[6.945702] (-) TimerEvent: {}
+[7.046367] (-) TimerEvent: {}
+[7.147040] (-) TimerEvent: {}
+[7.247672] (-) TimerEvent: {}
+[7.348338] (-) TimerEvent: {}
+[7.448956] (-) TimerEvent: {}
+[7.549517] (-) TimerEvent: {}
+[7.650185] (-) TimerEvent: {}
+[7.750850] (-) TimerEvent: {}
+[7.851598] (-) TimerEvent: {}
+[7.952247] (-) TimerEvent: {}
+[8.052785] (-) TimerEvent: {}
+[8.153500] (-) TimerEvent: {}
+[8.254192] (-) TimerEvent: {}
+[8.354890] (-) TimerEvent: {}
+[8.455610] (-) TimerEvent: {}
+[8.556306] (-) TimerEvent: {}
+[8.657006] (-) TimerEvent: {}
+[8.757706] (-) TimerEvent: {}
+[8.858399] (-) TimerEvent: {}
+[8.959085] (-) TimerEvent: {}
+[9.059669] (-) TimerEvent: {}
+[9.160369] (-) TimerEvent: {}
+[9.260979] (-) TimerEvent: {}
+[9.361505] (-) TimerEvent: {}
+[9.462210] (-) TimerEvent: {}
+[9.562858] (-) TimerEvent: {}
+[9.663507] (-) TimerEvent: {}
+[9.764190] (-) TimerEvent: {}
+[9.864865] (-) TimerEvent: {}
+[9.965517] (-) TimerEvent: {}
+[10.066216] (-) TimerEvent: {}
+[10.166893] (-) TimerEvent: {}
+[10.267603] (-) TimerEvent: {}
+[10.368235] (-) TimerEvent: {}
+[10.468872] (-) TimerEvent: {}
+[10.569594] (-) TimerEvent: {}
+[10.670260] (-) TimerEvent: {}
+[10.770916] (-) TimerEvent: {}
+[10.871648] (-) TimerEvent: {}
+[10.972337] (-) TimerEvent: {}
+[11.072989] (-) TimerEvent: {}
+[11.173584] (-) TimerEvent: {}
+[11.274237] (-) TimerEvent: {}
+[11.374948] (-) TimerEvent: {}
+[11.475457] (-) TimerEvent: {}
+[11.575960] (-) TimerEvent: {}
+[11.676458] (-) TimerEvent: {}
+[11.776963] (-) TimerEvent: {}
+[11.877470] (-) TimerEvent: {}
+[11.977934] (-) TimerEvent: {}
+[12.078416] (-) TimerEvent: {}
+[12.178898] (-) TimerEvent: {}
+[12.279406] (-) TimerEvent: {}
+[12.379889] (-) TimerEvent: {}
+[12.480383] (-) TimerEvent: {}
+[12.580876] (-) TimerEvent: {}
+[12.681363] (-) TimerEvent: {}
+[12.781839] (-) TimerEvent: {}
+[12.882322] (-) TimerEvent: {}
+[12.982803] (-) TimerEvent: {}
+[13.083309] (-) TimerEvent: {}
+[13.183857] (-) TimerEvent: {}
+[13.284346] (-) TimerEvent: {}
+[13.384842] (-) TimerEvent: {}
+[13.485337] (-) TimerEvent: {}
+[13.585817] (-) TimerEvent: {}
+[13.686291] (-) TimerEvent: {}
+[13.786794] (-) TimerEvent: {}
+[13.887337] (-) TimerEvent: {}
+[13.987861] (-) TimerEvent: {}
+[14.088353] (-) TimerEvent: {}
+[14.189024] (-) TimerEvent: {}
+[14.289536] (-) TimerEvent: {}
+[14.390040] (-) TimerEvent: {}
+[14.490543] (-) TimerEvent: {}
+[14.591050] (-) TimerEvent: {}
+[14.691631] (-) TimerEvent: {}
+[14.792123] (-) TimerEvent: {}
+[14.892627] (-) TimerEvent: {}
+[14.993138] (-) TimerEvent: {}
+[15.093654] (-) TimerEvent: {}
+[15.194167] (-) TimerEvent: {}
+[15.294649] (-) TimerEvent: {}
+[15.395134] (-) TimerEvent: {}
+[15.495633] (-) TimerEvent: {}
+[15.596290] (-) TimerEvent: {}
+[15.696791] (-) TimerEvent: {}
+[15.797294] (-) TimerEvent: {}
+[15.897791] (-) TimerEvent: {}
+[15.998306] (-) TimerEvent: {}
+[16.098787] (-) TimerEvent: {}
+[16.199287] (-) TimerEvent: {}
+[16.299801] (-) TimerEvent: {}
+[16.400305] (-) TimerEvent: {}
+[16.500770] (-) TimerEvent: {}
+[16.601242] (-) TimerEvent: {}
+[16.701745] (-) TimerEvent: {}
+[16.802232] (-) TimerEvent: {}
+[16.902731] (-) TimerEvent: {}
+[17.003251] (-) TimerEvent: {}
+[17.104081] (-) TimerEvent: {}
+[17.204559] (-) TimerEvent: {}
+[17.305017] (-) TimerEvent: {}
+[17.405488] (-) TimerEvent: {}
+[17.505973] (-) TimerEvent: {}
+[17.606471] (-) TimerEvent: {}
+[17.706991] (-) TimerEvent: {}
+[17.807471] (-) TimerEvent: {}
+[17.907950] (-) TimerEvent: {}
+[18.008427] (-) TimerEvent: {}
+[18.108899] (-) TimerEvent: {}
+[18.209388] (-) TimerEvent: {}
+[18.309867] (-) TimerEvent: {}
+[18.410356] (-) TimerEvent: {}
+[18.510842] (-) TimerEvent: {}
+[18.611359] (-) TimerEvent: {}
+[18.711844] (-) TimerEvent: {}
+[18.812340] (-) TimerEvent: {}
+[18.912835] (-) TimerEvent: {}
+[19.013308] (-) TimerEvent: {}
+[19.113786] (-) TimerEvent: {}
+[19.214279] (-) TimerEvent: {}
+[19.314791] (-) TimerEvent: {}
+[19.415315] (-) TimerEvent: {}
+[19.515800] (-) TimerEvent: {}
+[19.616284] (-) TimerEvent: {}
+[19.716816] (-) TimerEvent: {}
+[19.817378] (-) TimerEvent: {}
+[19.917891] (-) TimerEvent: {}
+[20.018403] (-) TimerEvent: {}
+[20.118896] (-) TimerEvent: {}
+[20.219415] (-) TimerEvent: {}
+[20.319874] (-) TimerEvent: {}
+[20.420323] (-) TimerEvent: {}
+[20.520776] (-) TimerEvent: {}
+[20.621260] (-) TimerEvent: {}
+[20.721729] (-) TimerEvent: {}
+[20.822192] (-) TimerEvent: {}
+[20.922691] (-) TimerEvent: {}
+[21.023195] (-) TimerEvent: {}
+[21.123699] (-) TimerEvent: {}
+[21.224193] (-) TimerEvent: {}
+[21.324694] (-) TimerEvent: {}
+[21.425186] (-) TimerEvent: {}
+[21.525686] (-) TimerEvent: {}
+[21.626175] (-) TimerEvent: {}
+[21.726679] (-) TimerEvent: {}
+[21.827183] (-) TimerEvent: {}
+[21.927690] (-) TimerEvent: {}
+[22.028180] (-) TimerEvent: {}
+[22.128685] (-) TimerEvent: {}
+[22.229176] (-) TimerEvent: {}
+[22.329668] (-) TimerEvent: {}
+[22.430191] (-) TimerEvent: {}
+[22.530712] (-) TimerEvent: {}
+[22.631247] (-) TimerEvent: {}
+[22.731756] (-) TimerEvent: {}
+[22.832302] (-) TimerEvent: {}
+[22.932793] (-) TimerEvent: {}
+[23.033287] (-) TimerEvent: {}
+[23.133783] (-) TimerEvent: {}
+[23.234282] (-) TimerEvent: {}
+[23.334777] (-) TimerEvent: {}
+[23.435301] (-) TimerEvent: {}
+[23.535795] (-) TimerEvent: {}
+[23.636292] (-) TimerEvent: {}
+[23.736786] (-) TimerEvent: {}
+[23.837289] (-) TimerEvent: {}
+[23.937775] (-) TimerEvent: {}
+[24.038266] (-) TimerEvent: {}
+[24.138916] (-) TimerEvent: {}
+[24.239637] (-) TimerEvent: {}
+[24.298690] (pointcloud_to_grid) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pointcloud_to_grid_node\x1b[0m\n'}
+[24.339758] (-) TimerEvent: {}
+[24.440261] (-) TimerEvent: {}
+[24.540772] (-) TimerEvent: {}
+[24.641299] (-) TimerEvent: {}
+[24.741844] (-) TimerEvent: {}
+[24.842347] (-) TimerEvent: {}
+[24.891897] (pointcloud_to_grid) StdoutLine: {'line': b'[100%] Built target pointcloud_to_grid_node\n'}
+[24.914516] (pointcloud_to_grid) CommandEnded: {'returncode': 0}
+[24.916800] (pointcloud_to_grid) JobProgress: {'identifier': 'pointcloud_to_grid', 'progress': 'install'}
+[24.918349] (pointcloud_to_grid) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid'], 'cwd': '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agx'), ('SSH_CLIENT', '100.95.111.26 60124 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/agx/cthree/slam/ros2esp/install/serial/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/agx'), ('OLDPWD', '/home/agx'), ('SSH_TTY', '/dev/pts/2'), ('JETSON_L4T', '36.4.7'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install:/home/agx/cthree/slam/cam_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agx'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421425079429'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '107'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/agx/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/src/tensorrt/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:12.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('AMENT_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid'), ('SSH_CONNECTION', '100.95.111.26 60124 100.125.141.36 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[24.937573] (pointcloud_to_grid) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.938092] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/launch\n'}
+[24.938316] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/launch/dual_output_example.launch.py\n'}
+[24.938487] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/launch/rviz.launch.py\n'}
+[24.938613] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/launch/grid_trajectory.launch.py\n'}
+[24.938733] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/launch/demo.launch.py\n'}
+[24.938847] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/doc\n'}
+[24.938985] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/doc/default.rviz\n'}
+[24.939105] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/doc/grid_map01.gif\n'}
+[24.939242] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/doc/grid_map_conventions.pdf\n'}
+[24.939353] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/doc/grid_map_conventions.svg\n'}
+[24.939461] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/doc/grid_map_conventions.png\n'}
+[24.939567] (pointcloud_to_grid) StdoutLine: {'line': b'-- Installing: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/lib/pointcloud_to_grid/pointcloud_to_grid_node\n'}
+[24.940995] (pointcloud_to_grid) StdoutLine: {'line': b'-- Set runtime path of "/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/lib/pointcloud_to_grid/pointcloud_to_grid_node" to ""\n'}
+[24.941265] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/lib/pointcloud_to_grid/grid_trajectory\n'}
+[24.941565] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_grid\n'}
+[24.941706] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_grid\n'}
+[24.941851] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/environment/ament_prefix_path.sh\n'}
+[24.941995] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/environment/ament_prefix_path.dsv\n'}
+[24.942141] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/environment/path.sh\n'}
+[24.942309] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/environment/path.dsv\n'}
+[24.942414] (-) TimerEvent: {}
+[24.942605] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/local_setup.bash\n'}
+[24.942779] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/local_setup.sh\n'}
+[24.942950] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/local_setup.zsh\n'}
+[24.943068] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/local_setup.dsv\n'}
+[24.943176] (pointcloud_to_grid) StdoutLine: {'line': b'-- Installing: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/package.dsv\n'}
+[24.943282] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/ament_index/resource_index/packages/pointcloud_to_grid\n'}
+[24.943387] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/cmake/pointcloud_to_gridConfig.cmake\n'}
+[24.943491] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/cmake/pointcloud_to_gridConfig-version.cmake\n'}
+[24.943595] (pointcloud_to_grid) StdoutLine: {'line': b'-- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/package.xml\n'}
+[24.947159] (pointcloud_to_grid) CommandEnded: {'returncode': 0}
+[24.993513] (pointcloud_to_grid) JobEnded: {'identifier': 'pointcloud_to_grid', 'rc': 0}
+[24.996290] (-) EventReactorShutdown: {}

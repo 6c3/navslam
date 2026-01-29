@@ -1,0 +1,442 @@
+[0.180s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.180s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa955d990>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa96df2e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa96df2e0>>, mixin_verb=('build',))[0m
+[0.467s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.467s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.467s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.467s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.467s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.467s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.468s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/agx/cthree/slam/test/ws2'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.521s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.521s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot) by extension 'ignore'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot) by extension 'ignore_ament_install'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot) by extensions ['colcon_pkg']
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot) by extension 'colcon_pkg'
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot) by extensions ['colcon_meta']
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot) by extension 'colcon_meta'
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot) by extensions ['ros']
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot) by extension 'ros'
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot) by extensions ['cmake', 'python']
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot) by extension 'cmake'
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot) by extension 'python'
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot) by extensions ['python_setup_py']
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot) by extension 'python_setup_py'
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc) by extension 'ignore'
+[0.525s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc) by extension 'ignore_ament_install'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc) by extensions ['colcon_pkg']
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc) by extension 'colcon_pkg'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc) by extensions ['colcon_meta']
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc) by extension 'colcon_meta'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc) by extensions ['ros']
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc) by extension 'ros'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc) by extensions ['cmake', 'python']
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc) by extension 'cmake'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc) by extension 'python'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc) by extensions ['python_setup_py']
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc) by extension 'python_setup_py'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc/imgs) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc/imgs) by extension 'ignore'
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc/imgs) by extension 'ignore_ament_install'
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc/imgs) by extensions ['colcon_pkg']
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc/imgs) by extension 'colcon_pkg'
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc/imgs) by extensions ['colcon_meta']
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc/imgs) by extension 'colcon_meta'
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc/imgs) by extensions ['ros']
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc/imgs) by extension 'ros'
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc/imgs) by extensions ['cmake', 'python']
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc/imgs) by extension 'cmake'
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc/imgs) by extension 'python'
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc/imgs) by extensions ['python_setup_py']
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/doc/imgs) by extension 'python_setup_py'
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src) by extension 'ignore'
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src) by extension 'ignore_ament_install'
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src) by extensions ['colcon_pkg']
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src) by extension 'colcon_pkg'
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src) by extensions ['colcon_meta']
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src) by extension 'colcon_meta'
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src) by extensions ['ros']
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src) by extension 'ros'
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src) by extensions ['cmake', 'python']
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src) by extension 'cmake'
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src) by extension 'python'
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src) by extensions ['python_setup_py']
+[0.528s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src) by extension 'python_setup_py'
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code) by extension 'ignore'
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code) by extension 'ignore_ament_install'
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code) by extensions ['colcon_pkg']
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code) by extension 'colcon_pkg'
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code) by extensions ['colcon_meta']
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code) by extension 'colcon_meta'
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code) by extensions ['ros']
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code) by extension 'ros'
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code) by extensions ['cmake', 'python']
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code) by extension 'cmake'
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code) by extension 'python'
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code) by extensions ['python_setup_py']
+[0.529s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code) by extension 'python_setup_py'
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer) by extension 'ignore'
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer) by extension 'ignore_ament_install'
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer) by extensions ['colcon_pkg']
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer) by extension 'colcon_pkg'
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer) by extensions ['colcon_meta']
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer) by extension 'colcon_meta'
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer) by extensions ['ros']
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer) by extension 'ros'
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer) by extensions ['cmake', 'python']
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer) by extension 'cmake'
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer) by extension 'python'
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer) by extensions ['python_setup_py']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer) by extension 'python_setup_py'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer_ros) by extension 'ignore'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer_ros) by extension 'ignore_ament_install'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer_ros) by extensions ['colcon_pkg']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer_ros) by extension 'colcon_pkg'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer_ros) by extensions ['colcon_meta']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer_ros) by extension 'colcon_meta'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer_ros) by extensions ['ros']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer_ros) by extension 'ros'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer_ros) by extensions ['cmake', 'python']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer_ros) by extension 'cmake'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer_ros) by extension 'python'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer_ros) by extensions ['python_setup_py']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/cartographer_code/cartographer_ros) by extension 'python_setup_py'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_cartographer) by extension 'ignore'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_cartographer) by extension 'ignore_ament_install'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_cartographer) by extensions ['colcon_pkg']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_cartographer) by extension 'colcon_pkg'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_cartographer) by extensions ['colcon_meta']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_cartographer) by extension 'colcon_meta'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_cartographer) by extensions ['ros']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_cartographer) by extension 'ros'
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/fishbot/src/fishbot_cartographer' with type 'ros.ament_cmake' and name 'fishbot_cartographer'[0m
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_description) by extension 'ignore'
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_description) by extension 'ignore_ament_install'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_description) by extensions ['colcon_pkg']
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_description) by extension 'colcon_pkg'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_description) by extensions ['colcon_meta']
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_description) by extension 'colcon_meta'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_description) by extensions ['ros']
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_description) by extension 'ros'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/fishbot/src/fishbot_description' with type 'ros.ament_python' and name 'fishbot_description'[0m
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_navigation2) by extension 'ignore'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_navigation2) by extension 'ignore_ament_install'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_navigation2) by extensions ['colcon_pkg']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_navigation2) by extension 'colcon_pkg'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_navigation2) by extensions ['colcon_meta']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_navigation2) by extension 'colcon_meta'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_navigation2) by extensions ['ros']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/fishbot_navigation2) by extension 'ros'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/fishbot/src/fishbot_navigation2' with type 'ros.ament_cmake' and name 'fishbot_navigation2'[0m
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/nav2_pure_pursuit_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/nav2_pure_pursuit_controller) by extension 'ignore'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/nav2_pure_pursuit_controller) by extension 'ignore_ament_install'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/nav2_pure_pursuit_controller) by extensions ['colcon_pkg']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/nav2_pure_pursuit_controller) by extension 'colcon_pkg'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/nav2_pure_pursuit_controller) by extensions ['colcon_meta']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/nav2_pure_pursuit_controller) by extension 'colcon_meta'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/nav2_pure_pursuit_controller) by extensions ['ros']
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/nav2_pure_pursuit_controller) by extension 'ros'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/fishbot/src/nav2_pure_pursuit_controller' with type 'ros.ament_cmake' and name 'nav2_pure_pursuit_controller'[0m
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/navigation) by extension 'ignore'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/navigation) by extension 'ignore_ament_install'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/navigation) by extensions ['colcon_pkg']
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/navigation) by extension 'colcon_pkg'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/navigation) by extensions ['colcon_meta']
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/navigation) by extension 'colcon_meta'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/navigation) by extensions ['ros']
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/navigation) by extension 'ros'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/navigation) by extensions ['cmake', 'python']
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/navigation) by extension 'cmake'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/navigation) by extension 'python'
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/navigation) by extensions ['python_setup_py']
+[0.543s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fishbot/src/navigation) by extension 'python_setup_py'
+[0.543s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.544s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.544s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.544s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.544s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.567s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.567s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.570s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 7 installed packages in /home/agx/cthree/slam/test/gazebo_ws/install[0m
+[0.571s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/agx/cthree/slam/test/gazebo_ws/src/gazebo_ros2_control/install[0m
+[0.573s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 436 installed packages in /opt/ros/humble[0m
+[0.577s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.653s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.653s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.653s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.653s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.653s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.653s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.653s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.653s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.653s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.653s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'fishbot_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agx/cthree/slam/test/ws2/build/fishbot_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer', 'merge_install': False, 'path': '/home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_cartographer', 'symlink_install': False, 'test_result_base': None}[0m
+[0.654s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_description' build argument 'cmake_args' from command line to 'None'
+[0.654s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_description' build argument 'cmake_target' from command line to 'None'
+[0.654s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.654s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.654s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.654s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.654s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.654s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.654s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.654s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'fishbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agx/cthree/slam/test/ws2/build/fishbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agx/cthree/slam/test/ws2/install/fishbot_description', 'merge_install': False, 'path': '/home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_description', 'symlink_install': False, 'test_result_base': None}[0m
+[0.655s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.655s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.655s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.655s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.655s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.655s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.655s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.655s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.655s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fishbot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.655s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'fishbot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agx/cthree/slam/test/ws2/build/fishbot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2', 'merge_install': False, 'path': '/home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_navigation2', 'symlink_install': False, 'test_result_base': None}[0m
+[0.655s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav2_pure_pursuit_controller' build argument 'cmake_args' from command line to 'None'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav2_pure_pursuit_controller' build argument 'cmake_target' from command line to 'None'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav2_pure_pursuit_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav2_pure_pursuit_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav2_pure_pursuit_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav2_pure_pursuit_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav2_pure_pursuit_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav2_pure_pursuit_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav2_pure_pursuit_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.656s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'nav2_pure_pursuit_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agx/cthree/slam/test/ws2/build/nav2_pure_pursuit_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller', 'merge_install': False, 'path': '/home/agx/cthree/slam/test/ws2/src/fishbot/src/nav2_pure_pursuit_controller', 'symlink_install': False, 'test_result_base': None}[0m
+[0.656s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.658s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.658s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_cartographer' with build type 'ament_cmake'
+[0.659s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_cartographer'
+[0.662s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.662s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.662s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.669s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_description' with build type 'ament_python'
+[0.669s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fishbot_description', 'ament_prefix_path')
+[0.670s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/hook/ament_prefix_path.ps1'
+[0.671s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/hook/ament_prefix_path.dsv'
+[0.672s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/hook/ament_prefix_path.sh'
+[0.673s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.673s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.679s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_navigation2' with build type 'ament_cmake'
+[0.679s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_navigation2'
+[0.679s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.680s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.686s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/agx/cthree/slam/test/ws2/src/fishbot/src/nav2_pure_pursuit_controller' with build type 'ament_cmake'
+[0.686s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/agx/cthree/slam/test/ws2/src/fishbot/src/nav2_pure_pursuit_controller'
+[0.686s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.686s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.698s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/test/ws2/build/fishbot_cartographer': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake /home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_cartographer -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer[0m
+[1.146s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_description'
+[1.146s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.147s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.158s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/test/ws2/build/fishbot_navigation2': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake /home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2[0m
+[1.164s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/test/ws2/build/nav2_pure_pursuit_controller': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake /home/agx/cthree/slam/test/ws2/src/fishbot/src/nav2_pure_pursuit_controller -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller[0m
+[1.834s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/test/ws2/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake /home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_cartographer -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer[0m
+[1.837s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/test/ws2/build/fishbot_cartographer': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake --build /home/agx/cthree/slam/test/ws2/build/fishbot_cartographer -- -j12 -l12[0m
+[1.898s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/test/ws2/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake --build /home/agx/cthree/slam/test/ws2/build/fishbot_cartographer -- -j12 -l12[0m
+[1.913s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/test/ws2/build/fishbot_cartographer': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake --install /home/agx/cthree/slam/test/ws2/build/fishbot_cartographer[0m
+[1.932s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(fishbot_cartographer)
+[1.933s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/test/ws2/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake --install /home/agx/cthree/slam/test/ws2/build/fishbot_cartographer[0m
+[1.937s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer' for CMake module files
+[1.938s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer' for CMake config files
+[1.938s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fishbot_cartographer', 'cmake_prefix_path')
+[1.938s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.ps1'
+[1.939s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.dsv'
+[1.940s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.sh'
+[1.941s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/bin'
+[1.941s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/lib/pkgconfig/fishbot_cartographer.pc'
+[1.941s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/lib/python3.10/site-packages'
+[1.942s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/bin'
+[1.942s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/package.ps1'
+[1.944s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/package.dsv'
+[1.945s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/package.sh'
+[1.945s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/package.bash'
+[1.947s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/package.zsh'
+[1.949s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/colcon-core/packages/fishbot_cartographer)
+[1.951s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(fishbot_cartographer)
+[1.951s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer' for CMake module files
+[1.953s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer' for CMake config files
+[1.953s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fishbot_cartographer', 'cmake_prefix_path')
+[1.954s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.ps1'
+[1.955s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.dsv'
+[1.956s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.sh'
+[1.957s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/bin'
+[1.957s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/lib/pkgconfig/fishbot_cartographer.pc'
+[1.958s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/lib/python3.10/site-packages'
+[1.959s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/bin'
+[1.960s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/package.ps1'
+[1.962s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/package.dsv'
+[1.963s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/package.sh'
+[1.964s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/package.bash'
+[1.965s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/fishbot_cartographer/package.zsh'
+[1.966s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/test/ws2/install/fishbot_cartographer/share/colcon-core/packages/fishbot_cartographer)
+[1.979s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_description': PYTHONPATH=/home/agx/cthree/slam/test/ws2/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agx/cthree/slam/test/ws2/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/fishbot_description build --build-base /home/agx/cthree/slam/test/ws2/build/fishbot_description/build install --record /home/agx/cthree/slam/test/ws2/build/fishbot_description/install.log --single-version-externally-managed install_data[0m
+[2.253s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/test/ws2/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake /home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2[0m
+[2.256s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/test/ws2/build/fishbot_navigation2': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake --build /home/agx/cthree/slam/test/ws2/build/fishbot_navigation2 -- -j12 -l12[0m
+[2.319s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/test/ws2/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake --build /home/agx/cthree/slam/test/ws2/build/fishbot_navigation2 -- -j12 -l12[0m
+[2.323s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/test/ws2/build/fishbot_navigation2': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake --install /home/agx/cthree/slam/test/ws2/build/fishbot_navigation2[0m
+[2.344s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(fishbot_navigation2)
+[2.344s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2' for CMake module files
+[2.345s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/test/ws2/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake --install /home/agx/cthree/slam/test/ws2/build/fishbot_navigation2[0m
+[2.346s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2' for CMake config files
+[2.346s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[2.346s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[2.347s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[2.348s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[2.349s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/bin'
+[2.349s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[2.350s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/lib/python3.10/site-packages'
+[2.350s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/bin'
+[2.351s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[2.352s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[2.354s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[2.355s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[2.356s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[2.358s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[2.359s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(fishbot_navigation2)
+[2.360s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2' for CMake module files
+[2.361s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2' for CMake config files
+[2.361s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[2.361s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[2.362s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[2.363s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[2.365s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/bin'
+[2.365s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[2.365s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/lib/python3.10/site-packages'
+[2.365s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/bin'
+[2.366s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[2.367s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[2.368s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[2.370s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[2.371s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[2.373s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/test/ws2/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[2.500s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_description' for CMake module files
+[2.501s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/test/ws2/src/fishbot/src/fishbot_description' returned '0': PYTHONPATH=/home/agx/cthree/slam/test/ws2/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agx/cthree/slam/test/ws2/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/fishbot_description build --build-base /home/agx/cthree/slam/test/ws2/build/fishbot_description/build install --record /home/agx/cthree/slam/test/ws2/build/fishbot_description/install.log --single-version-externally-managed install_data[0m
+[2.502s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_description' for CMake config files
+[2.503s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_description/lib'
+[2.503s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_description/bin'
+[2.503s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[2.504s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_description/lib/python3.10/site-packages'
+[2.504s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fishbot_description', 'pythonpath')
+[2.504s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/hook/pythonpath.ps1'
+[2.505s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/hook/pythonpath.dsv'
+[2.505s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/hook/pythonpath.sh'
+[2.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/fishbot_description/bin'
+[2.507s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(fishbot_description)
+[2.507s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/package.ps1'
+[2.508s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/package.dsv'
+[2.508s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/package.sh'
+[2.509s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/package.bash'
+[2.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/fishbot_description/share/fishbot_description/package.zsh'
+[2.510s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/test/ws2/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[3.833s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/test/ws2/build/nav2_pure_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake /home/agx/cthree/slam/test/ws2/src/fishbot/src/nav2_pure_pursuit_controller -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller[0m
+[3.836s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/test/ws2/build/nav2_pure_pursuit_controller': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake --build /home/agx/cthree/slam/test/ws2/build/nav2_pure_pursuit_controller -- -j12 -l12[0m
+[15.772s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/test/ws2/build/nav2_pure_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake --build /home/agx/cthree/slam/test/ws2/build/nav2_pure_pursuit_controller -- -j12 -l12[0m
+[15.776s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/test/ws2/build/nav2_pure_pursuit_controller': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake --install /home/agx/cthree/slam/test/ws2/build/nav2_pure_pursuit_controller[0m
+[15.801s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(nav2_pure_pursuit_controller)
+[15.802s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller' for CMake module files
+[15.804s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/test/ws2/build/nav2_pure_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros_pkgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_plugins:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev /usr/bin/cmake --install /home/agx/cthree/slam/test/ws2/build/nav2_pure_pursuit_controller[0m
+[15.805s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller' for CMake config files
+[15.806s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('nav2_pure_pursuit_controller', 'cmake_prefix_path')
+[15.807s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/hook/cmake_prefix_path.ps1'
+[15.809s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/hook/cmake_prefix_path.dsv'
+[15.810s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/hook/cmake_prefix_path.sh'
+[15.812s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/lib'
+[15.812s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('nav2_pure_pursuit_controller', 'ld_library_path_lib')
+[15.813s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/hook/ld_library_path_lib.ps1'
+[15.814s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/hook/ld_library_path_lib.dsv'
+[15.816s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/hook/ld_library_path_lib.sh'
+[15.817s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/bin'
+[15.817s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/lib/pkgconfig/nav2_pure_pursuit_controller.pc'
+[15.818s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/lib/python3.10/site-packages'
+[15.820s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/bin'
+[15.821s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/package.ps1'
+[15.822s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/package.dsv'
+[15.824s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/package.sh'
+[15.826s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/package.bash'
+[15.827s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/package.zsh'
+[15.828s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/colcon-core/packages/nav2_pure_pursuit_controller)
+[15.830s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(nav2_pure_pursuit_controller)
+[15.831s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller' for CMake module files
+[15.833s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller' for CMake config files
+[15.834s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('nav2_pure_pursuit_controller', 'cmake_prefix_path')
+[15.835s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/hook/cmake_prefix_path.ps1'
+[15.836s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/hook/cmake_prefix_path.dsv'
+[15.838s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/hook/cmake_prefix_path.sh'
+[15.840s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/lib'
+[15.840s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('nav2_pure_pursuit_controller', 'ld_library_path_lib')
+[15.841s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/hook/ld_library_path_lib.ps1'
+[15.843s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/hook/ld_library_path_lib.dsv'
+[15.844s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/hook/ld_library_path_lib.sh'
+[15.846s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/bin'
+[15.846s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/lib/pkgconfig/nav2_pure_pursuit_controller.pc'
+[15.847s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/lib/python3.10/site-packages'
+[15.848s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/bin'
+[15.849s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/package.ps1'
+[15.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/package.dsv'
+[15.853s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/package.sh'
+[15.855s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/package.bash'
+[15.857s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/package.zsh'
+[15.858s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/test/ws2/install/nav2_pure_pursuit_controller/share/colcon-core/packages/nav2_pure_pursuit_controller)
+[15.859s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[15.860s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[15.861s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[15.861s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[15.880s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.880s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.880s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[15.923s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[15.924s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agx/cthree/slam/test/ws2/install/local_setup.ps1'
+[15.928s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/agx/cthree/slam/test/ws2/install/_local_setup_util_ps1.py'
+[15.933s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agx/cthree/slam/test/ws2/install/setup.ps1'
+[15.938s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agx/cthree/slam/test/ws2/install/local_setup.sh'
+[15.941s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/agx/cthree/slam/test/ws2/install/_local_setup_util_sh.py'
+[15.943s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agx/cthree/slam/test/ws2/install/setup.sh'
+[15.948s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agx/cthree/slam/test/ws2/install/local_setup.bash'
+[15.949s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agx/cthree/slam/test/ws2/install/setup.bash'
+[15.953s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agx/cthree/slam/test/ws2/install/local_setup.zsh'
+[15.954s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agx/cthree/slam/test/ws2/install/setup.zsh'

@@ -1,0 +1,343 @@
+[0.177s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.178s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffab5ed510>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffab776e60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffab776e60>>, mixin_verb=('build',))[0m
+[0.460s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.461s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.461s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.461s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.461s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.461s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.461s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/agx/cthree/slam/ros2esp'
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.462s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.514s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.516s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pointcloud_to_grid) by extensions ['ignore', 'ignore_ament_install']
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pointcloud_to_grid) by extension 'ignore'
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pointcloud_to_grid) by extension 'ignore_ament_install'
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pointcloud_to_grid) by extensions ['colcon_pkg']
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pointcloud_to_grid) by extension 'colcon_pkg'
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pointcloud_to_grid) by extensions ['colcon_meta']
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pointcloud_to_grid) by extension 'colcon_meta'
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pointcloud_to_grid) by extensions ['ros']
+[0.517s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pointcloud_to_grid) by extension 'ros'
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/pointcloud_to_grid' with type 'ros.ament_cmake' and name 'pointcloud_to_grid'[0m
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial) by extension 'ignore'
+[0.522s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial) by extension 'ignore_ament_install'
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial) by extensions ['colcon_pkg']
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial) by extension 'colcon_pkg'
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial) by extensions ['colcon_meta']
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial) by extension 'colcon_meta'
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial) by extensions ['ros']
+[0.523s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial) by extension 'ros'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/serial' with type 'ros.ament_cmake' and name 'serial'[0m
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial2esp) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial2esp) by extension 'ignore'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial2esp) by extension 'ignore_ament_install'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial2esp) by extensions ['colcon_pkg']
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial2esp) by extension 'colcon_pkg'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial2esp) by extensions ['colcon_meta']
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial2esp) by extension 'colcon_meta'
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial2esp) by extensions ['ros']
+[0.524s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/serial2esp) by extension 'ros'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/serial2esp' with type 'ros.ament_cmake' and name 'serial2esp'[0m
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extension 'ignore'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extensions ['ros']
+[0.526s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/sllidar_ros2) by extension 'ros'
+[0.527s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'[0m
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.527s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.528s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.528s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.528s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.550s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.550s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.553s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 4 installed packages in /home/agx/cthree/slam/ros2esp/install[0m
+[0.554s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install[0m
+[0.554s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 3 installed packages in /home/agx/cthree/slam/cam_ws/install[0m
+[0.557s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 438 installed packages in /opt/ros/humble[0m
+[0.561s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointcloud_to_grid' build argument 'cmake_args' from command line to 'None'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointcloud_to_grid' build argument 'cmake_target' from command line to 'None'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointcloud_to_grid' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointcloud_to_grid' build argument 'cmake_clean_cache' from command line to 'False'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointcloud_to_grid' build argument 'cmake_clean_first' from command line to 'False'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointcloud_to_grid' build argument 'cmake_force_configure' from command line to 'False'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointcloud_to_grid' build argument 'ament_cmake_args' from command line to 'None'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointcloud_to_grid' build argument 'catkin_cmake_args' from command line to 'None'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointcloud_to_grid' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.636s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'pointcloud_to_grid' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid', 'merge_install': False, 'path': '/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid', 'symlink_install': False, 'test_result_base': None}[0m
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.637s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agx/cthree/slam/ros2esp/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agx/cthree/slam/ros2esp/install/serial', 'merge_install': False, 'path': '/home/agx/cthree/slam/ros2esp/src/serial', 'symlink_install': False, 'test_result_base': None}[0m
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.638s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agx/cthree/slam/ros2esp/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2', 'merge_install': False, 'path': '/home/agx/cthree/slam/ros2esp/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}[0m
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial2esp' build argument 'cmake_args' from command line to 'None'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial2esp' build argument 'cmake_target' from command line to 'None'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial2esp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial2esp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial2esp' build argument 'cmake_clean_first' from command line to 'False'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial2esp' build argument 'cmake_force_configure' from command line to 'False'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial2esp' build argument 'ament_cmake_args' from command line to 'None'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial2esp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'serial2esp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.639s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'serial2esp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agx/cthree/slam/ros2esp/build/serial2esp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agx/cthree/slam/ros2esp/install/serial2esp', 'merge_install': False, 'path': '/home/agx/cthree/slam/ros2esp/src/serial2esp', 'symlink_install': False, 'test_result_base': None}[0m
+[0.639s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.641s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.641s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/agx/cthree/slam/ros2esp/src/serial' with build type 'ament_cmake'
+[0.642s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/agx/cthree/slam/ros2esp/src/serial'
+[0.645s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.645s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.645s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.652s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid' with build type 'ament_cmake'
+[0.653s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid'
+[0.653s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.653s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.660s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/agx/cthree/slam/ros2esp/src/sllidar_ros2' with build type 'ament_cmake'
+[0.660s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/agx/cthree/slam/ros2esp/src/sllidar_ros2'
+[0.660s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.660s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.672s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/ros2esp/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/serial -- -j12 -l12[0m
+[0.678s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid -- -j12 -l12[0m
+[0.683s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/ros2esp/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/sllidar_ros2 -- -j12 -l12[0m
+[0.759s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/ros2esp/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/serial -- -j12 -l12[0m
+[0.777s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/ros2esp/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/agx/cthree/slam/ros2esp/build/serial[0m
+[0.788s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/ros2esp/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/sllidar_ros2 -- -j12 -l12[0m
+[0.791s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/ros2esp/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/agx/cthree/slam/ros2esp/build/sllidar_ros2[0m
+[0.795s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(serial)
+[0.800s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/ros2esp/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/agx/cthree/slam/ros2esp/build/serial[0m
+[0.802s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial' for CMake module files
+[0.804s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial' for CMake config files
+[0.806s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('serial', 'cmake_prefix_path')
+[0.806s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[0.808s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[0.810s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[0.812s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial/lib'
+[0.812s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('serial', 'ld_library_path_lib')
+[0.813s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/hook/ld_library_path_lib.ps1'
+[0.814s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/hook/ld_library_path_lib.dsv'
+[0.815s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/hook/ld_library_path_lib.sh'
+[0.816s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial/bin'
+[0.817s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial/lib/pkgconfig/serial.pc'
+[0.817s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial/lib/python3.10/site-packages'
+[0.818s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial/bin'
+[0.818s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/package.ps1'
+[0.820s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/package.dsv'
+[0.822s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/package.sh'
+[0.823s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/package.bash'
+[0.825s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/package.zsh'
+[0.826s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/ros2esp/install/serial/share/colcon-core/packages/serial)
+[0.828s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(serial)
+[0.828s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial' for CMake module files
+[0.829s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial' for CMake config files
+[0.829s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('serial', 'cmake_prefix_path')
+[0.830s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[0.830s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[0.831s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[0.831s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial/lib'
+[0.832s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('serial', 'ld_library_path_lib')
+[0.832s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/hook/ld_library_path_lib.ps1'
+[0.832s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/hook/ld_library_path_lib.dsv'
+[0.833s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/hook/ld_library_path_lib.sh'
+[0.833s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial/bin'
+[0.834s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial/lib/pkgconfig/serial.pc'
+[0.834s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial/lib/python3.10/site-packages'
+[0.834s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial/bin'
+[0.835s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/package.ps1'
+[0.836s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/package.dsv'
+[0.836s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/package.sh'
+[0.837s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/package.bash'
+[0.838s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial/share/serial/package.zsh'
+[0.838s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/ros2esp/install/serial/share/colcon-core/packages/serial)
+[0.839s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/agx/cthree/slam/ros2esp/src/serial2esp' with build type 'ament_cmake'
+[0.839s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/agx/cthree/slam/ros2esp/src/serial2esp'
+[0.840s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.840s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.849s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(sllidar_ros2)
+[0.849s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2' for CMake module files
+[0.850s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/ros2esp/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/agx/cthree/slam/ros2esp/build/sllidar_ros2[0m
+[0.850s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2' for CMake config files
+[0.851s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[0.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[0.852s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[0.852s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[0.853s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/lib'
+[0.853s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/bin'
+[0.853s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[0.854s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/lib/python3.10/site-packages'
+[0.854s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/bin'
+[0.855s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[0.856s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[0.857s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[0.858s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[0.859s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[0.859s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[0.860s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(sllidar_ros2)
+[0.861s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2' for CMake module files
+[0.861s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2' for CMake config files
+[0.862s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[0.862s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[0.863s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[0.863s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[0.864s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/lib'
+[0.864s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/bin'
+[0.864s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[0.865s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/lib/python3.10/site-packages'
+[0.865s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/bin'
+[0.866s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[0.866s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[0.867s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[0.868s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[0.868s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[0.869s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/ros2esp/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[0.874s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/ros2esp/build/serial2esp': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/ros2esp/install/serial/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/serial2esp -- -j12 -l12[0m
+[0.979s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/ros2esp/build/serial2esp' returned '0': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/ros2esp/install/serial/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/serial2esp -- -j12 -l12[0m
+[0.981s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/ros2esp/build/serial2esp': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/ros2esp/install/serial/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --install /home/agx/cthree/slam/ros2esp/build/serial2esp[0m
+[1.000s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(serial2esp)
+[1.000s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial2esp' for CMake module files
+[1.001s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/ros2esp/build/serial2esp' returned '0': CMAKE_PREFIX_PATH=/home/agx/cthree/slam/ros2esp/install/serial:/home/agx/cthree/slam/ros2esp/install/sllidar_ros2:/home/agx/cthree/slam/ros2esp/install/serial2esp:/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/ros2esp/install/serial/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib /usr/bin/cmake --install /home/agx/cthree/slam/ros2esp/build/serial2esp[0m
+[1.001s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial2esp' for CMake config files
+[1.001s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('serial2esp', 'cmake_prefix_path')
+[1.002s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/hook/cmake_prefix_path.ps1'
+[1.003s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/hook/cmake_prefix_path.dsv'
+[1.003s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/hook/cmake_prefix_path.sh'
+[1.004s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial2esp/lib'
+[1.004s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial2esp/bin'
+[1.005s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial2esp/lib/pkgconfig/serial2esp.pc'
+[1.005s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial2esp/lib/python3.10/site-packages'
+[1.006s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial2esp/bin'
+[1.006s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/package.ps1'
+[1.007s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/package.dsv'
+[1.008s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/package.sh'
+[1.009s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/package.bash'
+[1.010s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/package.zsh'
+[1.011s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/ros2esp/install/serial2esp/share/colcon-core/packages/serial2esp)
+[1.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(serial2esp)
+[1.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial2esp' for CMake module files
+[1.013s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial2esp' for CMake config files
+[1.013s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('serial2esp', 'cmake_prefix_path')
+[1.013s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/hook/cmake_prefix_path.ps1'
+[1.014s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/hook/cmake_prefix_path.dsv'
+[1.014s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/hook/cmake_prefix_path.sh'
+[1.015s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial2esp/lib'
+[1.015s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial2esp/bin'
+[1.015s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial2esp/lib/pkgconfig/serial2esp.pc'
+[1.016s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial2esp/lib/python3.10/site-packages'
+[1.016s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/serial2esp/bin'
+[1.017s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/package.ps1'
+[1.017s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/package.dsv'
+[1.018s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/package.sh'
+[1.019s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/package.bash'
+[1.019s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/serial2esp/share/serial2esp/package.zsh'
+[1.020s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/ros2esp/install/serial2esp/share/colcon-core/packages/serial2esp)
+[27.852s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid -- -j12 -l12[0m
+[27.857s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid[0m
+[27.881s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(pointcloud_to_grid)
+[27.882s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid' for CMake module files
+[27.885s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid[0m
+[27.886s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid' for CMake config files
+[27.886s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('pointcloud_to_grid', 'cmake_prefix_path')
+[27.887s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/hook/cmake_prefix_path.ps1'
+[27.889s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/hook/cmake_prefix_path.dsv'
+[27.890s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/hook/cmake_prefix_path.sh'
+[27.893s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/lib'
+[27.893s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/bin'
+[27.893s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/lib/pkgconfig/pointcloud_to_grid.pc'
+[27.894s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/lib/python3.10/site-packages'
+[27.895s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/bin'
+[27.897s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/package.ps1'
+[27.898s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/package.dsv'
+[27.900s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/package.sh'
+[27.901s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/package.bash'
+[27.903s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/package.zsh'
+[27.904s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/colcon-core/packages/pointcloud_to_grid)
+[27.906s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(pointcloud_to_grid)
+[27.907s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid' for CMake module files
+[27.909s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid' for CMake config files
+[27.909s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('pointcloud_to_grid', 'cmake_prefix_path')
+[27.910s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/hook/cmake_prefix_path.ps1'
+[27.912s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/hook/cmake_prefix_path.dsv'
+[27.913s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/hook/cmake_prefix_path.sh'
+[27.915s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/lib'
+[27.915s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/bin'
+[27.916s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/lib/pkgconfig/pointcloud_to_grid.pc'
+[27.916s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/lib/python3.10/site-packages'
+[27.918s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/bin'
+[27.919s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/package.ps1'
+[27.921s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/package.dsv'
+[27.923s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/package.sh'
+[27.924s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/package.bash'
+[27.926s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/package.zsh'
+[27.927s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/colcon-core/packages/pointcloud_to_grid)
+[27.928s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[27.929s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[27.930s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[27.930s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[27.949s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.949s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.949s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[27.994s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[27.996s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agx/cthree/slam/ros2esp/install/local_setup.ps1'
+[28.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/agx/cthree/slam/ros2esp/install/_local_setup_util_ps1.py'
+[28.005s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agx/cthree/slam/ros2esp/install/setup.ps1'
+[28.011s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agx/cthree/slam/ros2esp/install/local_setup.sh'
+[28.013s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/agx/cthree/slam/ros2esp/install/_local_setup_util_sh.py'
+[28.015s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agx/cthree/slam/ros2esp/install/setup.sh'
+[28.020s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agx/cthree/slam/ros2esp/install/local_setup.bash'
+[28.022s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agx/cthree/slam/ros2esp/install/setup.bash'
+[28.027s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agx/cthree/slam/ros2esp/install/local_setup.zsh'
+[28.029s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agx/cthree/slam/ros2esp/install/setup.zsh'

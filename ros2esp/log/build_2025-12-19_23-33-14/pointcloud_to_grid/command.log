@@ -1,0 +1,2 @@
+Invoking command in '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid -- -j12 -l12
+Invoked command in '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid -- -j12 -l12

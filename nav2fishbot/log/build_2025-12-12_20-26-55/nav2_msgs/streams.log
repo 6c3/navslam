@@ -1,0 +1,1122 @@
+[0.020s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_msgs': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_msgs -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs
+[0.099s] -- The C compiler identification is GNU 9.5.0
+[0.188s] -- The CXX compiler identification is GNU 9.5.0
+[0.200s] -- Detecting C compiler ABI info
+[0.306s] -- Detecting C compiler ABI info - done
+[0.317s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.317s] -- Detecting C compile features
+[0.318s] -- Detecting C compile features - done
+[0.323s] -- Detecting CXX compiler ABI info
+[0.463s] -- Detecting CXX compiler ABI info - done
+[0.472s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.473s] -- Detecting CXX compile features
+[0.474s] -- Detecting CXX compile features - done
+[0.479s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.780s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.079s] -- Found nav2_common: 1.1.0 (/home/agx/cthree/slam/nav2fishbot/install/nav2_common/share/nav2_common/cmake)
+[1.083s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.189s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.199s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.214s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.234s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.261s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.289s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.362s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.380s] -- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+[1.417s] -- Setting build type to Release as none was specified.
+[3.011s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.602s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.128s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.240s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.243s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.341s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.341s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.341s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.341s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.464s] -- Found PythonExtra: .so  
+[5.793s] -- Configuring done
+[6.255s] -- Generating done
+[6.359s] -- Build files have been written to: /home/agx/cthree/slam/nav2fishbot/build/nav2_msgs
+[6.460s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_msgs' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_msgs -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs
+[6.461s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_msgs': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/nav2fishbot/build/nav2_msgs -- -j12 -l12
+[6.794s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.859s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.894s] [  1%] Built target ament_cmake_python_copy_nav2_msgs
+[8.592s] running egg_info
+[8.593s] creating nav2_msgs.egg-info
+[8.594s] writing nav2_msgs.egg-info/PKG-INFO
+[8.595s] writing dependency_links to nav2_msgs.egg-info/dependency_links.txt
+[8.595s] writing top-level names to nav2_msgs.egg-info/top_level.txt
+[8.596s] writing manifest file 'nav2_msgs.egg-info/SOURCES.txt'
+[8.601s] reading manifest file 'nav2_msgs.egg-info/SOURCES.txt'
+[8.606s] writing manifest file 'nav2_msgs.egg-info/SOURCES.txt'
+[8.847s] [  1%] Built target ament_cmake_python_build_nav2_msgs_egg
+[26.225s] [  1%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/costmap__functions.c.o[0m
+[26.239s] [  1%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/costmap_meta_data__functions.c.o[0m
+[26.260s] [  2%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/voxel_grid__functions.c.o[0m
+[26.279s] [  2%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/speed_limit__functions.c.o[0m
+[26.292s] [  3%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/costmap_filter_info__functions.c.o[0m
+[26.326s] [  3%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/behavior_tree_status_change__functions.c.o[0m
+[26.354s] [  3%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/behavior_tree_log__functions.c.o[0m
+[26.387s] [  4%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/particle__functions.c.o[0m
+[26.474s] [  4%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/particle_cloud__functions.c.o[0m
+[27.128s] [  5%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/back_up__functions.c.o[0m
+[28.200s] [  5%] Built target nav2_msgs__cpp
+[28.840s] [  5%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/compute_path_to_pose__functions.c.o[0m
+[29.720s] [  5%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/assisted_teleop__functions.c.o[0m
+[30.540s] [  5%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/save_map__functions.c.o[0m
+[30.797s] [  6%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/compute_path_through_poses__functions.c.o[0m
+[31.582s] [  6%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/drive_on_heading__functions.c.o[0m
+[32.346s] [  6%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/smooth_path__functions.c.o[0m
+[33.163s] [  7%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/follow_path__functions.c.o[0m
+[33.865s] [  7%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/navigate_to_pose__functions.c.o[0m
+[34.629s] [  8%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/navigate_through_poses__functions.c.o[0m
+[35.442s] [  8%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/wait__functions.c.o[0m
+[36.137s] [  8%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/spin__functions.c.o[0m
+[36.837s] [  9%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/dummy_behavior__functions.c.o[0m
+[37.632s] [  9%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/follow_waypoints__functions.c.o[0m
+[38.473s] [ 10%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/load_map__functions.c.o[0m
+[38.697s] [ 10%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/manage_lifecycle_nodes__functions.c.o[0m
+[38.927s] [ 10%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/clear_entire_costmap__functions.c.o[0m
+[39.141s] [ 11%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/clear_costmap_around_robot__functions.c.o[0m
+[39.358s] [ 11%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/clear_costmap_except_region__functions.c.o[0m
+[39.571s] [ 12%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/is_path_valid__functions.c.o[0m
+[39.798s] [ 12%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/get_costmap__functions.c.o[0m
+[40.055s] [ 12%] [32m[1mLinking C shared library libnav2_msgs__rosidl_generator_c.so[0m
+[40.134s] [ 12%] Built target nav2_msgs__rosidl_generator_c
+[40.152s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[45.967s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/costmap__type_support.cpp.o[0m
+[45.970s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/costmap_meta_data__type_support.cpp.o[0m
+[45.989s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/costmap_filter_info__type_support.cpp.o[0m
+[46.006s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/speed_limit__type_support.cpp.o[0m
+[47.193s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/get_costmap__type_support.cpp.o[0m
+[47.961s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/is_path_valid__type_support.cpp.o[0m
+[49.015s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.cpp.o[0m
+[49.771s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.cpp.o[0m
+[50.724s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/clear_entire_costmap__type_support.cpp.o[0m
+[51.472s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support.cpp.o[0m
+[52.205s] [ 17%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/load_map__type_support.cpp.o[0m
+[52.911s] [ 17%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/save_map__type_support.cpp.o[0m
+[53.592s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/assisted_teleop__type_support.cpp.o[0m
+[54.636s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/back_up__type_support.cpp.o[0m
+[55.657s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/compute_path_to_pose__type_support.cpp.o[0m
+[56.671s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/compute_path_through_poses__type_support.cpp.o[0m
+[56.822s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/particle_cloud__type_support.cpp.o[0m
+[57.528s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/drive_on_heading__type_support.cpp.o[0m
+[57.925s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/smooth_path__type_support.cpp.o[0m
+[58.572s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/follow_path__type_support.cpp.o[0m
+[59.087s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/navigate_to_pose__type_support.cpp.o[0m
+[59.716s] [ 21%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/navigate_through_poses__type_support.cpp.o[0m
+[60.246s] [ 21%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/wait__type_support.cpp.o[0m
+[60.954s] [ 21%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/spin__type_support.cpp.o[0m
+[61.295s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/dummy_behavior__type_support.cpp.o[0m
+[62.024s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/follow_waypoints__type_support.cpp.o[0m
+[62.026s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/particle__type_support.cpp.o[0m
+[62.386s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/behavior_tree_log__type_support.cpp.o[0m
+[62.754s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.cpp.o[0m
+[63.231s] [ 24%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/voxel_grid__type_support.cpp.o[0m
+[64.014s] [ 25%] [32m[1mLinking CXX shared library libnav2_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[64.246s] [ 25%] Built target nav2_msgs__rosidl_typesupport_introspection_cpp
+[64.275s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[64.286s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[64.308s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[69.953s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/costmap__type_support.cpp.o[0m
+[69.959s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/costmap_meta_data__type_support.cpp.o[0m
+[70.107s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/particle__type_support.cpp.o[0m
+[70.120s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/particle_cloud__type_support.cpp.o[0m
+[70.256s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/get_costmap__type_support.cpp.o[0m
+[70.259s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/is_path_valid__type_support.cpp.o[0m
+[70.337s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/clear_costmap_except_region__type_support.cpp.o[0m
+[70.403s] [ 31%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/clear_costmap_around_robot__type_support.cpp.o[0m
+[70.517s] [ 31%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/clear_entire_costmap__type_support.cpp.o[0m
+[70.584s] [ 31%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/manage_lifecycle_nodes__type_support.cpp.o[0m
+[70.671s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/load_map__type_support.cpp.o[0m
+[70.747s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/save_map__type_support.cpp.o[0m
+[70.806s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/assisted_teleop__type_support.cpp.o[0m
+[70.942s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/back_up__type_support.cpp.o[0m
+[71.059s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/compute_path_to_pose__type_support.cpp.o[0m
+[71.188s] [ 34%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/compute_path_through_poses__type_support.cpp.o[0m
+[71.334s] [ 34%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/drive_on_heading__type_support.cpp.o[0m
+[71.401s] [ 34%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/smooth_path__type_support.cpp.o[0m
+[71.551s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/follow_path__type_support.cpp.o[0m
+[71.568s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/behavior_tree_log__type_support.cpp.o[0m
+[71.731s] [ 36%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/wait__type_support.cpp.o[0m
+[71.907s] [ 36%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/spin__type_support.cpp.o[0m
+[72.107s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/dummy_behavior__type_support.cpp.o[0m
+[72.277s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/follow_waypoints__type_support.cpp.o[0m
+[72.519s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/navigate_through_poses__type_support.cpp.o[0m
+[72.693s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/navigate_to_pose__type_support.cpp.o[0m
+[72.928s] [ 38%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/behavior_tree_status_change__type_support.cpp.o[0m
+[73.012s] [ 38%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/costmap__type_support.c.o[0m
+[73.043s] [ 38%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/voxel_grid__type_support.cpp.o[0m
+[73.146s] [ 38%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.c.o[0m
+[73.163s] [ 38%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/speed_limit__type_support.cpp.o[0m
+[73.258s] [ 39%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/costmap_filter_info__type_support.cpp.o[0m
+[73.308s] [ 39%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/particle_cloud__type_support.c.o[0m
+[73.334s] [ 39%] [32m[1mLinking CXX shared library libnav2_msgs__rosidl_typesupport_c.so[0m
+[73.452s] [ 39%] Built target nav2_msgs__rosidl_typesupport_c
+[73.473s] [ 39%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/is_path_valid__type_support.c.o[0m
+[73.634s] [ 39%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.c.o[0m
+[73.701s] [ 39%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/costmap__type_support_c.cpp.o[0m
+[73.832s] [ 40%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.c.o[0m
+[74.027s] [ 41%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/get_costmap__type_support.c.o[0m
+[74.212s] [ 42%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/particle__type_support.c.o[0m
+[74.298s] [ 42%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/behavior_tree_log__type_support.c.o[0m
+[74.365s] [ 43%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/voxel_grid__type_support_c.cpp.o[0m
+[74.392s] [ 43%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/clear_entire_costmap__type_support.c.o[0m
+[74.472s] [ 44%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/voxel_grid__type_support.c.o[0m
+[74.560s] [ 44%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/speed_limit__type_support.c.o[0m
+[74.630s] [ 44%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/costmap_filter_info__type_support.c.o[0m
+[74.717s] [ 45%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/costmap_meta_data__type_support.c.o[0m
+[74.806s] [ 45%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support.c.o[0m
+[74.919s] [ 46%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/load_map__type_support.c.o[0m
+[75.018s] [ 46%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/save_map__type_support.c.o[0m
+[75.109s] [ 47%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/assisted_teleop__type_support.c.o[0m
+[75.109s] [ 47%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/get_costmap__type_support_c.cpp.o[0m
+[75.286s] [ 47%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/back_up__type_support.c.o[0m
+[75.453s] [ 47%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/compute_path_to_pose__type_support.c.o[0m
+[75.633s] [ 48%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/compute_path_through_poses__type_support.c.o[0m
+[75.766s] [ 49%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/is_path_valid__type_support_c.cpp.o[0m
+[75.809s] [ 49%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/drive_on_heading__type_support.c.o[0m
+[75.943s] [ 50%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/smooth_path__type_support.c.o[0m
+[76.086s] [ 50%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/follow_path__type_support.c.o[0m
+[76.228s] [ 50%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/navigate_to_pose__type_support.c.o[0m
+[76.377s] [ 51%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/navigate_through_poses__type_support.c.o[0m
+[76.416s] [ 51%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/clear_costmap_except_region__type_support_c.cpp.o[0m
+[76.539s] [ 51%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/wait__type_support.c.o[0m
+[76.688s] [ 51%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/spin__type_support.c.o[0m
+[76.827s] [ 52%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/dummy_behavior__type_support.c.o[0m
+[76.972s] [ 52%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/follow_waypoints__type_support.c.o[0m
+[77.052s] [ 53%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support_c.cpp.o[0m
+[77.143s] [ 54%] [32m[1mLinking C shared library libnav2_msgs__rosidl_typesupport_introspection_c.so[0m
+[77.224s] [ 54%] Built target nav2_msgs__rosidl_typesupport_introspection_c
+[77.656s] [ 54%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support_c.cpp.o[0m
+[78.230s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/load_map__type_support_c.cpp.o[0m
+[78.834s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/save_map__type_support_c.cpp.o[0m
+[79.477s] [ 56%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/assisted_teleop__type_support_c.cpp.o[0m
+[80.223s] [ 56%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/back_up__type_support_c.cpp.o[0m
+[80.959s] [ 56%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/compute_path_to_pose__type_support_c.cpp.o[0m
+[81.743s] [ 56%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/particle_cloud__type_support_c.cpp.o[0m
+[81.743s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/compute_path_through_poses__type_support_c.cpp.o[0m
+[81.747s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/clear_entire_costmap__type_support_c.cpp.o[0m
+[82.296s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/drive_on_heading__type_support_c.cpp.o[0m
+[82.310s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/smooth_path__type_support_c.cpp.o[0m
+[82.319s] [ 58%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/particle__type_support_c.cpp.o[0m
+[82.604s] [ 59%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/follow_path__type_support_c.cpp.o[0m
+[82.892s] [ 59%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/navigate_to_pose__type_support_c.cpp.o[0m
+[83.122s] [ 60%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/navigate_through_poses__type_support_c.cpp.o[0m
+[83.178s] [ 60%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/wait__type_support_c.cpp.o[0m
+[83.504s] [ 60%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/behavior_tree_log__type_support_c.cpp.o[0m
+[83.504s] [ 60%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/spin__type_support_c.cpp.o[0m
+[83.818s] [ 61%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/dummy_behavior__type_support_c.cpp.o[0m
+[84.035s] [ 61%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/follow_waypoints__type_support_c.cpp.o[0m
+[84.058s] [ 61%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/behavior_tree_status_change__type_support_c.cpp.o[0m
+[84.100s] [ 61%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/speed_limit__type_support_c.cpp.o[0m
+[84.362s] [ 61%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/costmap_meta_data__type_support_c.cpp.o[0m
+[84.374s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/costmap_filter_info__type_support_c.cpp.o[0m
+[85.132s] [ 62%] [32m[1mLinking CXX shared library libnav2_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[85.316s] [ 62%] Built target nav2_msgs__rosidl_typesupport_fastrtps_c
+[85.337s] [ 63%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[85.342s] [ 64%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[89.958s] [ 64%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/costmap__type_support.cpp.o[0m
+[89.973s] [ 64%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/costmap_meta_data__type_support.cpp.o[0m
+[90.468s] [ 65%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/is_path_valid__type_support.cpp.o[0m
+[90.791s] [ 65%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/clear_costmap_except_region__type_support.cpp.o[0m
+[91.055s] [ 65%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/clear_costmap_around_robot__type_support.cpp.o[0m
+[91.571s] [ 66%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/clear_entire_costmap__type_support.cpp.o[0m
+[92.079s] [ 67%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/load_map__type_support.cpp.o[0m
+[92.661s] [ 67%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/save_map__type_support.cpp.o[0m
+[93.118s] [ 67%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/assisted_teleop__type_support.cpp.o[0m
+[93.798s] [ 67%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/costmap__type_support.cpp.o[0m
+[93.918s] [ 68%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/back_up__type_support.cpp.o[0m
+[94.542s] [ 68%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/costmap_meta_data__type_support.cpp.o[0m
+[94.722s] [ 68%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/compute_path_to_pose__type_support.cpp.o[0m
+[95.241s] [ 69%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/costmap_filter_info__type_support.cpp.o[0m
+[95.523s] [ 70%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/compute_path_through_poses__type_support.cpp.o[0m
+[95.899s] [ 70%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/speed_limit__type_support.cpp.o[0m
+[96.250s] [ 70%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/drive_on_heading__type_support.cpp.o[0m
+[96.516s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/voxel_grid__type_support.cpp.o[0m
+[96.986s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/smooth_path__type_support.cpp.o[0m
+[96.986s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/manage_lifecycle_nodes__type_support.cpp.o[0m
+[96.986s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/behavior_tree_status_change__type_support.cpp.o[0m
+[97.242s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/behavior_tree_log__type_support.cpp.o[0m
+[97.423s] [ 72%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/get_costmap__type_support.cpp.o[0m
+[97.423s] [ 72%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/particle_cloud__type_support.cpp.o[0m
+[97.423s] [ 72%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/particle__type_support.cpp.o[0m
+[97.690s] [ 72%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/particle_cloud__type_support.cpp.o[0m
+[97.864s] [ 72%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/get_costmap__type_support.cpp.o[0m
+[97.871s] [ 73%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/particle__type_support.cpp.o[0m
+[97.930s] [ 73%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/behavior_tree_log__type_support.cpp.o[0m
+[97.944s] [ 74%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/behavior_tree_status_change__type_support.cpp.o[0m
+[98.039s] [ 74%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/clear_costmap_except_region__type_support.cpp.o[0m
+[98.099s] [ 75%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/is_path_valid__type_support.cpp.o[0m
+[98.338s] [ 75%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/navigate_to_pose__type_support.cpp.o[0m
+[98.361s] [ 76%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/clear_costmap_around_robot__type_support.cpp.o[0m
+[98.370s] [ 77%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/follow_path__type_support.cpp.o[0m
+[98.536s] [ 77%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/voxel_grid__type_support.cpp.o[0m
+[98.547s] [ 77%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/speed_limit__type_support.cpp.o[0m
+[98.572s] [ 77%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/manage_lifecycle_nodes__type_support.cpp.o[0m
+[98.632s] [ 77%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/clear_entire_costmap__type_support.cpp.o[0m
+[98.911s] [ 78%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/load_map__type_support.cpp.o[0m
+[99.136s] [ 79%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/wait__type_support.cpp.o[0m
+[99.181s] [ 79%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[99.316s] [ 79%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/assisted_teleop__type_support.cpp.o[0m
+[99.395s] [ 79%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/spin__type_support.cpp.o[0m
+[99.404s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/back_up__type_support.cpp.o[0m
+[99.431s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/navigate_through_poses__type_support.cpp.o[0m
+[99.432s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/compute_path_to_pose__type_support.cpp.o[0m
+[99.512s] [ 81%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/compute_path_through_poses__type_support.cpp.o[0m
+[99.516s] [ 82%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/costmap_filter_info__type_support.cpp.o[0m
+[99.672s] [ 82%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/drive_on_heading__type_support.cpp.o[0m
+[99.819s] [ 83%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/dummy_behavior__type_support.cpp.o[0m
+[99.900s] [ 83%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/smooth_path__type_support.cpp.o[0m
+[100.243s] [ 83%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/follow_waypoints__type_support.cpp.o[0m
+[100.356s] [ 84%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/follow_path__type_support.cpp.o[0m
+[100.715s] [ 84%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/navigate_to_pose__type_support.cpp.o[0m
+[100.984s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/navigate_through_poses__type_support.cpp.o[0m
+[101.326s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/spin__type_support.cpp.o[0m
+[101.335s] [ 86%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/dummy_behavior__type_support.cpp.o[0m
+[101.336s] [ 86%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/wait__type_support.cpp.o[0m
+[101.593s] [ 86%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/follow_waypoints__type_support.cpp.o[0m
+[101.633s] [ 86%] [32m[1mLinking CXX shared library libnav2_msgs__rosidl_typesupport_cpp.so[0m
+[101.874s] [ 86%] Built target nav2_msgs__rosidl_typesupport_cpp
+[103.276s] [ 86%] [32m[1mLinking CXX shared library libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[103.442s] [ 86%] Built target nav2_msgs__rosidl_typesupport_fastrtps_cpp
+[103.488s] [ 86%] Built target nav2_msgs
+[103.543s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[118.809s] [ 86%] Built target nav2_msgs__py
+[118.855s] [ 87%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_costmap_s.c.o[0m
+[118.872s] [ 87%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_costmap_meta_data_s.c.o[0m
+[118.898s] [ 88%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_costmap_filter_info_s.c.o[0m
+[118.927s] [ 88%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_speed_limit_s.c.o[0m
+[119.194s] [ 88%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_clear_costmap_except_region_s.c.o[0m
+[119.219s] [ 88%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_clear_costmap_around_robot_s.c.o[0m
+[119.236s] [ 89%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_clear_entire_costmap_s.c.o[0m
+[119.355s] [ 89%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_manage_lifecycle_nodes_s.c.o[0m
+[119.367s] [ 90%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_is_path_valid_s.c.o[0m
+[119.394s] [ 90%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_get_costmap_s.c.o[0m
+[119.548s] [ 91%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_load_map_s.c.o[0m
+[119.557s] [ 91%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_save_map_s.c.o[0m
+[119.576s] [ 91%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_assisted_teleop_s.c.o[0m
+[119.675s] [ 92%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_back_up_s.c.o[0m
+[119.839s] [ 92%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_compute_path_to_pose_s.c.o[0m
+[119.862s] [ 92%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_compute_path_through_poses_s.c.o[0m
+[119.895s] [ 93%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_drive_on_heading_s.c.o[0m
+[120.040s] [ 93%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_smooth_path_s.c.o[0m
+[120.353s] [ 94%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_follow_path_s.c.o[0m
+[120.381s] [ 95%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_particle_cloud_s.c.o[0m
+[120.395s] [ 95%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_navigate_to_pose_s.c.o[0m
+[120.396s] [ 95%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_particle_s.c.o[0m
+[120.492s] [ 95%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_behavior_tree_log_s.c.o[0m
+[120.640s] [ 96%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_wait_s.c.o[0m
+[120.731s] [ 96%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_spin_s.c.o[0m
+[120.771s] [ 96%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_dummy_behavior_s.c.o[0m
+[120.878s] [ 97%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_follow_waypoints_s.c.o[0m
+[120.880s] [ 97%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_navigate_through_poses_s.c.o[0m
+[120.908s] [ 98%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_behavior_tree_status_change_s.c.o[0m
+[120.995s] [ 98%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_voxel_grid_s.c.o[0m
+[121.649s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/nav2_msgs/libnav2_msgs__rosidl_generator_py.so[0m
+[121.796s] [ 98%] Built target nav2_msgs__rosidl_generator_py
+[121.897s] [ 99%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[121.897s] [ 99%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[121.916s] [100%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[125.511s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav2_msgs/nav2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[125.744s] [100%] Built target nav2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[125.763s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav2_msgs/nav2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[125.892s] [100%] Built target nav2_msgs__rosidl_typesupport_introspection_c__pyext
+[126.251s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav2_msgs/nav2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[126.349s] [100%] Built target nav2_msgs__rosidl_typesupport_c__pyext
+[126.373s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_msgs' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/nav2fishbot/build/nav2_msgs -- -j12 -l12
+[126.374s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_msgs': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/nav2fishbot/build/nav2_msgs
+[126.390s] -- Install configuration: "Release"
+[126.393s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/ament_index/resource_index/rosidl_interfaces/nav2_msgs
+[126.394s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs
+[126.394s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg
+[126.394s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_filter_info.h
+[126.394s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap.h
+[126.394s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle.h
+[126.394s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_c__visibility_control.h
+[126.394s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/behavior_tree_status_change.h
+[126.394s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail
+[126.394s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__struct.h
+[126.394s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__struct.h
+[126.395s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__functions.h
+[126.395s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__functions.h
+[126.395s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__struct.h
+[126.395s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__type_support.h
+[126.395s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__functions.c
+[126.395s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__functions.c
+[126.395s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__struct.h
+[126.395s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__struct.h
+[126.395s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__struct.h
+[126.396s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__functions.c
+[126.396s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__type_support.h
+[126.396s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__functions.h
+[126.396s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__functions.c
+[126.396s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__type_support.h
+[126.396s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__functions.c
+[126.397s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.h
+[126.397s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__functions.h
+[126.397s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__struct.h
+[126.397s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__functions.h
+[126.397s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__struct.h
+[126.397s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__type_support.h
+[126.398s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__functions.h
+[126.400s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__functions.c
+[126.400s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__functions.c
+[126.400s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__type_support.h
+[126.400s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__struct.h
+[126.400s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__type_support.h
+[126.401s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__functions.c
+[126.401s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__functions.h
+[126.401s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__functions.h
+[126.401s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__type_support.h
+[126.401s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__functions.c
+[126.402s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__type_support.h
+[126.402s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__functions.h
+[126.402s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle_cloud.h
+[126.402s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/behavior_tree_log.h
+[126.402s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/speed_limit.h
+[126.402s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/voxel_grid.h
+[126.402s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_meta_data.h
+[126.403s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action
+[126.403s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/smooth_path.h
+[126.403s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_path_to_pose.h
+[126.403s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_waypoints.h
+[126.403s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/spin.h
+[126.403s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.h
+[126.404s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail
+[126.404s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__functions.h
+[126.404s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__functions.c
+[126.405s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__functions.h
+[126.405s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__struct.h
+[126.405s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__type_support.h
+[126.406s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__functions.c
+[126.406s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.h
+[126.406s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__type_support.h
+[126.406s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__type_support.h
+[126.407s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__functions.h
+[126.410s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__functions.c
+[126.410s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__type_support.h
+[126.410s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__functions.c
+[126.410s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__functions.h
+[126.410s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__struct.h
+[126.411s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__functions.h
+[126.411s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__type_support.h
+[126.411s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__functions.c
+[126.411s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__struct.h
+[126.411s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__struct.h
+[126.411s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__type_support.h
+[126.411s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__type_support.h
+[126.411s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__functions.c
+[126.411s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__functions.h
+[126.412s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__type_support.h
+[126.413s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__functions.h
+[126.413s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__type_support.h
+[126.413s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__struct.h
+[126.414s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__functions.c
+[126.414s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__type_support.h
+[126.414s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__functions.h
+[126.415s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__struct.h
+[126.415s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__functions.h
+[126.415s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__functions.h
+[126.416s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__struct.h
+[126.416s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__struct.h
+[126.416s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__functions.c
+[126.416s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__struct.h
+[126.416s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__functions.h
+[126.417s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__type_support.h
+[126.417s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__functions.h
+[126.417s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__struct.h
+[126.417s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__functions.c
+[126.417s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__type_support.h
+[126.418s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__type_support.h
+[126.418s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__functions.c
+[126.418s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__functions.c
+[126.418s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__struct.h
+[126.418s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__struct.h
+[126.419s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__functions.h
+[126.419s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__functions.c
+[126.419s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__functions.c
+[126.419s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/wait.h
+[126.420s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/drive_on_heading.h
+[126.420s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_path.h
+[126.420s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_path_through_poses.h
+[126.420s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/assisted_teleop.h
+[126.420s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_through_poses.h
+[126.421s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/dummy_behavior.h
+[126.421s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/back_up.h
+[126.421s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv
+[126.421s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/load_map.h
+[126.421s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/save_map.h
+[126.421s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/manage_lifecycle_nodes.h
+[126.422s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail
+[126.422s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__functions.h
+[126.422s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__struct.h
+[126.422s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__functions.h
+[126.422s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__functions.h
+[126.423s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__type_support.h
+[126.423s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__functions.c
+[126.423s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__functions.h
+[126.423s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__functions.c
+[126.423s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__functions.c
+[126.424s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__functions.h
+[126.426s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__struct.h
+[126.427s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__functions.c
+[126.427s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__functions.h
+[126.427s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__type_support.h
+[126.432s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__functions.c
+[126.432s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.h
+[126.432s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support.h
+[126.432s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__struct.h
+[126.432s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__struct.h
+[126.432s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__functions.c
+[126.432s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__struct.h
+[126.433s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__functions.h
+[126.433s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__type_support.h
+[126.433s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__struct.h
+[126.433s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__functions.c
+[126.433s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__type_support.h
+[126.433s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__struct.h
+[126.433s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.h
+[126.433s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__type_support.h
+[126.433s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__functions.c
+[126.434s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__struct.h
+[126.434s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__functions.h
+[126.434s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_robot.h
+[126.434s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costmap.h
+[126.434s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_except_region.h
+[126.434s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/is_path_valid.h
+[126.434s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_entire_costmap.h
+[126.434s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/environment/library_path.sh
+[126.434s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/environment/library_path.dsv
+[126.435s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+[126.435s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so" to ""
+[126.435s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs
+[126.435s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg
+[126.435s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail
+[126.435s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__rosidl_typesupport_fastrtps_c.h
+[126.435s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__rosidl_typesupport_fastrtps_c.h
+[126.435s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__rosidl_typesupport_fastrtps_c.h
+[126.435s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__rosidl_typesupport_fastrtps_c.h
+[126.436s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__rosidl_typesupport_fastrtps_c.h
+[126.436s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__rosidl_typesupport_fastrtps_c.h
+[126.436s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__rosidl_typesupport_fastrtps_c.h
+[126.436s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__rosidl_typesupport_fastrtps_c.h
+[126.436s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__rosidl_typesupport_fastrtps_c.h
+[126.436s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[126.443s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action
+[126.443s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail
+[126.443s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__rosidl_typesupport_fastrtps_c.h
+[126.444s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__rosidl_typesupport_fastrtps_c.h
+[126.444s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__rosidl_typesupport_fastrtps_c.h
+[126.444s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__rosidl_typesupport_fastrtps_c.h
+[126.444s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__rosidl_typesupport_fastrtps_c.h
+[126.444s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__rosidl_typesupport_fastrtps_c.h
+[126.444s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__rosidl_typesupport_fastrtps_c.h
+[126.444s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__rosidl_typesupport_fastrtps_c.h
+[126.444s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__rosidl_typesupport_fastrtps_c.h
+[126.445s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__rosidl_typesupport_fastrtps_c.h
+[126.445s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__rosidl_typesupport_fastrtps_c.h
+[126.445s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__rosidl_typesupport_fastrtps_c.h
+[126.445s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__rosidl_typesupport_fastrtps_c.h
+[126.445s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv
+[126.445s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail
+[126.445s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__rosidl_typesupport_fastrtps_c.h
+[126.445s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[126.445s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+[126.446s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__rosidl_typesupport_fastrtps_c.h
+[126.446s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__rosidl_typesupport_fastrtps_c.h
+[126.446s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__rosidl_typesupport_fastrtps_c.h
+[126.446s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__rosidl_typesupport_fastrtps_c.h
+[126.446s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__rosidl_typesupport_fastrtps_c.h
+[126.446s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+[126.446s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[126.446s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs
+[126.447s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg
+[126.447s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle_cloud.hpp
+[126.447s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/behavior_tree_log.hpp
+[126.447s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle.hpp
+[126.447s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/speed_limit.hpp
+[126.447s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail
+[126.447s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__struct.hpp
+[126.447s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__traits.hpp
+[126.448s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__builder.hpp
+[126.448s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__builder.hpp
+[126.448s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__traits.hpp
+[126.451s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__traits.hpp
+[126.452s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__traits.hpp
+[126.452s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__struct.hpp
+[126.452s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__builder.hpp
+[126.452s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__struct.hpp
+[126.452s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__traits.hpp
+[126.452s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.hpp
+[126.452s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__traits.hpp
+[126.453s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__struct.hpp
+[126.453s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__struct.hpp
+[126.453s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__type_support.hpp
+[126.453s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__struct.hpp
+[126.453s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__builder.hpp
+[126.453s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__type_support.hpp
+[126.453s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__builder.hpp
+[126.453s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__type_support.hpp
+[126.454s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__struct.hpp
+[126.454s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__traits.hpp
+[126.454s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__traits.hpp
+[126.454s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__builder.hpp
+[126.454s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__builder.hpp
+[126.454s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__type_support.hpp
+[126.454s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__builder.hpp
+[126.454s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp
+[126.455s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__type_support.hpp
+[126.455s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__type_support.hpp
+[126.455s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__struct.hpp
+[126.455s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__struct.hpp
+[126.455s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__traits.hpp
+[126.455s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__type_support.hpp
+[126.455s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__type_support.hpp
+[126.462s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_filter_info.hpp
+[126.463s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/voxel_grid.hpp
+[126.463s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[126.463s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/behavior_tree_status_change.hpp
+[126.463s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap.hpp
+[126.463s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_meta_data.hpp
+[126.463s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action
+[126.464s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/smooth_path.hpp
+[126.464s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_through_poses.hpp
+[126.464s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/dummy_behavior.hpp
+[126.464s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/assisted_teleop.hpp
+[126.464s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/wait.hpp
+[126.464s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_path.hpp
+[126.464s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail
+[126.465s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__builder.hpp
+[126.465s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__struct.hpp
+[126.465s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__builder.hpp
+[126.473s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__builder.hpp
+[126.474s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__struct.hpp
+[126.474s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__traits.hpp
+[126.474s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__struct.hpp
+[126.474s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__type_support.hpp
+[126.474s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__struct.hpp
+[126.477s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__type_support.hpp
+[126.478s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__builder.hpp
+[126.478s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__traits.hpp
+[126.478s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__type_support.hpp
+[126.478s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__struct.hpp
+[126.478s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__builder.hpp
+[126.478s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__traits.hpp
+[126.478s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__traits.hpp
+[126.479s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp
+[126.479s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__builder.hpp
+[126.479s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__type_support.hpp
+[126.479s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__type_support.hpp
+[126.479s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__struct.hpp
+[126.479s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__builder.hpp
+[126.479s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__builder.hpp
+[126.479s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__type_support.hpp
+[126.480s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__builder.hpp
+[126.480s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__builder.hpp
+[126.480s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__type_support.hpp
+[126.480s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__traits.hpp
+[126.480s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__type_support.hpp
+[126.480s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__builder.hpp
+[126.480s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__traits.hpp
+[126.480s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__builder.hpp
+[126.480s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__traits.hpp
+[126.481s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__builder.hpp
+[126.481s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__struct.hpp
+[126.481s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__type_support.hpp
+[126.481s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__type_support.hpp
+[126.481s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__struct.hpp
+[126.481s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__type_support.hpp
+[126.481s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__traits.hpp
+[126.481s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__type_support.hpp
+[126.482s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__traits.hpp
+[126.482s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__struct.hpp
+[126.482s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__traits.hpp
+[126.482s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__struct.hpp
+[126.482s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__traits.hpp
+[126.482s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__struct.hpp
+[126.482s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__struct.hpp
+[126.482s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__traits.hpp
+[126.482s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__type_support.hpp
+[126.482s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__traits.hpp
+[126.483s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_path_to_pose.hpp
+[126.483s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/spin.hpp
+[126.483s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/back_up.hpp
+[126.483s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.hpp
+[126.483s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_waypoints.hpp
+[126.483s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/drive_on_heading.hpp
+[126.483s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_path_through_poses.hpp
+[126.484s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv
+[126.484s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_robot.hpp
+[126.484s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costmap.hpp
+[126.484s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail
+[126.484s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.hpp
+[126.484s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__builder.hpp
+[126.484s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__builder.hpp
+[126.484s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.hpp
+[126.485s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__type_support.hpp
+[126.485s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__builder.hpp
+[126.485s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__builder.hpp
+[126.485s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__type_support.hpp
+[126.485s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__struct.hpp
+[126.485s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__builder.hpp
+[126.485s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__traits.hpp
+[126.486s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__struct.hpp
+[126.494s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__struct.hpp
+[126.494s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__struct.hpp
+[126.494s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__traits.hpp
+[126.494s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__builder.hpp
+[126.494s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__builder.hpp
+[126.495s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__struct.hpp
+[126.495s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__traits.hpp
+[126.495s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__type_support.hpp
+[126.495s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__struct.hpp
+[126.495s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__traits.hpp
+[126.495s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__struct.hpp
+[126.495s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__traits.hpp
+[126.496s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__traits.hpp
+[126.496s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support.hpp
+[126.496s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__builder.hpp
+[126.496s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__type_support.hpp
+[126.496s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__type_support.hpp
+[126.496s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__traits.hpp
+[126.496s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__struct.hpp
+[126.496s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__traits.hpp
+[126.497s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/manage_lifecycle_nodes.hpp
+[126.497s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/is_path_valid.hpp
+[126.497s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_entire_costmap.hpp
+[126.497s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_except_region.hpp
+[126.497s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/save_map.hpp
+[126.497s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/load_map.hpp
+[126.497s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs
+[126.497s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg
+[126.497s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail
+[126.498s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__rosidl_typesupport_fastrtps_cpp.hpp
+[126.498s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__rosidl_typesupport_fastrtps_cpp.hpp
+[126.498s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/dds_fastrtps
+[126.498s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__rosidl_typesupport_fastrtps_cpp.hpp
+[126.498s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__rosidl_typesupport_fastrtps_cpp.hpp
+[126.498s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+[126.498s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__rosidl_typesupport_fastrtps_cpp.hpp
+[126.498s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__rosidl_typesupport_fastrtps_cpp.hpp
+[126.498s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__rosidl_typesupport_fastrtps_cpp.hpp
+[126.498s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__rosidl_typesupport_fastrtps_cpp.hpp
+[126.498s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[126.499s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action
+[126.499s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail
+[126.499s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__rosidl_typesupport_fastrtps_cpp.hpp
+[126.499s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__rosidl_typesupport_fastrtps_cpp.hpp
+[126.499s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dds_fastrtps
+[126.499s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__rosidl_typesupport_fastrtps_cpp.hpp
+[126.499s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__rosidl_typesupport_fastrtps_cpp.hpp
+[126.499s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__rosidl_typesupport_fastrtps_cpp.hpp
+[126.500s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__rosidl_typesupport_fastrtps_cpp.hpp
+[126.500s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[126.500s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__rosidl_typesupport_fastrtps_cpp.hpp
+[126.500s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__rosidl_typesupport_fastrtps_cpp.hpp
+[126.500s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[126.500s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__rosidl_typesupport_fastrtps_cpp.hpp
+[126.500s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__rosidl_typesupport_fastrtps_cpp.hpp
+[126.504s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__rosidl_typesupport_fastrtps_cpp.hpp
+[126.504s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv
+[126.504s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail
+[126.504s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__rosidl_typesupport_fastrtps_cpp.hpp
+[126.504s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/dds_fastrtps
+[126.504s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__rosidl_typesupport_fastrtps_cpp.hpp
+[126.504s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__rosidl_typesupport_fastrtps_cpp.hpp
+[126.504s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[126.504s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__rosidl_typesupport_fastrtps_cpp.hpp
+[126.505s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__rosidl_typesupport_fastrtps_cpp.hpp
+[126.505s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[126.505s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+[126.505s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[126.505s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[126.505s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs
+[126.505s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg
+[126.505s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[126.505s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail
+[126.505s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__type_support.c
+[126.506s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__type_support.c
+[126.506s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__rosidl_typesupport_introspection_c.h
+[126.506s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__rosidl_typesupport_introspection_c.h
+[126.506s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__type_support.c
+[126.506s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__rosidl_typesupport_introspection_c.h
+[126.506s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__type_support.c
+[126.506s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__rosidl_typesupport_introspection_c.h
+[126.506s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__rosidl_typesupport_introspection_c.h
+[126.510s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__type_support.c
+[126.510s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__type_support.c
+[126.511s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__type_support.c
+[126.511s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__rosidl_typesupport_introspection_c.h
+[126.511s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__rosidl_typesupport_introspection_c.h
+[126.511s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__rosidl_typesupport_introspection_c.h
+[126.511s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__type_support.c
+[126.511s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__rosidl_typesupport_introspection_c.h
+[126.511s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.c
+[126.511s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action
+[126.511s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail
+[126.511s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__rosidl_typesupport_introspection_c.h
+[126.511s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__type_support.c
+[126.512s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__type_support.c
+[126.512s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__rosidl_typesupport_introspection_c.h
+[126.515s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__rosidl_typesupport_introspection_c.h
+[126.516s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__type_support.c
+[126.516s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__rosidl_typesupport_introspection_c.h
+[126.516s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__rosidl_typesupport_introspection_c.h
+[126.516s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__type_support.c
+[126.516s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__rosidl_typesupport_introspection_c.h
+[126.516s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__rosidl_typesupport_introspection_c.h
+[126.516s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__type_support.c
+[126.516s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__type_support.c
+[126.516s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__type_support.c
+[126.517s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__type_support.c
+[126.517s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__type_support.c
+[126.517s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__rosidl_typesupport_introspection_c.h
+[126.517s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__rosidl_typesupport_introspection_c.h
+[126.517s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__rosidl_typesupport_introspection_c.h
+[126.517s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__type_support.c
+[126.517s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__type_support.c
+[126.517s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__type_support.c
+[126.517s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__rosidl_typesupport_introspection_c.h
+[126.517s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__rosidl_typesupport_introspection_c.h
+[126.517s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__rosidl_typesupport_introspection_c.h
+[126.517s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__type_support.c
+[126.518s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv
+[126.518s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail
+[126.518s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__rosidl_typesupport_introspection_c.h
+[126.518s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support.c
+[126.518s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__type_support.c
+[126.518s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__rosidl_typesupport_introspection_c.h
+[126.518s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__type_support.c
+[126.518s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__type_support.c
+[126.518s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__rosidl_typesupport_introspection_c.h
+[126.518s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+[126.519s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__rosidl_typesupport_introspection_c.h
+[126.527s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.c
+[126.527s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__rosidl_typesupport_introspection_c.h
+[126.527s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[126.527s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.c
+[126.527s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__type_support.c
+[126.528s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__type_support.c
+[126.528s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__rosidl_typesupport_introspection_c.h
+[126.528s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+[126.528s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so" to ""
+[126.528s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+[126.528s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so" to ""
+[126.528s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs
+[126.528s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg
+[126.528s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail
+[126.529s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__rosidl_typesupport_introspection_cpp.hpp
+[126.529s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__type_support.cpp
+[126.529s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__rosidl_typesupport_introspection_cpp.hpp
+[126.529s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__type_support.cpp
+[126.529s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__type_support.cpp
+[126.529s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__type_support.cpp
+[126.529s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__type_support.cpp
+[126.529s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__rosidl_typesupport_introspection_cpp.hpp
+[126.529s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__rosidl_typesupport_introspection_cpp.hpp
+[126.529s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__rosidl_typesupport_introspection_cpp.hpp
+[126.530s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__type_support.cpp
+[126.530s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__type_support.cpp
+[126.530s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__rosidl_typesupport_introspection_cpp.hpp
+[126.530s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__type_support.cpp
+[126.530s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__rosidl_typesupport_introspection_cpp.hpp
+[126.530s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__rosidl_typesupport_introspection_cpp.hpp
+[126.530s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.cpp
+[126.530s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__rosidl_typesupport_introspection_cpp.hpp
+[126.530s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action
+[126.530s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail
+[126.531s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__type_support.cpp
+[126.531s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__type_support.cpp
+[126.531s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__type_support.cpp
+[126.531s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__rosidl_typesupport_introspection_cpp.hpp
+[126.531s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__type_support.cpp
+[126.531s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__type_support.cpp
+[126.531s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__type_support.cpp
+[126.531s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__rosidl_typesupport_introspection_cpp.hpp
+[126.531s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__rosidl_typesupport_introspection_cpp.hpp
+[126.531s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__rosidl_typesupport_introspection_cpp.hpp
+[126.532s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__type_support.cpp
+[126.532s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__rosidl_typesupport_introspection_cpp.hpp
+[126.532s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__rosidl_typesupport_introspection_cpp.hpp
+[126.532s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__type_support.cpp
+[126.532s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__type_support.cpp
+[126.532s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__type_support.cpp
+[126.532s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__rosidl_typesupport_introspection_cpp.hpp
+[126.532s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__rosidl_typesupport_introspection_cpp.hpp
+[126.532s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__rosidl_typesupport_introspection_cpp.hpp
+[126.532s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__type_support.cpp
+[126.539s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__type_support.cpp
+[126.540s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__rosidl_typesupport_introspection_cpp.hpp
+[126.540s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__type_support.cpp
+[126.540s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__rosidl_typesupport_introspection_cpp.hpp
+[126.540s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__rosidl_typesupport_introspection_cpp.hpp
+[126.540s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__rosidl_typesupport_introspection_cpp.hpp
+[126.541s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv
+[126.541s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail
+[126.543s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__type_support.cpp
+[126.544s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__type_support.cpp
+[126.544s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__rosidl_typesupport_introspection_cpp.hpp
+[126.544s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.cpp
+[126.544s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__rosidl_typesupport_introspection_cpp.hpp
+[126.544s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__rosidl_typesupport_introspection_cpp.hpp
+[126.544s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__type_support.cpp
+[126.544s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[126.544s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__rosidl_typesupport_introspection_cpp.hpp
+[126.544s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__rosidl_typesupport_introspection_cpp.hpp
+[126.545s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__rosidl_typesupport_introspection_cpp.hpp
+[126.545s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__type_support.cpp
+[126.545s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.cpp
+[126.545s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__type_support.cpp
+[126.545s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+[126.545s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support.cpp
+[126.545s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+[126.545s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[126.545s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+[126.545s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so" to ""
+[126.545s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/environment/pythonpath.sh
+[126.545s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/environment/pythonpath.dsv
+[126.546s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs-1.1.0-py3.10.egg-info
+[126.546s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs-1.1.0-py3.10.egg-info/dependency_links.txt
+[126.546s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs-1.1.0-py3.10.egg-info/SOURCES.txt
+[126.546s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs-1.1.0-py3.10.egg-info/top_level.txt
+[126.546s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs-1.1.0-py3.10.egg-info/PKG-INFO
+[126.546s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs
+[126.546s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_c.c
+[126.546s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/__init__.py
+[126.546s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/libnav2_msgs__rosidl_generator_py.so
+[126.546s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[126.546s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[126.546s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[126.546s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg
+[126.547s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_status_change_s.c
+[126.547s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/__init__.py
+[126.547s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_meta_data.py
+[126.547s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_filter_info.py
+[126.547s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_meta_data_s.c
+[126.547s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_speed_limit.py
+[126.547s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_log_s.c
+[126.547s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_status_change.py
+[126.547s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle_cloud_s.c
+[126.547s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle_cloud.py
+[126.547s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_voxel_grid.py
+[126.547s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap.py
+[126.548s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_log.py
+[126.548s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_s.c
+[126.548s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle_s.c
+[126.548s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_filter_info_s.c
+[126.548s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle.py
+[126.548s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_voxel_grid_s.c
+[126.548s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_speed_limit_s.c
+[126.548s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action
+[126.548s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/__init__.py
+[126.548s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_wait.py
+[126.548s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_to_pose_s.c
+[126.548s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_dummy_behavior_s.c
+[126.549s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_assisted_teleop.py
+[126.549s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_waypoints.py
+[126.549s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_through_poses_s.c
+[126.549s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_smooth_path.py
+[126.549s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_wait_s.c
+[126.549s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_path.py
+[126.549s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_drive_on_heading.py
+[126.549s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_smooth_path_s.c
+[126.549s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_drive_on_heading_s.c
+[126.549s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_spin_s.c
+[126.549s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_to_pose.py
+[126.549s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_back_up_s.c
+[126.549s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_through_poses_s.c
+[126.550s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_to_pose.py
+[126.550s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_back_up.py
+[126.550s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_path_s.c
+[126.550s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_assisted_teleop_s.c
+[126.550s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_to_pose_s.c
+[126.550s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_waypoints_s.c
+[126.550s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_spin.py
+[126.550s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_through_poses.py
+[126.550s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_through_poses.py
+[126.550s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_dummy_behavior.py
+[126.550s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv
+[126.550s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/__init__.py
+[126.551s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_manage_lifecycle_nodes_s.c
+[126.551s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_except_region.py
+[126.551s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_is_path_valid_s.c
+[126.551s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_get_costmap.py
+[126.551s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_save_map.py
+[126.551s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_around_robot.py
+[126.551s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_is_path_valid.py
+[126.551s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_entire_costmap_s.c
+[126.551s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_save_map_s.c
+[126.551s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_get_costmap_s.c
+[126.551s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_around_robot_s.c
+[126.551s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_except_region_s.c
+[126.551s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_load_map_s.c
+[126.552s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_entire_costmap.py
+[126.552s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_manage_lifecycle_nodes.py
+[126.552s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_load_map.py
+[126.552s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[126.552s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[126.823s] Listing '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs'...
+[126.823s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/__init__.py'...
+[126.823s] Listing '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action'...
+[126.824s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/__init__.py'...
+[126.824s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_assisted_teleop.py'...
+[126.824s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_back_up.py'...
+[126.824s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_through_poses.py'...
+[126.824s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_to_pose.py'...
+[126.824s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_drive_on_heading.py'...
+[126.824s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_dummy_behavior.py'...
+[126.824s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_path.py'...
+[126.824s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_waypoints.py'...
+[126.824s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_through_poses.py'...
+[126.824s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_to_pose.py'...
+[126.825s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_smooth_path.py'...
+[126.825s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_spin.py'...
+[126.825s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_wait.py'...
+[126.825s] Listing '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg'...
+[126.825s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/__init__.py'...
+[126.825s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_log.py'...
+[126.825s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_status_change.py'...
+[126.825s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap.py'...
+[126.825s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_filter_info.py'...
+[126.825s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_meta_data.py'...
+[126.825s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle.py'...
+[126.825s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle_cloud.py'...
+[126.825s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_speed_limit.py'...
+[126.826s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_voxel_grid.py'...
+[126.826s] Listing '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv'...
+[126.826s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/__init__.py'...
+[126.826s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_around_robot.py'...
+[126.826s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_except_region.py'...
+[126.826s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_entire_costmap.py'...
+[126.826s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_get_costmap.py'...
+[126.826s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_is_path_valid.py'...
+[126.826s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_load_map.py'...
+[126.826s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_manage_lifecycle_nodes.py'...
+[126.826s] Compiling '/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_save_map.py'...
+[126.839s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[126.841s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[126.841s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[126.842s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[126.843s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[126.844s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[126.844s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+[126.845s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so" to ""
+[126.845s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/Costmap.idl
+[126.846s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/CostmapMetaData.idl
+[126.846s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/CostmapFilterInfo.idl
+[126.846s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/SpeedLimit.idl
+[126.847s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/VoxelGrid.idl
+[126.847s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/BehaviorTreeStatusChange.idl
+[126.847s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/BehaviorTreeLog.idl
+[126.850s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/Particle.idl
+[126.851s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/ParticleCloud.idl
+[126.851s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/GetCostmap.idl
+[126.852s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/IsPathValid.idl
+[126.852s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapExceptRegion.idl
+[126.852s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapAroundRobot.idl
+[126.852s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ClearEntireCostmap.idl
+[126.853s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ManageLifecycleNodes.idl
+[126.853s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/LoadMap.idl
+[126.853s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/SaveMap.idl
+[126.854s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/AssistedTeleop.idl
+[126.854s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/BackUp.idl
+[126.854s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/ComputePathToPose.idl
+[126.855s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/ComputePathThroughPoses.idl
+[126.855s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/DriveOnHeading.idl
+[126.855s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/SmoothPath.idl
+[126.855s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/FollowPath.idl
+[126.856s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/NavigateToPose.idl
+[126.856s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/NavigateThroughPoses.idl
+[126.856s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/Wait.idl
+[126.857s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/Spin.idl
+[126.857s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/DummyBehavior.idl
+[126.857s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/FollowWaypoints.idl
+[126.858s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/Costmap.msg
+[126.858s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/CostmapMetaData.msg
+[126.858s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/CostmapFilterInfo.msg
+[126.858s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/SpeedLimit.msg
+[126.859s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/VoxelGrid.msg
+[126.859s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/BehaviorTreeStatusChange.msg
+[126.859s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/BehaviorTreeLog.msg
+[126.860s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/Particle.msg
+[126.860s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/msg/ParticleCloud.msg
+[126.860s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/GetCostmap.srv
+[126.861s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/GetCostmap_Request.msg
+[126.861s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/GetCostmap_Response.msg
+[126.861s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/IsPathValid.srv
+[126.862s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/IsPathValid_Request.msg
+[126.862s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/IsPathValid_Response.msg
+[126.862s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapExceptRegion.srv
+[126.863s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapExceptRegion_Request.msg
+[126.863s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapExceptRegion_Response.msg
+[126.863s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapAroundRobot.srv
+[126.864s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapAroundRobot_Request.msg
+[126.864s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapAroundRobot_Response.msg
+[126.864s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ClearEntireCostmap.srv
+[126.864s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ClearEntireCostmap_Request.msg
+[126.865s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ClearEntireCostmap_Response.msg
+[126.865s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ManageLifecycleNodes.srv
+[126.869s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ManageLifecycleNodes_Request.msg
+[126.869s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/ManageLifecycleNodes_Response.msg
+[126.870s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/LoadMap.srv
+[126.870s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/LoadMap_Request.msg
+[126.871s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/LoadMap_Response.msg
+[126.871s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/SaveMap.srv
+[126.871s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/SaveMap_Request.msg
+[126.872s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/srv/SaveMap_Response.msg
+[126.872s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/AssistedTeleop.action
+[126.873s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/BackUp.action
+[126.873s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/ComputePathToPose.action
+[126.874s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/ComputePathThroughPoses.action
+[126.874s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/DriveOnHeading.action
+[126.875s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/SmoothPath.action
+[126.875s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/FollowPath.action
+[126.876s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/NavigateToPose.action
+[126.876s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/NavigateThroughPoses.action
+[126.877s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/Wait.action
+[126.877s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/Spin.action
+[126.877s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/DummyBehavior.action
+[126.878s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/action/FollowWaypoints.action
+[126.878s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/ament_index/resource_index/package_run_dependencies/nav2_msgs
+[126.879s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/ament_index/resource_index/parent_prefix_path/nav2_msgs
+[126.879s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/environment/ament_prefix_path.sh
+[126.880s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/environment/ament_prefix_path.dsv
+[126.880s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/environment/path.sh
+[126.881s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/environment/path.dsv
+[126.881s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/local_setup.bash
+[126.881s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/local_setup.sh
+[126.885s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/local_setup.zsh
+[126.886s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/local_setup.dsv
+[126.886s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/package.dsv
+[126.887s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/ament_index/resource_index/packages/nav2_msgs
+[126.887s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_generator_cExport.cmake
+[126.888s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_generator_cExport-release.cmake
+[126.888s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[126.889s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[126.889s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_generator_cppExport.cmake
+[126.890s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[126.890s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[126.891s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[126.891s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[126.892s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_cExport.cmake
+[126.892s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_cExport-release.cmake
+[126.893s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[126.893s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[126.893s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_cppExport.cmake
+[126.894s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_cppExport-release.cmake
+[126.894s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_generator_pyExport.cmake
+[126.895s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_generator_pyExport-release.cmake
+[126.895s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/rosidl_cmake-extras.cmake
+[126.896s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[126.896s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[126.897s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[126.897s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[126.897s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[126.898s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[126.898s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgsConfig.cmake
+[126.905s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgsConfig-version.cmake
+[126.905s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/package.xml
+[126.918s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_msgs' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/nav2fishbot/build/nav2_msgs

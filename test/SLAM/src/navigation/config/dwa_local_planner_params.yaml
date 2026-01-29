@@ -1,0 +1,44 @@
+DWAPlannerROS:
+  # Robot Configuration Parameters
+  acc_lim_x: 2.0                 # default 2.5  機器人在x方向的加速度極限
+  acc_lim_y: 0.0                  # default 2.5  機器人在y方向的加速度極限
+  acc_lim_theta: 3.0                    # default 3.2  機器人的角加速度極限
+ 
+  max_vel_trans: 1.5              # default 0.55 機器人最大平移速度的絕對值,單位m/s
+  min_vel_trans: 0.1              # default 0.1  機器人最小平移速度的絕對值,單位m/s
+  
+  max_vel_x: 1.2                  # default 0.55 機器人在x方向的最大速度,單位m/s
+  min_vel_x: 0.0                    # default 0.0  機器人在x方向的最小速度，若設置為負數，則機器人向後移動
+  max_vel_y: 0.0                  # default 0.1  機器人在y方向的最大速度
+  min_vel_y: 0.0                  # default -0.1 機器人在y方向的最小速度
+  
+  max_vel_theta: 1.0               # default 1.0  機器人的最大角速度的絕對值
+  min_vel_theta: 0.3               # default 0.4  機器人的最小角速度的絕對值
+
+  # Goal Tolerance Parameters
+  yaw_goal_tolerance: 0.1         # default 0.05  達到目標時，機器人在偏航/旋轉中的弧度容忍誤差。
+  xy_goal_tolerance: 0.1         # default 0.10  達到目標時，機器人在x和y距離內的容忍誤差。
+  latch_xy_goal_tolerance: true  # default false 如果設置為true,機器人到達容錯距離內,就會原地旋轉,即使轉動是會跑出容錯距離外.
+
+  # Forward Simulation Parameters
+  sim_time: 2.5                  # default 1.7    前向模擬軌跡的時間，單位:s
+  sim_granularity: 0.025            # default 0.025  給定軌跡上的點之間的間隔尺寸，單位:m
+  vx_samples: 6                  # default 3      x方向速度的樣本數
+  vy_samples: 0                  # default 10     y方向速度的樣本數
+  vth_samples: 20                 # default 20     角速度的樣本數
+
+  # Trajectory Scoring Parameters
+  path_distance_bias: 34.0        # default 32.0   定義控制器與給定路徑接近程度
+  goal_distance_bias: 28.0        # default 24.0   定義控制器與局部目標點的接近程度，並控制速度
+  occdist_scale: 0.02             # default 0.01   定義控制器躲避障礙物的程度
+  forward_point_distance: 0.325   # default 0.325
+  stop_time_buffer: 0.5           # default 0.2    為防止碰撞，機器人必須提前停止的時間長度(單位:s)。
+  scaling_speed: 0.25             # default 0.25   啟動機器人底座的速度
+  max_scaling_factor: 0.2         # default 0.2    最大縮放參數
+  publish_cost_grid: false        # default false	是否發布規劃器在規劃路徑時的代價網格.如果設置為true,那麼就會在~/cost_cloud話題上發布sensor_msgs/PointCloud2類型消息.
+
+  # Oscillation Prevention Parameters
+  oscillation_reset_dist: 0.05    # default 0.05   機器人運動多遠距離才會重置振蕩標記
+
+ # Global Plan Parameters
+  prune_plan: true               # default true   機器人前進時是否清除身後1m外的軌跡

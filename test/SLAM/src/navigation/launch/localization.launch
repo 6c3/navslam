@@ -1,0 +1,54 @@
+<!--
+  Copyright 2016 The Cartographer Authors
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+load_state_filename /home/tufei/Downloads/mymap.pbstream
+-->
+
+<launch>
+    <param name="robot_description"
+    textfile="$(find cartographer_ros)/urdf/my_backpack_2d.urdf" />
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher"
+    type="robot_state_publisher" />
+
+  <node name="cartographer_node" pkg="cartographer_ros"
+      type="cartographer_node" args="
+          -configuration_directory $(find cartographer_ros)/configuration_files
+          -configuration_basename revo_lds_localization.lua
+	  -load_state_filename /home/ubuntu/Downloads/20201014_L1.bag.pbstream"     
+      output="screen">
+    <remap from="scan" to="/scan"/>
+  </node>
+
+
+ <node name="cartographer_occupancy_grid_node" pkg="cartographer_ros"
+      type="cartographer_occupancy_grid_node" args="-resolution 0.01" />
+
+  <node name="rviz" pkg="rviz" type="rviz" required="true"
+      args="-d $(find cartographer_ros)/configuration_files/localization.rviz" />
+
+  <!-- move_base -->
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <rosparam file="/home/ubuntu/SLAM/src/navigation/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="/home/ubuntu/SLAM/src/navigation/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="/home/ubuntu/SLAM/src/navigation/config/local_costmap_params.yaml" command="load" />
+    <rosparam file="/home/ubuntu/SLAM/src/navigation/config/global_costmap_params.yaml" command="load" />
+    <rosparam file="/home/ubuntu/SLAM/src/navigation/config/dwa_local_planner_params.yaml" command="load" />
+    <rosparam file="/home/ubuntu/SLAM/src/navigation/config/global_planner_params.yaml" command="load" />
+    <rosparam file="/home/ubuntu/SLAM/src/navigation/config/move_base_params.yaml" command="load" />
+  </node>
+
+
+</launch>
+

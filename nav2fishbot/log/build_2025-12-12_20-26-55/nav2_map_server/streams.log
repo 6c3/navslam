@@ -1,0 +1,160 @@
+[0.213s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_map_server': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server
+[0.465s] -- The C compiler identification is GNU 9.5.0
+[0.700s] -- The CXX compiler identification is GNU 9.5.0
+[0.730s] -- Detecting C compiler ABI info
+[1.102s] -- Detecting C compiler ABI info - done
+[1.111s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.112s] -- Detecting C compile features
+[1.112s] -- Detecting C compile features - done
+[1.133s] -- Detecting CXX compiler ABI info
+[1.533s] -- Detecting CXX compiler ABI info - done
+[1.542s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.548s] -- Detecting CXX compile features
+[1.548s] -- Detecting CXX compile features - done
+[1.567s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.279s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.534s] -- Found nav2_common: 1.1.0 (/home/agx/cthree/slam/nav2fishbot/install/nav2_common/share/nav2_common/cmake)
+[2.538s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[2.664s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.693s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.712s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.738s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.777s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.869s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.875s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.268s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.331s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.488s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.521s] -- Looking for pthread.h
+[3.796s] -- Looking for pthread.h - found
+[3.796s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.105s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.107s] -- Found Threads: TRUE  
+[4.226s] -- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.261s] -- Found rclcpp_components: 16.0.16 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.312s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.358s] -- Found nav2_msgs: 1.1.0 (/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/share/nav2_msgs/cmake)
+[4.437s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[4.449s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[4.455s] -- Found nav2_util: 1.1.0 (/home/agx/cthree/slam/nav2fishbot/install/nav2_util/share/nav2_util/cmake)
+[4.580s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.582s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.582s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.647s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[4.647s] -- Setting build type to Release as none was specified.
+[4.846s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.179s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.193s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.207s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.223s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.225s] -- Configured cppcheck include dirs: /home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_map_server/include
+[5.225s] -- Configured cppcheck exclude dirs and/or files: 
+[5.230s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.230s] -- Configured cpplint exclude dirs and/or files: 
+[5.231s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.234s] -- Added test 'lint_cmake' to check CMake code style
+[5.236s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.240s] -- Added test 'uncrustify' to check C / C++ code style
+[5.240s] -- Configured uncrustify additional arguments: 
+[5.242s] -- Added test 'xmllint' to check XML markup files
+[5.249s] -- Configuring done
+[5.659s] -- Generating done
+[5.731s] -- Build files have been written to: /home/agx/cthree/slam/nav2fishbot/build/nav2_map_server
+[5.774s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server
+[5.775s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_map_server': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/nav2fishbot/build/nav2_map_server -- -j12 -l12
+[5.863s] [  2%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[6.352s] [  5%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[15.978s] [  8%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[16.560s] [  8%] Built target map_io
+[16.679s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[16.724s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[16.746s] [ 16%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[16.765s] [ 19%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[16.772s] [ 22%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[19.890s] [ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[20.093s] [ 25%] Built target gtest_main
+[34.708s] [ 27%] [32m[1mLinking CXX static library libgtest.a[0m
+[34.776s] [ 27%] Built target gtest
+[44.389s] [ 30%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[44.958s] [ 30%] Built target map_server_core
+[44.992s] [ 33%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[56.791s] [ 36%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[57.128s] [ 38%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[57.732s] [ 38%] Built target test_map_saver_cli
+[57.857s] [ 41%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[72.591s] [ 44%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[72.811s] [ 47%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[73.284s] [ 47%] Built target test_map_saver_node
+[73.315s] [ 50%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[86.019s] [ 52%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[86.512s] [ 55%] [32m[1mLinking CXX executable test_map_server_node[0m
+[87.467s] [ 55%] Built target test_map_server_node
+[87.575s] [ 58%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[87.615s] [ 61%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[87.664s] [ 63%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[98.447s] [ 66%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[98.652s] [ 69%] [32m[1mLinking CXX executable map_saver_server[0m
+[99.260s] [ 69%] Built target costmap_filter_info_server
+[99.314s] [ 69%] Built target map_saver_server
+[112.868s] [ 72%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[113.410s] [ 72%] Built target test_costmap_filter_info_server
+[113.445s] [ 75%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[118.796s] [ 77%] [32m[1mLinking CXX executable map_saver_cli[0m
+[119.296s] [ 77%] Built target map_saver_cli
+[119.330s] [ 80%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[119.335s] [ 83%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[119.337s] [ 86%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[127.211s] [ 88%] [32m[1mLinking CXX executable map_server[0m
+[128.036s] [ 88%] Built target map_server
+[132.152s] [ 91%] [32m[1mLinking CXX executable test_map_io[0m
+[132.543s] [ 91%] Built target test_map_io
+[132.575s] [ 94%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[141.457s] [ 97%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[141.668s] [100%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[142.057s] [100%] Built target test_map_saver_publisher
+[142.081s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/nav2fishbot/build/nav2_map_server -- -j12 -l12
+[142.082s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_map_server': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/nav2fishbot/build/nav2_map_server
+[142.093s] -- Install configuration: "Release"
+[142.093s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib/libmap_server_core.so
+[142.097s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[142.097s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib/libmap_io.so
+[142.097s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib/libmap_io.so" to ""
+[142.097s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib/nav2_map_server/map_server
+[142.098s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+[142.098s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[142.099s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+[142.099s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[142.099s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+[142.099s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[142.100s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+[142.100s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/include/
+[142.100s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/include//nav2_map_server
+[142.100s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[142.100s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[142.100s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[142.101s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[142.101s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[142.101s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/launch
+[142.101s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[142.101s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[142.102s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[142.102s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[142.102s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[142.102s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[142.103s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[142.103s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[142.103s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[142.103s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[142.103s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[142.104s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[142.104s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[142.104s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/package.dsv
+[142.104s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[142.105s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[142.105s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[142.105s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[142.105s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[142.106s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[142.106s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[142.106s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/share/nav2_map_server/package.xml
+[142.113s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/nav2fishbot/build/nav2_map_server

@@ -1,0 +1,136 @@
+[0.031s] Invoking command in '/home/agx/cthree/slam/test/gazebo_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev LD_LIBRARY_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control/lib:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros/lib:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/test/gazebo_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos
+[0.125s] -- The C compiler identification is GNU 9.5.0
+[0.220s] -- The CXX compiler identification is GNU 9.5.0
+[0.243s] -- Detecting C compiler ABI info
+[0.376s] -- Detecting C compiler ABI info - done
+[0.400s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.401s] -- Detecting C compile features
+[0.402s] -- Detecting C compile features - done
+[0.413s] -- Detecting CXX compiler ABI info
+[0.563s] -- Detecting CXX compiler ABI info - done
+[0.587s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.588s] -- Detecting CXX compile features
+[0.590s] -- Detecting CXX compile features - done
+[0.598s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.883s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.987s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.070s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.145s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.152s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.163s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.198s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.354s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.401s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.404s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.548s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.595s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.657s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.669s] -- Looking for pthread.h
+[1.786s] -- Looking for pthread.h - found
+[1.786s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.912s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.915s] -- Found Threads: TRUE  
+[2.009s] -- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.031s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.034s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.194s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.197s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.197s] -- Configured cppcheck include dirs: 
+[2.198s] -- Configured cppcheck exclude dirs and/or files: 
+[2.200s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.200s] -- Configured cpplint exclude dirs and/or files: 
+[2.201s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.203s] -- Added test 'lint_cmake' to check CMake code style
+[2.203s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.207s] -- Added test 'uncrustify' to check C / C++ code style
+[2.207s] -- Configured uncrustify additional arguments: 
+[2.208s] -- Added test 'xmllint' to check XML markup files
+[2.210s] -- Configuring done
+[2.250s] -- Generating done
+[2.265s] -- Build files have been written to: /home/agx/cthree/slam/test/gazebo_ws/build/gazebo_ros2_control_demos
+[2.286s] Invoked command in '/home/agx/cthree/slam/test/gazebo_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev LD_LIBRARY_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control/lib:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros/lib:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/test/gazebo_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos
+[2.290s] Invoking command in '/home/agx/cthree/slam/test/gazebo_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev LD_LIBRARY_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control/lib:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros/lib:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/test/gazebo_ws/build/gazebo_ros2_control_demos -- -j12 -l12
+[2.371s] [ 50%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[2.371s] [ 50%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[2.371s] [ 50%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[2.371s] [ 50%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[2.371s] [ 50%] [32mBuilding CXX object CMakeFiles/example_position_pid.dir/examples/example_position_pid.cpp.o[0m
+[2.371s] [ 50%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[2.371s] [ 50%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[8.841s] [ 57%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[8.924s] [ 64%] [32m[1mLinking CXX executable example_position_pid[0m
+[9.011s] [ 71%] [32m[1mLinking CXX executable example_velocity[0m
+[9.058s] [ 78%] [32m[1mLinking CXX executable example_effort[0m
+[9.090s] [ 85%] [32m[1mLinking CXX executable example_diff_drive[0m
+[9.122s] [ 85%] Built target example_tricycle_drive
+[9.144s] [ 92%] [32m[1mLinking CXX executable example_gripper[0m
+[9.207s] [ 92%] Built target example_position_pid
+[9.302s] [ 92%] Built target example_velocity
+[9.341s] [ 92%] Built target example_effort
+[9.372s] [ 92%] Built target example_diff_drive
+[9.412s] [ 92%] Built target example_gripper
+[9.517s] [100%] [32m[1mLinking CXX executable example_position[0m
+[9.837s] [100%] Built target example_position
+[9.858s] Invoked command in '/home/agx/cthree/slam/test/gazebo_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev LD_LIBRARY_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control/lib:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros/lib:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/test/gazebo_ws/build/gazebo_ros2_control_demos -- -j12 -l12
+[9.863s] Invoking command in '/home/agx/cthree/slam/test/gazebo_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev LD_LIBRARY_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control/lib:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros/lib:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/test/gazebo_ws/build/gazebo_ros2_control_demos
+[9.877s] -- Install configuration: ""
+[9.878s] -- Execute custom install script
+[9.879s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[9.895s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[9.911s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[9.926s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[9.942s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_namespaced.launch.py
+[9.958s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_pair_namespaced.launch.py
+[9.972s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[9.988s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[10.011s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_position.launch.py
+[10.027s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+[10.042s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pid.launch.py
+[10.057s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pids_in_yaml.launch.py
+[10.073s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_velocity_pid.launch.py
+[10.091s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml
+[10.105s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml
+[10.119s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position.yaml
+[10.134s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position_with_pids.yaml
+[10.150s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml
+[10.165s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+[10.182s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[10.196s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller_namespaced.yaml
+[10.211s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[10.226s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+[10.244s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[10.259s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[10.276s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[10.290s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[10.304s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive_namespaced.xacro.urdf
+[10.320s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[10.344s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[10.358s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[10.375s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[10.390s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pid.xacro.urdf
+[10.406s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pids_in_yaml.xacro.urdf
+[10.420s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_velocity_pid.xacro.urdf
+[10.436s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[10.452s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid
+[10.467s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[10.484s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[10.499s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[10.516s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+[10.531s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[10.548s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[10.563s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[10.580s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[10.595s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[10.611s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[10.625s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[10.640s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[10.656s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[10.671s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[10.689s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[10.704s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[10.718s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[10.732s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[10.746s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[10.760s] -- Symlinking: /home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[10.782s] Invoked command in '/home/agx/cthree/slam/test/gazebo_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros:/opt/ros/humble:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev LD_LIBRARY_PATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros2_control/lib:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros/lib:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/test/gazebo_ws/build/gazebo_ros2_control_demos

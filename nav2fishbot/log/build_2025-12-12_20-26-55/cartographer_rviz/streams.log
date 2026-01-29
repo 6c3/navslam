@@ -1,0 +1,160 @@
+[0.021s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs:/home/agx/cthree/slam/nav2fishbot/install/cartographer:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros/lib:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/agx/cthree/slam/nav2fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/nav2fishbot/src/fishbot/src/cartographer_code/cartographer_ros/cartographer_rviz -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz
+[0.104s] -- The C compiler identification is GNU 9.5.0
+[0.188s] -- The CXX compiler identification is GNU 9.5.0
+[0.204s] -- Detecting C compiler ABI info
+[0.306s] -- Detecting C compiler ABI info - done
+[0.317s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.317s] -- Detecting C compile features
+[0.317s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.443s] -- Detecting CXX compiler ABI info - done
+[0.458s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.458s] -- Detecting CXX compile features
+[0.459s] -- Detecting CXX compile features - done
+[0.465s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.745s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.909s] -- Looking for pthread.h
+[1.015s] -- Looking for pthread.h - found
+[1.016s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.122s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.125s] -- Found Threads: TRUE  
+[1.142s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[1.157s] -- Found required Ceres dependency: glog
+[1.158s] -- Found required Ceres dependency: gflags
+[1.159s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[1.178s] -- Build type: Release
+[1.186s] Files /home/agx/cthree/slam/nav2fishbot/build/cartographer_rviz/AllFiles.cmake and - differ
+[1.212s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams 
+[1.214s] -- Found cartographer_ros: 2.0.9000 (/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros/share/cartographer_ros/cmake)
+[1.284s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.293s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.307s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.327s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.353s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.538s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.543s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.686s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.736s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.803s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.954s] -- Checking for module 'eigen3'
+[1.977s] --   Found eigen3, version 3.4.0
+[2.033s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.033s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.093s] -- Checking for module 'flann'
+[2.113s] --   Found flann, version 1.9.1
+[2.183s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[2.183s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[3.839s] -- Checking for module 'libusb-1.0'
+[3.870s] --   Found libusb-1.0, version 1.0.25
+[3.957s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[3.960s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.088s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.315s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.326s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.336s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.543s] -- Found Qhull version 8.0.2
+[4.763s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.989s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[4.990s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[4.992s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[4.993s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[4.994s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[4.996s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[4.996s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.997s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.998s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[5.000s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[5.001s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[5.004s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[5.006s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[5.007s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[5.009s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[5.010s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[5.011s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[5.013s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[5.014s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[5.015s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[5.017s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.017s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.018s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.019s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[5.021s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[5.319s] -- Found rviz_common: 11.2.23 (/opt/ros/humble/share/rviz_common/cmake)
+[5.331s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[5.345s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[5.346s] -- Found OGRE
+[5.346s] --   static     : OFF
+[5.346s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[5.347s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[5.347s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[5.347s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[5.347s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[5.347s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[5.347s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[5.347s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[5.347s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[5.347s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[5.347s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[5.358s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[5.361s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[5.401s] -- Found X11: /usr/include   
+[5.573s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[5.605s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.606s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.807s] -- Deploy OGRE media
+[5.811s] -- Configuring done
+[5.946s] -- Generating done
+[5.971s] -- Build files have been written to: /home/agx/cthree/slam/nav2fishbot/build/cartographer_rviz
+[6.027s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/build/cartographer_rviz' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs:/home/agx/cthree/slam/nav2fishbot/install/cartographer:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros/lib:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/agx/cthree/slam/nav2fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/nav2fishbot/src/fishbot/src/cartographer_code/cartographer_ros/cartographer_rviz -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz
+[6.029s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs:/home/agx/cthree/slam/nav2fishbot/install/cartographer:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros/lib:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/agx/cthree/slam/nav2fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/nav2fishbot/build/cartographer_rviz -- -j12 -l12
+[6.111s] [ 16%] [34m[1mAutomatic MOC for target cartographer_rviz[0m
+[6.121s] [ 16%] Built target cartographer_rviz_detect_changes
+[10.345s] [ 16%] Built target cartographer_rviz_autogen
+[10.379s] [ 66%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/drawable_submap.cpp.o[0m
+[10.379s] [ 66%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/ogre_slice.cpp.o[0m
+[10.379s] [ 83%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/cartographer_rviz_autogen/mocs_compilation.cpp.o[0m
+[10.379s] [ 83%] [32mBuilding CXX object CMakeFiles/cartographer_rviz.dir/src/submaps_display.cpp.o[0m
+[65.658s] [100%] [32m[1mLinking CXX shared library libcartographer_rviz.so[0m
+[69.071s] [100%] Built target cartographer_rviz
+[69.091s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/build/cartographer_rviz' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs:/home/agx/cthree/slam/nav2fishbot/install/cartographer:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros/lib:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/agx/cthree/slam/nav2fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/nav2fishbot/build/cartographer_rviz -- -j12 -l12
+[69.097s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/build/cartographer_rviz': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs:/home/agx/cthree/slam/nav2fishbot/install/cartographer:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros/lib:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/agx/cthree/slam/nav2fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/nav2fishbot/build/cartographer_rviz
+[100.110s] -- Install configuration: "Release"
+[100.110s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/rviz_plugin_description.xml
+[100.110s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/lib/libcartographer_rviz.so
+[100.110s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/lib/libcartographer_rviz.so" to ""
+[100.110s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/include/
+[100.110s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/include//cartographer_rviz
+[100.111s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/include//cartographer_rviz/submaps_display.h
+[100.111s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/include//cartographer_rviz/drawable_submap.h
+[100.111s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/include//cartographer_rviz/ogre_slice.h
+[100.111s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.sh
+[100.111s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/environment/library_path.dsv
+[100.111s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/ament_index/resource_index/package_run_dependencies/cartographer_rviz
+[100.111s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/ament_index/resource_index/parent_prefix_path/cartographer_rviz
+[100.111s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.sh
+[100.111s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/environment/ament_prefix_path.dsv
+[100.111s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/environment/path.sh
+[100.111s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/environment/path.dsv
+[100.112s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/local_setup.bash
+[100.112s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/local_setup.sh
+[100.112s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/local_setup.zsh
+[100.112s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/local_setup.dsv
+[100.115s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/package.dsv
+[100.115s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/ament_index/resource_index/packages/cartographer_rviz
+[100.116s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/ament_index/resource_index/rviz_common__pluginlib__plugin/cartographer_rviz
+[100.116s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120
+[100.116s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/glsl120.program
+[100.117s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.frag
+[100.117s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/glsl120/submap.vert
+[100.117s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts
+[100.117s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/ogre_media/materials/scripts/submap.material
+[100.118s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/ament_index/resource_index/rviz_ogre_media_exports/cartographer_rviz
+[100.118s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport.cmake
+[100.118s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizExport-release.cmake
+[100.118s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_include_directories-extras.cmake
+[100.118s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_targets-extras.cmake
+[100.119s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/cmake/ament_cmake_export_dependencies-extras.cmake
+[100.119s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig.cmake
+[100.119s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/cmake/cartographer_rvizConfig-version.cmake
+[100.119s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/cartographer_rviz/share/cartographer_rviz/package.xml
+[100.119s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/build/cartographer_rviz' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs:/home/agx/cthree/slam/nav2fishbot/install/cartographer:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros/lib:/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer/lib/aarch64-linux-gnu/pkgconfig:/home/agx/cthree/slam/nav2fishbot/install/cartographer/lib/pkgconfig PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/nav2fishbot/build/cartographer_rviz

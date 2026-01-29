@@ -1,0 +1,316 @@
+[0.164s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--symlink-install'][0m
+[0.164s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff7de9df00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7e0377c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7e0377c0>>)[0m
+[0.414s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.414s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.414s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.414s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.414s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.415s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.415s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/agx/cthree/slam/cam_ws'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.468s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.469s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.470s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'ignore'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'ignore_ament_install'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['colcon_pkg']
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'colcon_pkg'
+[0.471s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['colcon_meta']
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'colcon_meta'
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['ros']
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'ros'
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['cmake', 'python']
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'cmake'
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'python'
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extensions ['python_setup_py']
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros) by extension 'python_setup_py'
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.472s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.473s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[0.478s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'[0m
+[0.478s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.478s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.478s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.478s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.478s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.478s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.479s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.479s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'[0m
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[0.480s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'[0m
+[0.481s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'ignore'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['ros']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'ros'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'cmake'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'python'
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.482s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[0.483s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.483s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.483s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.483s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.483s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.506s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.506s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.509s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 270 installed packages in /opt/ros/humble[0m
+[0.511s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.560s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.560s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.560s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.561s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.561s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.561s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.561s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.561s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.561s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.561s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agx/cthree/slam/cam_ws/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/home/agx/cthree/slam/cam_ws/src/realsense-ros/realsense2_camera_msgs', 'symlink_install': True, 'test_result_base': None}[0m
+[0.561s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[0.561s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[0.561s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.561s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.562s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.562s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.562s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.562s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.562s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.562s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agx/cthree/slam/cam_ws/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agx/cthree/slam/cam_ws/install/realsense2_camera', 'merge_install': False, 'path': '/home/agx/cthree/slam/cam_ws/src/realsense-ros/realsense2_camera', 'symlink_install': True, 'test_result_base': None}[0m
+[0.562s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[0.562s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[0.562s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.562s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.562s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.562s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.562s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.562s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.562s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.563s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agx/cthree/slam/cam_ws/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agx/cthree/slam/cam_ws/install/realsense2_description', 'merge_install': False, 'path': '/home/agx/cthree/slam/cam_ws/src/realsense-ros/realsense2_description', 'symlink_install': True, 'test_result_base': None}[0m
+[0.563s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.564s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.565s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/agx/cthree/slam/cam_ws/src/realsense-ros/realsense2_camera_msgs' with build type 'ament_cmake'
+[0.565s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/agx/cthree/slam/cam_ws/src/realsense-ros/realsense2_camera_msgs'
+[0.568s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.568s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.568s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.579s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/cam_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agx/cthree/slam/cam_ws/src/realsense-ros/realsense2_camera_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs[0m
+[3.734s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/cam_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agx/cthree/slam/cam_ws/src/realsense-ros/realsense2_camera_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs[0m
+[3.738s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/cam_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/cam_ws/build/realsense2_camera_msgs -- -j12 -l12[0m
+[7.859s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/cam_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/cam_ws/build/realsense2_camera_msgs -- -j12 -l12[0m
+[7.878s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/cam_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agx/cthree/slam/cam_ws/build/realsense2_camera_msgs[0m
+[9.739s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_camera_msgs)
+[9.741s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/cam_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agx/cthree/slam/cam_ws/build/realsense2_camera_msgs[0m
+[9.749s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs' for CMake module files
+[9.752s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs' for CMake config files
+[9.757s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[9.758s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[9.760s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[9.762s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[9.765s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib'
+[9.766s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[9.766s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[9.768s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[9.769s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[9.770s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/bin'
+[9.771s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[9.772s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[9.773s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/bin'
+[9.774s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[9.777s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[9.779s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[9.782s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[9.785s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[9.787s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[9.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_camera_msgs)
+[9.790s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs' for CMake module files
+[9.792s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs' for CMake config files
+[9.797s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[9.798s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[9.799s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[9.801s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[9.803s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib'
+[9.803s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[9.804s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[9.805s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[9.807s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[9.808s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/bin'
+[9.808s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[9.809s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[9.811s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/bin'
+[9.812s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[9.814s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[9.816s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[9.817s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[9.819s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[9.820s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[9.822s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/agx/cthree/slam/cam_ws/src/realsense-ros/realsense2_camera' with build type 'ament_cmake'
+[9.822s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/agx/cthree/slam/cam_ws/src/realsense-ros/realsense2_camera'
+[9.823s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.823s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[9.832s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/agx/cthree/slam/cam_ws/src/realsense-ros/realsense2_description' with build type 'ament_cmake'
+[9.832s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/agx/cthree/slam/cam_ws/src/realsense-ros/realsense2_description'
+[9.833s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.834s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[9.850s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/cam_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/cam_ws/src/realsense-ros/realsense2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/cam_ws/install/realsense2_camera[0m
+[9.855s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/cam_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/cam_ws/src/realsense-ros/realsense2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/cam_ws/install/realsense2_description[0m
+[11.000s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/cam_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/cam_ws/src/realsense-ros/realsense2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/cam_ws/install/realsense2_description[0m
+[11.004s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/cam_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/cam_ws/build/realsense2_description -- -j12 -l12[0m
+[11.065s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/cam_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/cam_ws/build/realsense2_description -- -j12 -l12[0m
+[11.067s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/cam_ws/build/realsense2_description': AMENT_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/cam_ws/build/realsense2_description[0m
+[11.773s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_description)
+[11.774s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_description' for CMake module files
+[11.774s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/cam_ws/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/cam_ws/build/realsense2_description[0m
+[11.775s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_description' for CMake config files
+[11.776s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[11.776s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[11.777s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[11.777s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[11.778s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_description/bin'
+[11.778s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[11.779s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_description/lib/python3.10/site-packages'
+[11.779s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_description/bin'
+[11.780s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[11.780s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[11.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[11.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[11.782s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[11.782s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[11.783s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_description)
+[11.783s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_description' for CMake module files
+[11.784s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_description' for CMake config files
+[11.785s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[11.785s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[11.786s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[11.786s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[11.787s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_description/bin'
+[11.787s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[11.787s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_description/lib/python3.10/site-packages'
+[11.788s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_description/bin'
+[11.788s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[11.789s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[11.789s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[11.790s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[11.791s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[11.791s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/cam_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[12.135s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/cam_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/cam_ws/src/realsense-ros/realsense2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/cam_ws/install/realsense2_camera[0m
+[12.137s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/cam_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/cam_ws/build/realsense2_camera -- -j12 -l12[0m
+[36.022s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/cam_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/cam_ws/build/realsense2_camera -- -j12 -l12[0m
+[36.027s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/agx/cthree/slam/cam_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/cam_ws/build/realsense2_camera[0m
+[36.633s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_camera)
+[36.634s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera' for CMake module files
+[36.634s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/agx/cthree/slam/cam_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/cam_ws/build/realsense2_camera[0m
+[36.636s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera' for CMake config files
+[36.637s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[36.638s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[36.640s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[36.640s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[36.642s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib'
+[36.642s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[36.642s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[36.644s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[36.645s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[36.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/bin'
+[36.647s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[36.647s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[36.649s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/bin'
+[36.650s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[36.652s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[36.653s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[36.655s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[36.656s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[36.657s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[36.659s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(realsense2_camera)
+[36.660s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera' for CMake module files
+[36.662s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera' for CMake config files
+[36.663s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[36.664s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[36.666s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[36.667s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[36.669s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib'
+[36.669s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[36.670s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[36.672s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[36.673s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[36.674s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/bin'
+[36.675s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[36.675s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[36.677s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/bin'
+[36.678s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[36.680s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[36.681s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[36.683s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[36.684s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[36.686s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/agx/cthree/slam/cam_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[36.686s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[36.687s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[36.688s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[36.688s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[36.706s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[36.706s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[36.707s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[36.753s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[36.754s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agx/cthree/slam/cam_ws/install/local_setup.ps1'
+[36.757s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/agx/cthree/slam/cam_ws/install/_local_setup_util_ps1.py'
+[36.761s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agx/cthree/slam/cam_ws/install/setup.ps1'
+[36.762s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agx/cthree/slam/cam_ws/install/local_setup.sh'
+[36.763s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/agx/cthree/slam/cam_ws/install/_local_setup_util_sh.py'
+[36.765s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agx/cthree/slam/cam_ws/install/setup.sh'
+[36.767s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agx/cthree/slam/cam_ws/install/local_setup.bash'
+[36.767s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agx/cthree/slam/cam_ws/install/setup.bash'
+[36.770s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/agx/cthree/slam/cam_ws/install/local_setup.zsh'
+[36.771s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/agx/cthree/slam/cam_ws/install/setup.zsh'

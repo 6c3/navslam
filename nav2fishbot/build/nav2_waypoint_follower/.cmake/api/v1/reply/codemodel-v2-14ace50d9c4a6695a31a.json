@@ -1,0 +1,203 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-9623c38b059601a603c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						7,
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-test-Release-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "nav2_waypoint_follower",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-ed4aff0ff04bdd584d39.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-20d377e598689213aa50.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "input_at_waypoint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-input_at_waypoint-Release-f44e787b688f927f993b.json",
+					"name" : "input_at_waypoint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_waypoint_follower_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_waypoint_follower_uninstall-Release-677928928269745e5165.json",
+					"name" : "nav2_waypoint_follower_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "photo_at_waypoint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-photo_at_waypoint-Release-aec01c5227fcc97e37e5.json",
+					"name" : "photo_at_waypoint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_dynamic_parameters::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_dynamic_parameters-Release-0ff84001adaafdc59d86.json",
+					"name" : "test_dynamic_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_task_executors::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_task_executors-Release-07c97e08c2dabbe54e79.json",
+					"name" : "test_task_executors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-922fafab6ad4a706af0f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wait_at_waypoint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wait_at_waypoint-Release-b013d0badadad2f8b554.json",
+					"name" : "wait_at_waypoint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_follower::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_follower-Release-c5cff40be3d8f5ba73ea.json",
+					"name" : "waypoint_follower",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_follower_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_follower_core-Release-134e44e6fe69615ba2f1.json",
+					"name" : "waypoint_follower_core",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/agx/cthree/slam/nav2fishbot/build/nav2_waypoint_follower",
+		"source" : "/home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_waypoint_follower"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,50 @@
+[0.024s] Invoking command in '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid -- -j12 -l12
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_to_grid_node[0m
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target grid_trajectory[0m
+[0.142s] [ 25%] [32mBuilding CXX object CMakeFiles/pointcloud_to_grid_node.dir/src/pointcloud_to_grid_node.cpp.o[0m
+[0.142s] [ 50%] [32mBuilding CXX object CMakeFiles/grid_trajectory.dir/src/grid_trajectory.cpp.o[0m
+[8.100s] [01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:[m[K In member function ‘[01m[Kvoid PointCloudToGrid::lidar_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[8.100s] [01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:224:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[8.101s]   224 | for (int row = 0; [01;35m[Krow < intensity_grid->info.height[m[K; ++row) {
+[8.101s]       |                   [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.101s] [01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:225:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[8.101s]   225 |     for (int col = 0; [01;35m[Kcol <intensity_grid->info.width[m[K; ++col) {
+[8.101s]       |                       [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[24.845s] [ 75%] [32m[1mLinking CXX executable pointcloud_to_grid_node[0m
+[25.469s] [ 75%] Built target pointcloud_to_grid_node
+[26.860s] [100%] [32m[1mLinking CXX executable grid_trajectory[0m
+[28.204s] [100%] Built target grid_trajectory
+[28.226s] Invoked command in '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid -- -j12 -l12
+[28.230s] Invoking command in '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid
+[28.246s] -- Install configuration: ""
+[28.246s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/launch
+[28.246s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/launch/dual_output_example.launch.py
+[28.246s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/launch/rviz.launch.py
+[28.246s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/launch/grid_trajectory.launch.py
+[28.247s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/launch/demo.launch.py
+[28.247s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/doc
+[28.247s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/doc/default.rviz
+[28.247s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/doc/grid_map01.gif
+[28.247s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/doc/grid_map_conventions.pdf
+[28.247s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/doc/grid_map_conventions.svg
+[28.247s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/doc/grid_map_conventions.png
+[28.247s] -- Installing: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/lib/pointcloud_to_grid/pointcloud_to_grid_node
+[28.249s] -- Set runtime path of "/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/lib/pointcloud_to_grid/pointcloud_to_grid_node" to ""
+[28.249s] -- Installing: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/lib/pointcloud_to_grid/grid_trajectory
+[28.252s] -- Set runtime path of "/home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/lib/pointcloud_to_grid/grid_trajectory" to ""
+[28.252s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_grid
+[28.252s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_grid
+[28.252s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/environment/ament_prefix_path.sh
+[28.252s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/environment/ament_prefix_path.dsv
+[28.253s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/environment/path.sh
+[28.253s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/environment/path.dsv
+[28.253s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/local_setup.bash
+[28.253s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/local_setup.sh
+[28.253s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/local_setup.zsh
+[28.253s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/local_setup.dsv
+[28.254s] -- Installing: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/package.dsv
+[28.254s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/ament_index/resource_index/packages/pointcloud_to_grid
+[28.254s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/cmake/pointcloud_to_gridConfig.cmake
+[28.254s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/cmake/pointcloud_to_gridConfig-version.cmake
+[28.254s] -- Up-to-date: /home/agx/cthree/slam/ros2esp/install/pointcloud_to_grid/share/pointcloud_to_grid/package.xml
+[28.258s] Invoked command in '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid

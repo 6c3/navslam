@@ -1,0 +1,212 @@
+[0.064s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_smac_planner -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner
+[6.462s] -- The C compiler identification is GNU 9.5.0
+[6.462s] -- The CXX compiler identification is GNU 9.5.0
+[6.462s] -- Detecting C compiler ABI info
+[6.462s] -- Detecting C compiler ABI info - done
+[6.463s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.463s] -- Detecting C compile features
+[6.463s] -- Detecting C compile features - done
+[6.463s] -- Detecting CXX compiler ABI info
+[6.463s] -- Detecting CXX compiler ABI info - done
+[6.463s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.463s] -- Detecting CXX compile features
+[6.463s] -- Detecting CXX compile features - done
+[6.463s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.463s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.463s] -- Found nav2_common: 1.1.0 (/home/agx/cthree/slam/nav2fishbot/install/nav2_common/share/nav2_common/cmake)
+[6.464s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[6.464s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.464s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.464s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.464s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.464s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.464s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.464s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.464s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.464s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.464s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.464s] -- Looking for pthread.h
+[6.465s] -- Looking for pthread.h - found
+[6.465s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.465s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.465s] -- Found Threads: TRUE  
+[6.465s] -- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)
+[6.465s] -- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[6.465s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[6.465s] -- Found nav2_util: 1.1.0 (/home/agx/cthree/slam/nav2fishbot/install/nav2_util/share/nav2_util/cmake)
+[6.465s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.465s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.465s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.465s] -- Found nav2_core: 1.1.0 (/home/agx/cthree/slam/nav2fishbot/install/nav2_core/share/nav2_core/cmake)
+[6.466s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: serialization filesystem system 
+[6.466s] -- Found ompl: /opt/ros/humble/include/ompl-1.7;/usr/include;/usr/include/eigen3  
+[6.968s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[7.474s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[7.474s] -- Found OpenMP: TRUE (found version "4.5")  
+[7.478s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[7.478s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[10.019s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.654s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[16.646s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.654s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.667s] -- Configured cppcheck include dirs: /home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_smac_planner/include
+[16.667s] -- Configured cppcheck exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[16.675s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[16.680s] -- Configured cpplint exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[16.688s] -- Added test 'flake8' to check Python code syntax and style conventions
+[16.692s] -- Added test 'lint_cmake' to check CMake code style
+[16.698s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[16.710s] -- Added test 'uncrustify' to check C / C++ code style
+[16.716s] -- Configured uncrustify additional arguments: 
+[16.719s] -- Added test 'xmllint' to check XML markup files
+[16.725s] -- Configuring done
+[18.458s] -- Generating done
+[18.768s] -- Build files have been written to: /home/agx/cthree/slam/nav2fishbot/build/nav2_smac_planner
+[18.874s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_smac_planner -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner
+[18.875s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/nav2fishbot/build/nav2_smac_planner -- -j12 -l12
+[61.154s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o[0m
+[61.154s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/costmap_downsampler.cpp.o[0m
+[61.155s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_2d.cpp.o[0m
+[68.502s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_basic.cpp.o[0m
+[80.460s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_lattice.cpp.o[0m
+[100.352s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_hybrid.cpp.o[0m
+[114.094s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/analytic_expansion.cpp.o[0m
+[127.542s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o[0m
+[138.271s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/collision_checker.cpp.o[0m
+[144.332s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/a_star.cpp.o[0m
+[159.366s] [ 18%] [32m[1mLinking CXX shared library libnav2_smac_planner.so[0m
+[160.434s] [ 18%] Built target nav2_smac_planner
+[160.469s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[160.469s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[160.477s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/a_star.cpp.o[0m
+[160.487s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o[0m
+[160.487s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o[0m
+[161.539s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_2d.cpp.o[0m
+[161.553s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/costmap_downsampler.cpp.o[0m
+[162.151s] [ 32%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[162.353s] [ 32%] Built target gtest_main
+[162.396s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_basic.cpp.o[0m
+[162.408s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_lattice.cpp.o[0m
+[162.523s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[175.612s] [ 38%] [32m[1mLinking CXX static library libgtest.a[0m
+[175.696s] [ 38%] Built target gtest
+[183.242s] [ 40%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o[0m
+[183.407s] [ 42%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_hybrid.cpp.o[0m
+[183.739s] [ 44%] [32mBuilding CXX object test/CMakeFiles/test_costmap_downsampler.dir/test_costmap_downsampler.cpp.o[0m
+[183.867s] [ 45%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o[0m
+[184.886s] [ 47%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o[0m
+[184.895s] [ 49%] [32mBuilding CXX object test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o[0m
+[185.092s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/analytic_expansion.cpp.o[0m
+[186.094s] [ 52%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o[0m
+[187.138s] [ 54%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o[0m
+[189.183s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o[0m
+[190.247s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o[0m
+[194.560s] [ 59%] [32m[1mLinking CXX executable test_costmap_downsampler[0m
+[195.509s] [ 59%] Built target test_costmap_downsampler
+[199.652s] [ 61%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/collision_checker.cpp.o[0m
+[199.862s] [ 62%] [32m[1mLinking CXX executable test_node2d[0m
+[200.587s] [ 62%] Built target test_node2d
+[204.434s] [ 66%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o[0m
+[204.434s] [ 66%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o[0m
+[205.457s] [ 67%] [32m[1mLinking CXX shared library libnav2_smac_planner_lattice.so[0m
+[206.437s] [ 67%] Built target nav2_smac_planner_lattice
+[206.472s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_lattice_node.dir/test_nodelattice.cpp.o[0m
+[206.472s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_smac_hybrid.dir/test_smac_hybrid.cpp.o[0m
+[206.472s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_a_star.dir/test_a_star.cpp.o[0m
+[215.184s] [ 74%] [32m[1mLinking CXX shared library libnav2_smac_planner_2d.so[0m
+[216.012s] [ 74%] Built target nav2_smac_planner_2d
+[216.047s] [ 77%] [32mBuilding CXX object test/CMakeFiles/test_nodebasic.dir/test_nodebasic.cpp.o[0m
+[216.047s] [ 77%] [32mBuilding CXX object test/CMakeFiles/test_smac_lattice.dir/test_smac_lattice.cpp.o[0m
+[216.047s] [ 79%] [32mBuilding CXX object test/CMakeFiles/test_collision_checker.dir/test_collision_checker.cpp.o[0m
+[216.052s] [ 81%] [32mBuilding CXX object test/CMakeFiles/test_nodehybrid.dir/test_nodehybrid.cpp.o[0m
+[222.729s] [ 83%] [32m[1mLinking CXX executable test_a_star[0m
+[223.339s] [ 84%] [32m[1mLinking CXX executable test_collision_checker[0m
+[223.635s] [ 84%] Built target test_a_star
+[223.678s] [ 86%] [32mBuilding CXX object test/CMakeFiles/test_smac_2d.dir/test_smac_2d.cpp.o[0m
+[223.681s] [ 88%] [32mBuilding CXX object test/CMakeFiles/test_smoother.dir/test_smoother.cpp.o[0m
+[223.941s] [ 88%] Built target test_collision_checker
+[225.195s] [ 89%] [32m[1mLinking CXX executable test_smac_hybrid[0m
+[225.995s] [ 89%] Built target test_smac_hybrid
+[226.053s] [ 91%] [32m[1mLinking CXX executable test_lattice_node[0m
+[226.683s] [ 91%] Built target test_lattice_node
+[230.220s] [ 93%] [32m[1mLinking CXX executable test_nodehybrid[0m
+[230.876s] [ 94%] [32m[1mLinking CXX executable test_nodebasic[0m
+[230.902s] [ 94%] Built target test_nodehybrid
+[231.325s] [ 94%] Built target test_nodebasic
+[232.845s] [ 96%] [32m[1mLinking CXX executable test_smac_lattice[0m
+[233.491s] [ 96%] Built target test_smac_lattice
+[239.942s] [ 98%] [32m[1mLinking CXX executable test_smoother[0m
+[240.306s] [100%] [32m[1mLinking CXX executable test_smac_2d[0m
+[240.595s] [100%] Built target test_smoother
+[240.932s] [100%] Built target test_smac_2d
+[240.958s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/nav2fishbot/build/nav2_smac_planner -- -j12 -l12
+[240.963s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/nav2fishbot/build/nav2_smac_planner
+[240.978s] -- Install configuration: "Release"
+[240.978s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_hybrid.xml
+[240.978s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_2d.xml
+[240.979s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_lattice.xml
+[240.979s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/lib/libnav2_smac_planner.so
+[240.981s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/lib/libnav2_smac_planner.so" to ""
+[240.981s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so
+[240.983s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so" to ""
+[240.983s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so
+[240.985s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so" to ""
+[240.985s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include/
+[240.986s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner
+[240.986s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_2d.hpp
+[240.986s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/analytic_expansion.hpp
+[240.987s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/collision_checker.hpp
+[240.987s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/types.hpp
+[240.987s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/node_hybrid.hpp
+[240.987s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_hybrid.hpp
+[240.988s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/a_star.hpp
+[240.988s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/node_lattice.hpp
+[240.988s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/smoother.hpp
+[240.989s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/costmap_downsampler.hpp
+[240.989s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_lattice.hpp
+[240.989s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/constants.hpp
+[240.989s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/utils.hpp
+[240.990s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/node_basic.hpp
+[240.990s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/node_2d.hpp
+[240.990s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty
+[240.990s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty/robin_hood.h
+[240.991s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives
+[240.991s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution
+[240.991s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius
+[240.991s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann
+[240.992s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann/output.json
+[240.992s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/all_trajectories.png
+[240.992s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni
+[240.992s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni/output.json
+[240.993s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff
+[240.993s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff/output.json
+[240.993s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius
+[240.993s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann
+[240.994s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann/output.json
+[240.994s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/all_trajectories.png
+[240.994s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni
+[240.995s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni/output.json
+[240.995s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff
+[240.995s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff/output.json
+[240.995s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.sh
+[240.996s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.dsv
+[240.996s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/ament_index/resource_index/package_run_dependencies/nav2_smac_planner
+[240.996s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/ament_index/resource_index/parent_prefix_path/nav2_smac_planner
+[240.997s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.sh
+[240.997s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.dsv
+[240.997s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.sh
+[240.997s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.dsv
+[240.997s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.bash
+[240.997s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.sh
+[240.997s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.zsh
+[240.997s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.dsv
+[240.998s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/package.dsv
+[240.998s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/ament_index/resource_index/packages/nav2_smac_planner
+[240.998s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smac_planner
+[240.998s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[240.998s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[240.998s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[240.998s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig.cmake
+[240.998s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig-version.cmake
+[240.998s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_smac_planner/share/nav2_smac_planner/package.xml
+[241.003s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/nav2fishbot/build/nav2_smac_planner

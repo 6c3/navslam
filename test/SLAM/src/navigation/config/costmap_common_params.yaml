@@ -1,0 +1,28 @@
+
+map_type: costmap
+
+obstacle_layer:
+  enabled: true
+  combination_method: 1
+  track_unknown_space: true
+  obstacle_range: 3.5
+  raytrace_range: 4.0
+  max_obstacle_height: 0.35 
+  min_obstacle_height: 0.25
+  observation_sources: laser_scan_sensor   
+  laser_scan_sensor: {
+    sensor_frame: base_link,
+    topic: scan,
+    data_type: LaserScan,
+    marking: true,
+    clearing: true,
+  }
+
+inflation_layer:
+  enabled: true
+  cost_scaling_factor: 1.0
+  inflation_radius: 0.45
+
+static_layer:
+  enabled: true
+  lethal_cost_threshold: 100

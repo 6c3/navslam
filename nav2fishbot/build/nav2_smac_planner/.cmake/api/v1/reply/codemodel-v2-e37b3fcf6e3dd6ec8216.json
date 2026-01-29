@@ -1,0 +1,266 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-2b937f0db838d9bb49d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						17
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-test-Release-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "nav2_smac_planner",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-37f4ec96b7888d82e55f.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-fe3625d82023b4ded013.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_smac_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_smac_planner-Release-44b3ec5c33bf11b05727.json",
+					"name" : "nav2_smac_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_smac_planner_2d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_smac_planner_2d-Release-25c831376772fe5d38d7.json",
+					"name" : "nav2_smac_planner_2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_smac_planner_lattice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_smac_planner_lattice-Release-5be9ac2c482efa8efdff.json",
+					"name" : "nav2_smac_planner_lattice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_smac_planner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_smac_planner_uninstall-Release-b8a85b33926e90f3c522.json",
+					"name" : "nav2_smac_planner_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_a_star::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_a_star-Release-df447038dad8a631ddce.json",
+					"name" : "test_a_star",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_collision_checker::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_collision_checker-Release-50ba9ae0cf0091f1132c.json",
+					"name" : "test_collision_checker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_costmap_downsampler::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_costmap_downsampler-Release-e073fbe11b4fa6bf5ee1.json",
+					"name" : "test_costmap_downsampler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_lattice_node::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_lattice_node-Release-979fec800658d65d0944.json",
+					"name" : "test_lattice_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_node2d::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_node2d-Release-797929b3d4a80e924041.json",
+					"name" : "test_node2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_nodebasic::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_nodebasic-Release-6879516513357ff8db83.json",
+					"name" : "test_nodebasic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_nodehybrid::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_nodehybrid-Release-ead4ef00baf4704c0c28.json",
+					"name" : "test_nodehybrid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_smac_2d::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_smac_2d-Release-734232c7f0ff05f49943.json",
+					"name" : "test_smac_2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_smac_hybrid::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_smac_hybrid-Release-88a73ceec867c57d1656.json",
+					"name" : "test_smac_hybrid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_smac_lattice::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_smac_lattice-Release-622cca553204ff1d2d7b.json",
+					"name" : "test_smac_lattice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_smoother::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_smoother-Release-a34b5a3801ee9c4aebef.json",
+					"name" : "test_smoother",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-def51c52b8d60bbc4b06.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/agx/cthree/slam/nav2fishbot/build/nav2_smac_planner",
+		"source" : "/home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_smac_planner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

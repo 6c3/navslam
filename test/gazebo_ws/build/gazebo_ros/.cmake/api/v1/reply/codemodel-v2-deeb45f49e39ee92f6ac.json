@@ -1,0 +1,419 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-112ec95c7ba3f4f7ac4c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						34
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-test-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "gazebo_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_scripts_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_scripts_egg-04ff84fba3355c15803c.json",
+					"name" : "ament_cmake_python_build_scripts_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_scripts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_scripts-622ec8eedbce75a0b3f4.json",
+					"name" : "ament_cmake_python_symlink_scripts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "args_init::@36f028580bb02cc8272a",
+					"jsonFile" : "target-args_init-5d6e920c0c615fde92f5.json",
+					"name" : "args_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "create_node_without_init::@36f028580bb02cc8272a",
+					"jsonFile" : "target-create_node_without_init-25f83bf98e9eb18082ba.json",
+					"name" : "create_node_without_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_eol_gui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_eol_gui-1baabaab76f9f3f8e7a0.json",
+					"name" : "gazebo_ros_eol_gui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_eol_gui_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_eol_gui_autogen-4764d1bdc69aa535e191.json",
+					"name" : "gazebo_ros_eol_gui_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_factory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_factory-72a871afa94b89bf67c8.json",
+					"name" : "gazebo_ros_factory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_force_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_force_system-d1da75d64b11ff491b74.json",
+					"name" : "gazebo_ros_force_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_init::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_init-8f90648c0034704bd35f.json",
+					"name" : "gazebo_ros_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_node-873ab785b91eff2410c8.json",
+					"name" : "gazebo_ros_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_properties-fccd60789d820fc8f4d2.json",
+					"name" : "gazebo_ros_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_state::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_state-f474273db6e66f51d855.json",
+					"name" : "gazebo_ros_state",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_uninstall-8855c8c19484bb9f3f5d.json",
+					"name" : "gazebo_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_utils-28381e1c8321e05df0e5.json",
+					"name" : "gazebo_ros_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-c637e0dc34095a08a31c.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-b04331c22337056de563.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mock_gazebo_ros_factory::@36f028580bb02cc8272a",
+					"jsonFile" : "target-mock_gazebo_ros_factory-2a903e3ef4fbf127d6c9.json",
+					"name" : "mock_gazebo_ros_factory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mock_robot_state_publisher::@36f028580bb02cc8272a",
+					"jsonFile" : "target-mock_robot_state_publisher-1e2b6e7809e5f5a2504b.json",
+					"name" : "mock_robot_state_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "multiple_nodes::@36f028580bb02cc8272a",
+					"jsonFile" : "target-multiple_nodes-2dd2be94f4534e3336b9.json",
+					"name" : "multiple_nodes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ros_world_plugin::@36f028580bb02cc8272a",
+					"jsonFile" : "target-ros_world_plugin-05cc281a5089e2038c67.json",
+					"name" : "ros_world_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sdf_node::@36f028580bb02cc8272a",
+					"jsonFile" : "target-sdf_node-11e3463dd10fc8e2e3fb.json",
+					"name" : "sdf_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_conversions::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_conversions-1bb7383355870aef5c61.json",
+					"name" : "test_conversions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_factory::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_factory-df56fef500d180944750.json",
+					"name" : "test_gazebo_ros_factory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_init::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_init-1525060a93f7cf56f172.json",
+					"name" : "test_gazebo_ros_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_joint_effort::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_joint_effort-79c469ae24d785041ca3.json",
+					"name" : "test_gazebo_ros_joint_effort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_link_wrench::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_link_wrench-e975d47d33e6c1fc1760.json",
+					"name" : "test_gazebo_ros_link_wrench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_properties::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_properties-a70ee0b976415ff9cc5f.json",
+					"name" : "test_gazebo_ros_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_gazebo_ros_state::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_gazebo_ros_state-511e761866af29080756.json",
+					"name" : "test_gazebo_ros_state",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_node::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_node-803b390530ed8c1d842a.json",
+					"name" : "test_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_plugins::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_plugins-74d3f4b152a111fcc8b1.json",
+					"name" : "test_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_qos::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_qos-b391117d121d8a3a03fa.json",
+					"name" : "test_qos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_reject_duplicate_nodes::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_reject_duplicate_nodes-b9bb14f4df0e66d664e1.json",
+					"name" : "test_reject_duplicate_nodes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_sim_time::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_sim_time-8c4e6b48b153d4dc867d.json",
+					"name" : "test_sim_time",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_utils::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_utils-6af5944ade9c011458cb.json",
+					"name" : "test_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2a6195bf95ec108aa67b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/agx/cthree/slam/test/gazebo_ws/build/gazebo_ros",
+		"source" : "/home/agx/cthree/slam/test/gazebo_ws/src/gazebo_ros_pkgs/gazebo_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

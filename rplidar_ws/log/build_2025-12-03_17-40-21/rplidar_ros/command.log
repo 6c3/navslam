@@ -1,0 +1,6 @@
+Invoking command in '/home/agx/cthree/slam/rplidar_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agx/cthree/slam/rplidar_ws/src/rplidar_ros2_humble -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/rplidar_ws/install/rplidar_ros
+Invoked command in '/home/agx/cthree/slam/rplidar_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agx/cthree/slam/rplidar_ws/src/rplidar_ros2_humble -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/rplidar_ws/install/rplidar_ros
+Invoking command in '/home/agx/cthree/slam/rplidar_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/rplidar_ws/build/rplidar_ros -- -j12 -l12
+Invoked command in '/home/agx/cthree/slam/rplidar_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/rplidar_ws/build/rplidar_ros -- -j12 -l12
+Invoking command in '/home/agx/cthree/slam/rplidar_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agx/cthree/slam/rplidar_ws/build/rplidar_ros
+Invoked command in '/home/agx/cthree/slam/rplidar_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agx/cthree/slam/rplidar_ws/build/rplidar_ros

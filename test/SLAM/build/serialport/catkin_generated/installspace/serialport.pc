@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/cthree/slam/test/SLAM/install
+
+Name: serialport
+Description: Description of serialport
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

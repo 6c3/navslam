@@ -1,0 +1,58 @@
+<launch>
+   <!-->
+
+   <-->
+    <param name="robot_description"
+    textfile="$(find navigation)/urdf/my_backpack_2d.urdf" />
+
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" >
+        <param name="publish_frequency" value="100" />
+    </node>
+  
+    <include file="$(find rplidar_ros)/launch/rplidar.launch"/>
+  
+    <node pkg="robot_localization" type="ekf_localization_node" name="robot_localization" output="screen">
+        <rosparam command="load" file="$(find navigation)/config/ekf.yaml" />
+        <!--  Placeholder for output topic remapping
+        <remap from="odometry/filtered" to=""/>
+        <remap from="accel/filtered" to=""/>
+        -->
+    </node>
+    
+    <node pkg="serialport" type="serialPort_odom" name="serialport_node" />
+
+     
+    <node pkg="map_server" type="map_server" name="map_server" args="/home/nvidia/Downloads/test_map.yaml"/>
+        <!-- amcl node -->
+        <node pkg="amcl" type="amcl" name="amcl" output="screen">
+        <remap from="scan" to="scan"/>
+        <rosparam command="load" file="$(find navigation)/config/amcl.yaml" />
+
+    </node>
+
+    <node pkg="rosservice" type="rosservice" name="rosservice" args="call global_localization"/>
+
+
+    <!-- move_base-->
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+        <rosparam file="$(find navigation)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
+        <rosparam file="$(find navigation)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+        <rosparam file="$(find navigation)/config/local_costmap_params.yaml" command="load" />
+        <rosparam file="$(find navigation)/config/global_costmap_params.yaml" command="load" />
+        <rosparam file="$(find navigation)/config/dwa_local_planner_params.yaml" command="load" />
+        <rosparam file="$(find navigation)/config/global_planner_params.yaml" command="load" />
+        <rosparam file="$(find navigation)/config/move_base_params.yaml" command="load" />
+    </node>
+    
+    <!--
+    <node pkg="serialport_cmd" type="Automatic_patrol.py" name="patrol_nav_node" output="screen" >
+        <param name="rest_time"     value="2" />
+        <param name="keep_patrol"   value="true" />
+        <param name="random_patrol" value="false" />
+        <param name="patrol_type"   value="0" />
+        <param name="patrol_loop"   value="1" />
+        <param name="patrol_time"   value="3" />
+    </node>
+    -->
+
+</launch>

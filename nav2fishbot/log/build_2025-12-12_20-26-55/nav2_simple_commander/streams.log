@@ -1,0 +1,80 @@
+[1.731s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_simple_commander': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/nav2_simple_commander build --build-base /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build install --record /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/install.log --single-version-externally-managed install_data
+[2.204s] running egg_info
+[2.206s] creating ../../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info
+[2.206s] writing ../../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[2.207s] writing dependency_links to ../../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[2.207s] writing entry points to ../../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[2.208s] writing requirements to ../../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[2.208s] writing top-level names to ../../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[2.209s] writing manifest file '../../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[2.213s] reading manifest file '../../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[2.215s] writing manifest file '../../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[2.215s] running build
+[2.215s] running build_py
+[2.216s] creating /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build
+[2.216s] creating /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib
+[2.216s] creating /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.216s] copying nav2_simple_commander/__init__.py -> /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.217s] copying nav2_simple_commander/costmap_2d.py -> /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.217s] copying nav2_simple_commander/demo_picking.py -> /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.217s] copying nav2_simple_commander/robot_navigator.py -> /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.218s] copying nav2_simple_commander/example_follow_path.py -> /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.218s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.218s] copying nav2_simple_commander/demo_recoveries.py -> /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.219s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.219s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.219s] copying nav2_simple_commander/demo_security.py -> /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.220s] copying nav2_simple_commander/demo_inspection.py -> /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.220s] running install
+[2.221s] running install_lib
+[2.223s] creating /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.224s] copying /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.224s] copying /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander/costmap_2d.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.225s] copying /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.225s] copying /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.225s] copying /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.226s] copying /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.226s] copying /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.226s] copying /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.226s] copying /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.227s] copying /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.227s] copying /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.228s] byte-compiling /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-310.pyc
+[2.229s] byte-compiling /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/costmap_2d.py to costmap_2d.cpython-310.pyc
+[2.231s] byte-compiling /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-310.pyc
+[2.232s] byte-compiling /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-310.pyc
+[2.238s] byte-compiling /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-310.pyc
+[2.239s] byte-compiling /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-310.pyc
+[2.240s] byte-compiling /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-310.pyc
+[2.242s] byte-compiling /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-310.pyc
+[2.243s] byte-compiling /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-310.pyc
+[2.244s] byte-compiling /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-310.pyc
+[2.245s] byte-compiling /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-310.pyc
+[2.247s] running install_data
+[2.247s] creating /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/share/ament_index
+[2.247s] creating /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/share/ament_index/resource_index
+[2.247s] creating /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[2.247s] copying resource/nav2_simple_commander -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[2.248s] copying package.xml -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/share/nav2_simple_commander
+[2.248s] copying launch/follow_path_example_launch.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/share/nav2_simple_commander
+[2.248s] copying launch/nav_through_poses_example_launch.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/share/nav2_simple_commander
+[2.249s] copying launch/nav_to_pose_example_launch.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/share/nav2_simple_commander
+[2.249s] copying launch/waypoint_follower_example_launch.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/share/nav2_simple_commander
+[2.249s] copying launch/security_demo_launch.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/share/nav2_simple_commander
+[2.249s] copying launch/recoveries_example_launch.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/share/nav2_simple_commander
+[2.250s] copying launch/picking_demo_launch.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/share/nav2_simple_commander
+[2.250s] copying launch/inspection_demo_launch.py -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/share/nav2_simple_commander
+[2.250s] copying launch/warehouse.world -> /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/share/nav2_simple_commander
+[2.250s] running install_egg_info
+[2.255s] Copying ../../../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+[2.257s] running install_scripts
+[2.296s] Installing demo_inspection script to /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.297s] Installing demo_picking script to /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.297s] Installing demo_recoveries script to /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.298s] Installing demo_security script to /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.298s] Installing example_follow_path script to /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.298s] Installing example_nav_through_poses script to /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.298s] Installing example_nav_to_pose script to /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.299s] Installing example_waypoint_follower script to /home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.300s] writing list of installed files to '/home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/install.log'
+[2.376s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agx/cthree/slam/nav2fishbot/install/nav2_simple_commander/lib/python3.10/site-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/nav2_simple_commander build --build-base /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/build install --record /home/agx/cthree/slam/nav2fishbot/build/nav2_simple_commander/install.log --single-version-externally-managed install_data

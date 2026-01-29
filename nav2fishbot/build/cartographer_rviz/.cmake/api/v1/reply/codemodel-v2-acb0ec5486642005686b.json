@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ba21f58a91f53758535e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cartographer_rviz",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_rviz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_rviz-Release-77b449839d729626569f.json",
+					"name" : "cartographer_rviz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_rviz_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_rviz_autogen-Release-61a5a8be37495b449611.json",
+					"name" : "cartographer_rviz_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_rviz_detect_changes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_rviz_detect_changes-Release-b50e15393a84c4533f58.json",
+					"name" : "cartographer_rviz_detect_changes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cartographer_rviz_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartographer_rviz_uninstall-Release-5ab21af57084021e4920.json",
+					"name" : "cartographer_rviz_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-06dc193a29607c991dcf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/agx/cthree/slam/nav2fishbot/build/cartographer_rviz",
+		"source" : "/home/agx/cthree/slam/nav2fishbot/src/fishbot/src/cartographer_code/cartographer_ros/cartographer_rviz"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

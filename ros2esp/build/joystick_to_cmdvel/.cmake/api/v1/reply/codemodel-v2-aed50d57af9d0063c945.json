@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2b8e1f45cc053354a0f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "joystick_to_cmdvel",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick_to_cmdvel_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick_to_cmdvel_node-3db0af143702bde8f15c.json",
+					"name" : "joystick_to_cmdvel_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joystick_to_cmdvel_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joystick_to_cmdvel_uninstall-59a609b3edce7b6c80ff.json",
+					"name" : "joystick_to_cmdvel_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-202c491bd3b57a6eb354.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/agx/cthree/slam/ros2esp/build/joystick_to_cmdvel",
+		"source" : "/home/agx/cthree/slam/ros2esp/src/joystick_to_cmdvel"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

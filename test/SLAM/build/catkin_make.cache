@@ -1,0 +1,2 @@
+navigation:rplidar_ros:serialport
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/cthree/slam/test/SLAM/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/cthree/slam/test/SLAM/install -G Unix Makefiles

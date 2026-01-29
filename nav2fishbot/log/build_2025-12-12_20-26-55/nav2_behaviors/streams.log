@@ -1,0 +1,146 @@
+[0.074s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_behaviors -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors
+[0.171s] -- The C compiler identification is GNU 9.5.0
+[0.327s] -- The CXX compiler identification is GNU 9.5.0
+[0.352s] -- Detecting C compiler ABI info
+[0.552s] -- Detecting C compiler ABI info - done
+[0.574s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.577s] -- Detecting C compile features
+[0.579s] -- Detecting C compile features - done
+[0.585s] -- Detecting CXX compiler ABI info
+[0.798s] -- Detecting CXX compiler ABI info - done
+[0.807s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.807s] -- Detecting CXX compile features
+[0.808s] -- Detecting CXX compile features - done
+[0.824s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.379s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.864s] -- Found nav2_common: 1.1.0 (/home/agx/cthree/slam/nav2fishbot/install/nav2_common/share/nav2_common/cmake)
+[1.881s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[2.087s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.115s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.146s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.181s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.440s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.466s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.097s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.181s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.341s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.380s] -- Looking for pthread.h
+[3.780s] -- Looking for pthread.h - found
+[3.781s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.226s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.228s] -- Found Threads: TRUE  
+[4.402s] -- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.519s] -- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.596s] -- Found rclcpp_components: 16.0.16 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.704s] -- Found nav2_behavior_tree: 1.1.0 (/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[4.982s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.985s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.985s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.124s] -- Found nav2_costmap_2d: 1.1.0 (/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[5.380s] -- Found nav2_core: 1.1.0 (/home/agx/cthree/slam/nav2fishbot/install/nav2_core/share/nav2_core/cmake)
+[5.398s] -- Setting build type to Release as none was specified.
+[12.585s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.006s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[13.950s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.954s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.957s] -- Configured cppcheck include dirs: /home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_behaviors/include
+[13.957s] -- Configured cppcheck exclude dirs and/or files: 
+[13.960s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.960s] -- Configured cpplint exclude dirs and/or files: 
+[13.962s] -- Added test 'lint_cmake' to check CMake code style
+[13.982s] -- Added test 'uncrustify' to check C / C++ code style
+[13.982s] -- Configured uncrustify additional arguments: 
+[13.983s] -- Added test 'xmllint' to check XML markup files
+[13.989s] -- Configuring done
+[15.088s] -- Generating done
+[15.264s] -- Build files have been written to: /home/agx/cthree/slam/nav2fishbot/build/nav2_behaviors
+[15.364s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/agx/cthree/slam/nav2fishbot/src/fishbot/src/navigation/nav2_behaviors -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors
+[15.364s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/nav2fishbot/build/nav2_behaviors -- -j12 -l12
+[49.146s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_spin_behavior.dir/plugins/spin.cpp.o[0m
+[49.146s] [ 10%] [32m[1mLinking CXX shared library libnav2_spin_behavior.so[0m
+[49.146s] [ 10%] Built target nav2_spin_behavior
+[49.147s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[57.751s] [ 20%] [32m[1mLinking CXX static library libgtest.a[0m
+[57.820s] [ 20%] Built target gtest
+[57.861s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[59.407s] [ 30%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[59.466s] [ 30%] Built target gtest_main
+[59.504s] [ 35%] [32mBuilding CXX object CMakeFiles/behavior_server_core.dir/src/behavior_server.cpp.o[0m
+[76.653s] [ 40%] [32m[1mLinking CXX shared library libbehavior_server_core.so[0m
+[77.234s] [ 40%] Built target behavior_server_core
+[77.278s] [ 45%] [32mBuilding CXX object test/CMakeFiles/test_behaviors.dir/test_behaviors.cpp.o[0m
+[100.208s] [ 50%] [32m[1mLinking CXX executable test_behaviors[0m
+[100.895s] [ 50%] Built target test_behaviors
+[100.939s] [ 55%] [32mBuilding CXX object CMakeFiles/behavior_server.dir/src/main.cpp.o[0m
+[109.614s] [ 60%] [32m[1mLinking CXX executable behavior_server[0m
+[110.126s] [ 60%] Built target behavior_server
+[110.169s] [ 65%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_behavior.dir/plugins/assisted_teleop.cpp.o[0m
+[145.670s] [ 70%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_behavior.so[0m
+[146.369s] [ 70%] Built target nav2_assisted_teleop_behavior
+[146.405s] [ 75%] [32mBuilding CXX object CMakeFiles/nav2_back_up_behavior.dir/plugins/back_up.cpp.o[0m
+[164.163s] [ 80%] [32m[1mLinking CXX shared library libnav2_back_up_behavior.so[0m
+[165.159s] [ 80%] Built target nav2_back_up_behavior
+[165.276s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_wait_behavior.dir/plugins/wait.cpp.o[0m
+[165.311s] [ 90%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_behavior.dir/plugins/drive_on_heading.cpp.o[0m
+[183.997s] [ 95%] [32m[1mLinking CXX shared library libnav2_wait_behavior.so[0m
+[184.504s] [ 95%] Built target nav2_wait_behavior
+[184.760s] [100%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_behavior.so[0m
+[185.300s] [100%] Built target nav2_drive_on_heading_behavior
+[185.326s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agx/cthree/slam/nav2fishbot/build/nav2_behaviors -- -j12 -l12
+[185.327s] Invoking command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/nav2fishbot/build/nav2_behaviors
+[185.341s] -- Install configuration: "Release"
+[185.341s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[185.342s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/lib/libbehavior_server_core.so
+[185.343s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/lib/libbehavior_server_core.so" to ""
+[185.344s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/lib/libnav2_spin_behavior.so
+[185.345s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/lib/libnav2_spin_behavior.so" to ""
+[185.345s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/lib/libnav2_wait_behavior.so
+[185.346s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/lib/libnav2_wait_behavior.so" to ""
+[185.347s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/lib/libnav2_assisted_teleop_behavior.so
+[185.351s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/lib/libnav2_assisted_teleop_behavior.so" to ""
+[185.351s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so
+[185.352s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so" to ""
+[185.352s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/lib/libnav2_back_up_behavior.so
+[185.354s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/lib/libnav2_back_up_behavior.so" to ""
+[185.354s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/lib/nav2_behaviors/behavior_server
+[185.355s] -- Set runtime path of "/home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/lib/nav2_behaviors/behavior_server" to ""
+[185.355s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/include/
+[185.355s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/include//nav2_behaviors
+[185.355s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/include//nav2_behaviors/behavior_server.hpp
+[185.355s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/include//nav2_behaviors/timed_behavior.hpp
+[185.355s] -- Up-to-date: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[185.356s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins/
+[185.356s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//wait.cpp
+[185.357s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//spin.cpp
+[185.357s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//assisted_teleop.hpp
+[185.357s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//wait.hpp
+[185.358s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//spin.hpp
+[185.358s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//assisted_teleop.cpp
+[185.359s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//back_up.hpp
+[185.359s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//drive_on_heading.hpp
+[185.360s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//drive_on_heading.cpp
+[185.360s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/plugins//back_up.cpp
+[185.361s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.sh
+[185.361s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.dsv
+[185.362s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/ament_index/resource_index/package_run_dependencies/nav2_behaviors
+[185.362s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/ament_index/resource_index/parent_prefix_path/nav2_behaviors
+[185.362s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.sh
+[185.362s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.dsv
+[185.362s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/environment/path.sh
+[185.362s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/environment/path.dsv
+[185.362s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/local_setup.bash
+[185.362s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/local_setup.sh
+[185.363s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/local_setup.zsh
+[185.363s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/local_setup.dsv
+[185.363s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/package.dsv
+[185.363s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/ament_index/resource_index/packages/nav2_behaviors
+[185.363s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_behaviors
+[185.363s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/ament_index/resource_index/rclcpp_components/nav2_behaviors
+[185.363s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_include_directories-extras.cmake
+[185.363s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_libraries-extras.cmake
+[185.363s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_dependencies-extras.cmake
+[185.363s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig.cmake
+[185.363s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig-version.cmake
+[185.363s] -- Installing: /home/agx/cthree/slam/nav2fishbot/install/nav2_behaviors/share/nav2_behaviors/package.xml
+[185.367s] Invoked command in '/home/agx/cthree/slam/nav2fishbot/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_core:/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree:/home/agx/cthree/slam/nav2fishbot/install/nav2_util:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs:/home/agx/cthree/slam/nav2fishbot/install/nav2_common:/home/agx/cthree/slam/OVD-SLAM10/Examples/ros2/install/orbslam3:/home/agx/cthree/slam/cam_ws/install/realsense2_description:/home/agx/cthree/slam/cam_ws/install/realsense2_camera:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_costmap_2d/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_map_server/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_lifecycle_manager/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_behavior_tree/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_util/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_voxel_grid/lib:/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera/lib:/home/agx/cthree/slam/cam_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/agx/cthree/slam/nav2fishbot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/agx/cthree/slam/nav2fishbot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agx/cthree/slam/nav2fishbot/build/nav2_behaviors

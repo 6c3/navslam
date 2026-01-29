@@ -1,0 +1,1 @@
+/home/agx/cthree/slam/test/gazebo_ws/build/gazebo_ros_pkgs/ament_cmake_environment_hooks/local_setup.bash

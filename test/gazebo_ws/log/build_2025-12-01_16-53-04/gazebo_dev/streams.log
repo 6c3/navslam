@@ -1,0 +1,21 @@
+[0.016s] Invoking command in '/home/agx/cthree/slam/test/gazebo_ws/build/gazebo_dev': /usr/bin/cmake /home/agx/cthree/slam/test/gazebo_ws/src/gazebo_ros_pkgs/gazebo_dev -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev
+[0.054s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.054s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.054s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.054s]   CMake did not find one.
+[0.054s] 
+[0.055s]   Could not find a package configuration file provided by "catkin" with any
+[0.055s]   of the following names:
+[0.055s] 
+[0.055s]     catkinConfig.cmake
+[0.055s]     catkin-config.cmake
+[0.055s] 
+[0.055s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.055s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.055s]   provides a separate development package or SDK, be sure it has been
+[0.055s]   installed.
+[0.056s] 
+[0.056s] [0m
+[0.056s] -- Configuring incomplete, errors occurred!
+[0.056s] See also "/home/agx/cthree/slam/test/gazebo_ws/build/gazebo_dev/CMakeFiles/CMakeOutput.log".
+[0.057s] Invoked command in '/home/agx/cthree/slam/test/gazebo_ws/build/gazebo_dev' returned '1': /usr/bin/cmake /home/agx/cthree/slam/test/gazebo_ws/src/gazebo_ros_pkgs/gazebo_dev -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/agx/cthree/slam/test/gazebo_ws/install/gazebo_dev

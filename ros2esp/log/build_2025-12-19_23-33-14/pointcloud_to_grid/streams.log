@@ -1,0 +1,20 @@
+[0.025s] Invoking command in '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid -- -j12 -l12
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target grid_trajectory[0m
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_to_grid_node[0m
+[0.147s] [ 25%] [32mBuilding CXX object CMakeFiles/pointcloud_to_grid_node.dir/src/pointcloud_to_grid_node.cpp.o[0m
+[0.148s] [ 50%] [32mBuilding CXX object CMakeFiles/grid_trajectory.dir/src/grid_trajectory.cpp.o[0m
+[7.879s] [01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:[m[K In member function ‘[01m[Kvoid PointCloudToGrid::lidar_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[7.880s] [01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:224:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kheight[m[K’ was not declared in this scope
+[7.880s]   224 | for (int row = 0; row < [01;31m[Kheight[m[K; ++row) {
+[7.880s]       |                         [01;31m[K^~~~~~[m[K
+[7.886s] [01m[K/home/agx/cthree/slam/ros2esp/src/pointcloud_to_grid/src/pointcloud_to_grid_node.cpp:225:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kwidth[m[K’ was not declared in this scope; did you mean ‘[01m[Kwcwidth[m[K’?
+[7.886s]   225 |     for (int col = 0; col < [01;31m[Kwidth[m[K; ++col) {
+[7.887s]       |                             [01;31m[K^~~~~[m[K
+[7.887s]       |                             [32m[Kwcwidth[m[K
+[12.943s] gmake[2]: *** [CMakeFiles/pointcloud_to_grid_node.dir/build.make:76: CMakeFiles/pointcloud_to_grid_node.dir/src/pointcloud_to_grid_node.cpp.o] Error 1
+[12.943s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/pointcloud_to_grid_node.dir/all] Error 2
+[12.944s] gmake[1]: *** Waiting for unfinished jobs....
+[25.410s] [ 75%] [32m[1mLinking CXX executable grid_trajectory[0m
+[26.694s] [ 75%] Built target grid_trajectory
+[26.696s] gmake: *** [Makefile:146: all] Error 2
+[26.701s] Invoked command in '/home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/agx/cthree/slam/ros2esp/build/pointcloud_to_grid -- -j12 -l12

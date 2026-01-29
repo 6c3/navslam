@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7c2f0cec34ff4214a130.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "gazebo_msgs__py",
+					"jsonFile" : "directory-gazebo_msgs__py-a5fabdf32db33c7ed7d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/agx/cthree/slam/test/gazebo_ws/build/gazebo_msgs/gazebo_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "gazebo_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_gazebo_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_gazebo_msgs_egg-6f16c232057d821b610e.json",
+					"name" : "ament_cmake_python_build_gazebo_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_gazebo_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_gazebo_msgs-00d6e01f4d10221cf319.json",
+					"name" : "ament_cmake_python_symlink_gazebo_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs-2582df0d869d5ac60a1e.json",
+					"name" : "gazebo_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__cpp-31e4a523c1726fd12178.json",
+					"name" : "gazebo_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gazebo_msgs__py::@a5addec3629b39cf0f3f",
+					"jsonFile" : "target-gazebo_msgs__py-5a4918eda79e95b29dc6.json",
+					"name" : "gazebo_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_generator_c-f1b7921fe83677e87bdf.json",
+					"name" : "gazebo_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_generator_py-4d7507a653d7b8023b83.json",
+					"name" : "gazebo_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_c-6c5ba0f63d40e910eb22.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_c__pyext-e95fba3103fcaec927c2.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_cpp-072a1288e3335bcb1875.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_fastrtps_c-e297001ed9899688ebf1.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_fastrtps_c__pyext-b13a4b24023c192fe0f1.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_fastrtps_cpp-1c441ea16463a04be78e.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_introspection_c-804fe412b5da75ef821d.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_introspection_c__pyext-6741ca5dba62b5e342bc.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs__rosidl_typesupport_introspection_cpp-35d7193e349bf11d5757.json",
+					"name" : "gazebo_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_msgs_uninstall-c1342c4779eeb13266ad.json",
+					"name" : "gazebo_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f5c6c3bb974b105328a3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/agx/cthree/slam/test/gazebo_ws/build/gazebo_msgs",
+		"source" : "/home/agx/cthree/slam/test/gazebo_ws/src/gazebo_ros_pkgs/gazebo_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

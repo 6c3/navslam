@@ -1,0 +1,1 @@
+/home/agx/cthree/slam/test/gazebo_ws/build/gazebo_msgs/rosidl_generator_py/gazebo_msgs/srv/_set_link_properties.py

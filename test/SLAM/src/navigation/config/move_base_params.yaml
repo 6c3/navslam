@@ -1,0 +1,19 @@
+base_global_planner: "global_planner/GlobalPlanner"   # 指定用於move_base的全局規劃器插件名稱
+base_local_planner: "dwa_local_planner/DWAPlannerROS" # 指定用於move_base的局部規劃器名稱
+
+shutdown_costmaps: false        # default false  當move_base在不活動狀態時,是否關掉costmap
+
+controller_frequency: 8.0       # default 20.0   向底盤控制移動話題cmd_vel發送命令的頻率
+controller_patience: 15.0        # default 15.0   在空間清理操作執行前,控制器花多長時間等有效控制指令下發
+
+planner_frequency: 0.5          # default 0.0    全局規劃操作的執行頻率(Hz)。如果頻率設置為0.0，則僅當收到新目標或局部規劃器報告其路徑堵塞時，才會重新執行規劃操作。
+planner_patience: 6.0           # default 5.0    在空間清理操作執行前,留給規劃器多長時間(s)來找出一條有效規劃
+
+conservative_reset_dist: 2.0    # default 3.0    尝試清除地圖中的空間時，距離機器人幾米遠的障礙將會從代價地圖清除。注意，僅當默認恢複行為用於move_base時，才使用此參數。
+
+oscillation_timeout: 15.0      # default 0.0    執行恢複行為之前允許振蕩的秒數
+oscillation_distance: 0.35       # default 0.5    機器人必須移動多米才能被視為沒有振動
+
+recovery_behavior_enabled: true # default true   是否啟用move_base恢複行為以尝試清除空間。
+clearing_rotation_allowed: false # default true   確定在尝試清理空間時機器人是否將尝試就地旋轉。 注意：僅當使用默認恢複行為時才使用此參數，這意味著用戶尚未將recovery_behaviors參數設置為任何自定義設置。
+max_planning_retries: 2       # default -1     執行恢複行為之前允許多少次計劃重試。值-1.0對應於無限次重試。
